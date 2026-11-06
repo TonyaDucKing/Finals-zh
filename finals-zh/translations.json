@@ -1,0 +1,9367 @@
+[
+ {
+  "id": 1,
+  "en": "Finals.ID joins you into the lobby with your login. The game will not show the lobby: the test shows whether you are pulled into the match.",
+  "zh": "Finals.ID 会用你的登录信息把你加入房间。游戏不会显示房间：该测试用于确认你是否被拉入对局。"
+ },
+ {
+  "id": 2,
+  "en": "The opponents have until the end of the clock to submit. If they do not, Finals.ID sets the result from the screenshots of your team.",
+  "zh": "对手需在倒计时结束前提交。若未提交，Finals.ID 将根据你方队伍的截图判定结果。"
+ },
+ {
+  "id": 3,
+  "en": "Sends your ping during Ranked and Cashout matches, so finals.id can keep a full ping graph of each match. Only you can see it.",
+  "zh": "在排位和提现对局中发送你的延迟，让 Finals.ID 记录每场对局的完整延迟曲线。仅你可见。"
+ },
+ {
+  "id": 4,
+  "en": "The screenshots of the two teams show different results. An admin reviews this match. Your rating does not change until then.",
+  "zh": "两队截图显示的结果不一致。管理员将审核本场对局，审核完成前排位分不会变化。"
+ },
+ {
+  "id": 5,
+  "en": "Open Steam when you want to play, and the app links up on its own as soon as Steam is running. It never opens Steam for you.",
+  "zh": "想玩时请打开 Steam，Steam 一运行，应用就会自动关联。它绝不会替你启动 Steam。"
+ },
+ {
+  "id": 6,
+  "en": "Stop the Discord bot from giving you the ranked role. Your level role stays. Only works while you're outside the top 10,000.",
+  "zh": "阻止 Discord 机器人给你发放排位身份组。等级身份组会保留。仅在你不在前 10,000 名时有效。"
+ },
+ {
+  "id": 7,
+  "en": "Too many declined or missed matches are bad for the game. Players who do this often are flagged for disruptive behavior.",
+  "zh": "过多拒绝或错过对局会影响游戏环境。经常这样做的玩家会被标记为扰乱行为。"
+ },
+ {
+  "id": 8,
+  "en": "Your account is linked. It usually takes about 2–5 minutes for your stats to show up here. Hang tight, then hit refresh.",
+  "zh": "你的账号已关联。数据通常需要约 2–5 分钟才会显示在这里。请稍等，然后点击刷新。"
+ },
+ {
+  "id": 9,
+  "en": "Don't forget to ask Embark about an official API! Email their community email, open supports tickets, anything helps!",
+  "zh": "别忘了向 Embark 询问官方 API！发邮件到他们的社区邮箱、提交支持工单，任何方式都有帮助！"
+ },
+ {
+  "id": 10,
+  "en": "Each player must take the screenshot on their own PC. Take your own screenshot of the final scoreboard and upload it.",
+  "zh": "每位玩家都必须用自己的电脑截图。请自行截取最终计分板并上传。"
+ },
+ {
+  "id": 11,
+  "en": "This system is not affiliated with Embark Studios nor does it provide access to Embark's official ranked rewards.",
+  "zh": "本系统与 Embark Studios 无关联，也不提供获取 Embark 官方排位奖励的途径。"
+ },
+ {
+  "id": 12,
+  "en": "A void match with another site admin, to test FIDR from the map bans to the result. It never counts for rating.",
+  "zh": "与另一位站点管理员进行的作废对局，用于测试从禁用地图到结果的完整 FIDR 流程。不计入排位分。"
+ },
+ {
+  "id": 13,
+  "en": "Solos only play against Solos. Trios only play against Trios. A premade team never plays against solo players.",
+  "zh": "单排只匹配单排，三排只匹配三排。预组队不会与单排玩家对战。"
+ },
+ {
+  "id": 14,
+  "en": "After the game has been running for about 10 minutes, sample your Steam status and restore to that next time.",
+  "zh": "游戏运行约 10 分钟后，采样你的 Steam 状态，并在下次恢复为该状态。"
+ },
+ {
+  "id": 15,
+  "en": "Steam is open but didn't answer. Make sure it's signed in to an account that owns THE FINALS, then try again.",
+  "zh": "Steam 已打开但无响应。请确认已登录拥有 THE FINALS 的账号，然后重试。"
+ },
+ {
+  "id": 16,
+  "en": "We found no ranked RS for you, so Finals.ID picks a starting rating near the middle of the FIDR players.",
+  "zh": "未找到你的排位 RS，因此 Finals.ID 会在 FIDR 玩家中游附近为你选择初始排位分。"
+ },
+ {
+  "id": 17,
+  "en": "The lobby host sends each test player an in-game invite, and the test records what each call answered.",
+  "zh": "房间房主会向每位测试玩家发送游戏内邀请，测试会记录每次调用的响应。"
+ },
+ {
+  "id": 18,
+  "en": "Immediately blank the token from our servers, removing our ability to keep refreshing your data.",
+  "zh": "立即从我们的服务器中清除令牌，使我们无法继续刷新你的数据。"
+ },
+ {
+  "id": 19,
+  "en": "Hide your rank score and tier on your profile. Only works while you're outside the top 10,000.",
+  "zh": "在个人资料中隐藏你的段位分和段位。仅在你不在前 10,000 名时有效。"
+ },
+ {
+  "id": 20,
+  "en": "If your team does not upload, Finals.ID sets the result from the screenshots of the opponents.",
+  "zh": "若你方队伍未上传，Finals.ID 将根据对手的截图判定结果。"
+ },
+ {
+  "id": 21,
+  "en": "The host leaves the first lobby once both players are in, then Finals.ID makes a second lobby.",
+  "zh": "两名玩家都进入后，房主离开第一个房间，随后 Finals.ID 创建第二个房间。"
+ },
+ {
+  "id": 22,
+  "en": "We mint a short-lived session token for your Steam account to link it with The Finals Tracker.",
+  "zh": "我们为你的 Steam 账号生成一个短期会话令牌，用于将其与 The Finals Tracker 关联。"
+ },
+ {
+  "id": 23,
+  "en": "Each match is one 3v3 Final Round, without the ability to change your loadout once you start.",
+  "zh": "每场对局为一场 3v3 决赛，开始后无法更换配装。"
+ },
+ {
+  "id": 24,
+  "en": "The server is still logging this session's matches. They show up here as soon as it has them.",
+  "zh": "服务器仍在记录本场次的比赛。记录完成后会立即显示在这里。"
+ },
+ {
+  "id": 25,
+  "en": "Both teams confirm the result. 4 screenshots set it at once, and 6 make every number exact.",
+  "zh": "双方队伍共同确认结果。4 张截图可直接确定结果，6 张则能让每个数字都准确无误。"
+ },
+ {
+  "id": 26,
+  "en": "Make sure it is the final scoreboard from this match. If it is not, upload the correct one.",
+  "zh": "请确认这是本场对局的最终计分板。如果不是，请上传正确的截图。"
+ },
+ {
+  "id": 27,
+  "en": "Hide your name on the ranked leaderboard. Only works while you're outside the top 10,000.",
+  "zh": "在排位排行榜上隐藏你的名字。仅在你不在前 10,000 名时有效。"
+ },
+ {
+  "id": 28,
+  "en": "Open Steam, then refresh again. The automatic renewal also waits until Steam is running.",
+  "zh": "请打开 Steam，然后再次刷新。自动续期也会等到 Steam 运行后才进行。"
+ },
+ {
+  "id": 29,
+  "en": "The names do not match the players in this match. Upload the scoreboard from this match.",
+  "zh": "截图中的名字与本场对局的玩家不符。请上传本场对局的计分板。"
+ },
+ {
+  "id": 30,
+  "en": "Take the screenshot at full size. Do not use a blurred image or a photo of your screen.",
+  "zh": "请截取完整尺寸的截图。不要使用模糊的图片或屏幕照片。"
+ },
+ {
+  "id": 31,
+  "en": "This is your in-game party. To add or remove a player, change the party in THE FINALS.",
+  "zh": "这是你的游戏内小队。要添加或移除玩家，请在 THE FINALS 中调整小队。"
+ },
+ {
+  "id": 32,
+  "en": "Your screenshot is missing. Upload it before the clock ends to make the numbers exact.",
+  "zh": "缺少你的截图。请在倒计时结束前上传，以确保数字准确。"
+ },
+ {
+  "id": 33,
+  "en": "THE FINALS is running but the tracker isn't linked — this session won't be recorded.",
+  "zh": "THE FINALS 正在运行，但追踪器尚未关联——本场次不会被记录。"
+ },
+ {
+  "id": 34,
+  "en": "The match as players get it: map bans, the lobby code, the game and the scoreboards.",
+  "zh": "玩家看到的对局内容：禁用地图、房间代码、比赛和计分板。"
+ },
+ {
+  "id": 35,
+  "en": "What Finals.ID recorded for this test. It updates with every read of the session.",
+  "zh": "Finals.ID 为本次测试记录的内容。每次读取该场次时都会更新。"
+ },
+ {
+  "id": 36,
+  "en": "When launched on startup, start hidden in the tray instead of opening the window.",
+  "zh": "开机启动时，在托盘中隐藏启动，而不是打开窗口。"
+ },
+ {
+  "id": 37,
+  "en": "Keep running in the tray when you close the window, so your session stays alive.",
+  "zh": "关闭窗口后继续在托盘中运行，以保持你的会话在线。"
+ },
+ {
+  "id": 38,
+  "en": "Hide yourself on Steam while this app signs in, then restore your usual status.",
+  "zh": "本应用登录时在 Steam 上隐藏你的状态，然后恢复你平常的状态。"
+ },
+ {
+  "id": 39,
+  "en": "Make sure the cash of both teams is visible, then upload the screenshot again.",
+  "zh": "请确保双方队伍的现金都可见，然后重新上传截图。"
+ },
+ {
+  "id": 40,
+  "en": "You also get an awesome Supporter role out of it, if you like discord stuff :P",
+  "zh": "如果你喜欢 Discord 那套的话，还能顺便获得一个超棒的 Supporter 身份组 :P"
+ },
+ {
+  "id": 41,
+  "en": "The invite was taken. That does not prove that the player saw it or joined.",
+  "zh": "邀请已被领取。但这不能证明该玩家看到了邀请或已加入。"
+ },
+ {
+  "id": 42,
+  "en": "Show a small always-on-top widget with your name, session, level and rank.",
+  "zh": "显示一个小型置顶小组件，包含你的名字、场次、等级和段位。"
+ },
+ {
+  "id": 43,
+  "en": "Show both teams, all six names and the whole table. Do not crop the image.",
+  "zh": "请展示双方队伍、全部六个名字和整张表格。不要裁剪图片。"
+ },
+ {
+  "id": 44,
+  "en": "Stats refresh live. The session refreshes automatically before it expires.",
+  "zh": "数据实时刷新。会话会在到期前自动刷新。"
+ },
+ {
+  "id": 45,
+  "en": "Here is what our systems have detected since the last time you logged in!",
+  "zh": "以下是我们系统自你上次登录以来检测到的内容！"
+ },
+ {
+  "id": 46,
+  "en": "No FIDR matches this season yet. Your matches show here after they close.",
+  "zh": "本赛季暂无 FIDR 对局。你的对局结束后会显示在这里。"
+ },
+ {
+  "id": 47,
+  "en": "Show the live map above General. Cards added to your layout stay visible.",
+  "zh": "在“常规”上方显示实时地图。添加到布局中的卡片会保持可见。"
+ },
+ {
+  "id": 48,
+  "en": "The join time of the first lobby ends early, as if nobody joined in time.",
+  "zh": "第一个房间的加入时间提前结束，就像没人及时加入一样。"
+ },
+ {
+  "id": 49,
+  "en": "A party in the queue cannot invite. Cancel the queue to invite a player.",
+  "zh": "排队中的小队无法邀请。请取消排队后再邀请玩家。"
+ },
+ {
+  "id": 50,
+  "en": "Use an image of 8 MB or less. A JPG or WebP file is smaller than a PNG.",
+  "zh": "请使用 8 MB 或更小的图片。JPG 或 WebP 文件比 PNG 更小。"
+ },
+ {
+  "id": 51,
+  "en": "Both admins start in the map bans. The other admin presses Join test.",
+  "zh": "两位管理员都从禁用地图环节开始。另一位管理员点击“加入测试”。"
+ },
+ {
+  "id": 52,
+  "en": "Check the name and the 4 digits. The player must have a FIDR account.",
+  "zh": "请核对名字和 4 位数字。该玩家必须拥有 FIDR 账号。"
+ },
+ {
+  "id": 53,
+  "en": "The server has no match in this session yet. Refresh to check again.",
+  "zh": "服务器尚未记录本场次的对局。请刷新后再次检查。"
+ },
+ {
+  "id": 54,
+  "en": "The app updates itself automatically. You can also check right now.",
+  "zh": "应用会自动更新。你也可以立即检查。"
+ },
+ {
+  "id": 55,
+  "en": "Shows the Admin test button in FIDR. Only admins see this setting.",
+  "zh": "在 FIDR 中显示管理员测试按钮。仅管理员可见此设置。"
+ },
+ {
+  "id": 56,
+  "en": "A reply that cannot be used, or an image that cannot be prepared.",
+  "zh": "收到无法使用的回复，或图片无法准备。"
+ },
+ {
+  "id": 57,
+  "en": "The join answered with the lobby, and the lobby lists the player.",
+  "zh": "加入请求返回了房间，且房间中列出了该玩家。"
+ },
+ {
+  "id": 58,
+  "en": "We cannot open this file. Take a new screenshot or save it again.",
+  "zh": "无法打开此文件。请重新截图或重新保存。"
+ },
+ {
+  "id": 59,
+  "en": "Only the party leader can invite, and only while a spot is open.",
+  "zh": "仅小队队长可以邀请，且仅在有空位时。"
+ },
+ {
+  "id": 60,
+  "en": "Start Finals.id Companion App when you sign in to your computer.",
+  "zh": "登录电脑时启动 Finals.id Companion App。"
+ },
+ {
+  "id": 61,
+  "en": "Your session has expired. Sign in again to see the map schedule.",
+  "zh": "你的会话已过期。请重新登录以查看地图日程。"
+ },
+ {
+  "id": 62,
+  "en": "The check could not place the panels or the rows of this board.",
+  "zh": "校验未能定位该计分板的面板或行。"
+ },
+ {
+  "id": 63,
+  "en": "The field check is switched off, or TypeSafe refused the key.",
+  "zh": "字段校验已关闭，或 TypeSafe 拒绝了密钥。"
+ },
+ {
+  "id": 64,
+  "en": "The problem is on our side. Upload the same screenshot again.",
+  "zh": "问题出在我们这边。请重新上传同一张截图。"
+ },
+ {
+  "id": 65,
+  "en": "Upload a screenshot of the final scoreboard from this match.",
+  "zh": "请上传本场对局最终计分板的截图。"
+ },
+ {
+  "id": 66,
+  "en": "A player with a block cannot be in a party or in the queue.",
+  "zh": "被屏蔽的玩家不能加入小队或队列。"
+ },
+ {
+  "id": 67,
+  "en": "Refresh your stats every 5 minutes instead of every minute.",
+  "zh": "每 5 分钟刷新一次数据，而不是每分钟。"
+ },
+ {
+  "id": 68,
+  "en": "The join answered with the lobby, without the player in it.",
+  "zh": "加入请求返回了房间，但玩家不在其中。"
+ },
+ {
+  "id": 69,
+  "en": "Accept to play. You see the opponents after the map bans.",
+  "zh": "接受即可开始。禁用地图后你会看到对手。"
+ },
+ {
+  "id": 70,
+  "en": "Friends show as online while their Finals.ID app is open.",
+  "zh": "好友打开 Finals.ID 应用时会显示为在线。"
+ },
+ {
+  "id": 71,
+  "en": "Friends won't see you playing THE FINALS during a login.",
+  "zh": "登录期间，好友不会看到你在玩 THE FINALS。"
+ },
+ {
+  "id": 72,
+  "en": "Finals.ID is not available. Try again in a few seconds.",
+  "zh": "Finals.ID 当前不可用。请几秒后重试。"
+ },
+ {
+  "id": 73,
+  "en": "Your party stays together. Press Ready to queue again.",
+  "zh": "你的小队会保持组队。点击“准备”再次排队。"
+ },
+ {
+  "id": 74,
+  "en": "Hide parts of your public profile from other players.",
+  "zh": "对其他玩家隐藏你公开资料的部分内容。"
+ },
+ {
+  "id": 75,
+  "en": "You must upload a screenshot of the final scoreboard.",
+  "zh": "你必须上传最终计分板的截图。"
+ },
+ {
+  "id": 76,
+  "en": "? means the screenshots did not agree on this value.",
+  "zh": "？表示各截图在该数值上不一致。"
+ },
+ {
+  "id": 77,
+  "en": "Pop up your session summary when you close the game.",
+  "zh": "关闭游戏时弹出你的场次总结。"
+ },
+ {
+  "id": 78,
+  "en": "Your team of three against a team of three opponents",
+  "zh": "你的三人队伍对战三名对手"
+ },
+ {
+  "id": 79,
+  "en": "What's working, what isn't, what you'd like to see…",
+  "zh": "哪些功能好用、哪些不好用、你希望看到什么……"
+ },
+ {
+  "id": 80,
+  "en": "Finals.ID reads the result from the screenshots.",
+  "zh": "Finals.ID 会从截图中读取结果。"
+ },
+ {
+  "id": 81,
+  "en": "Hide any cards you don't want to see in the app.",
+  "zh": "隐藏你在应用中不想看到的卡片。"
+ },
+ {
+  "id": 82,
+  "en": "Hide your linked Discord handle on your profile.",
+  "zh": "在个人资料中隐藏你已关联的 Discord 用户名。"
+ },
+ {
+  "id": 83,
+  "en": "Invite them after their Ranked or Cashout match.",
+  "zh": "等他们结束排位或提现对局后再邀请。"
+ },
+ {
+  "id": 84,
+  "en": "Wait for the answer, or cancel the invite first.",
+  "zh": "请等待回复，或先取消邀请。"
+ },
+ {
+  "id": 85,
+  "en": "An admin reviewed this match and set no result.",
+  "zh": "管理员已审核本场对局，但未设定结果。"
+ },
+ {
+  "id": 86,
+  "en": "Choose, drop or paste the scoreboard screenshot",
+  "zh": "选择、拖入或粘贴计分板截图"
+ },
+ {
+  "id": 87,
+  "en": "Keep me Invisible when the refresh starts Steam",
+  "zh": "刷新启动 Steam 时保持隐身"
+ },
+ {
+  "id": 88,
+  "en": "See what changed in this and previous versions.",
+  "zh": "查看本版本及以往版本的变更内容。"
+ },
+ {
+  "id": 89,
+  "en": "Every member must be ready in the same region.",
+  "zh": "每位成员都必须在同一地区准备就绪。"
+ },
+ {
+  "id": 90,
+  "en": "Submitted, pending review. Thanks for helping!",
+  "zh": "已提交，等待审核。感谢你的帮助！"
+ },
+ {
+  "id": 91,
+  "en": "No matches yet. Your first result shows here.",
+  "zh": "还没有对局。你的首个结果会显示在这里。"
+ },
+ {
+  "id": 92,
+  "en": "These fields differ, and the result does not:",
+  "zh": "以下字段不一致，但结果一致："
+ },
+ {
+  "id": 93,
+  "en": "Boot Steam for the 12-hour automatic refresh",
+  "zh": "为 12 小时自动刷新启动 Steam"
+ },
+ {
+  "id": 94,
+  "en": "Steam status to restore when minting is done",
+  "zh": "生成完成后要恢复的 Steam 状态"
+ },
+ {
+  "id": 95,
+  "en": "The player has no stored login to join with.",
+  "zh": "该玩家没有可用于加入的已保存登录信息。"
+ },
+ {
+  "id": 96,
+  "en": "Embark refused the call, or no answer came.",
+  "zh": "Embark 拒绝了调用，或没有收到响应。"
+ },
+ {
+  "id": 97,
+  "en": "Finals.ID uses the screenshots that it has.",
+  "zh": "Finals.ID 会使用现有的截图。"
+ },
+ {
+  "id": 98,
+  "en": "Hide your name on the playtime leaderboard.",
+  "zh": "在游戏时长排行榜上隐藏你的名字。"
+ },
+ {
+  "id": 99,
+  "en": "Experimental, may be removed in the future",
+  "zh": "实验性功能，未来可能会移除"
+ },
+ {
+  "id": 100,
+  "en": "Hide your name on the casual leaderboards.",
+  "zh": "在休闲排行榜上隐藏你的名字。"
+ },
+ {
+  "id": 101,
+  "en": "Hide your name on the weapon leaderboards.",
+  "zh": "在武器排行榜上隐藏你的名字。"
+ },
+ {
+  "id": 102,
+  "en": "The older matches did not load. Try again.",
+  "zh": "较早的对局未能加载。请重试。"
+ },
+ {
+  "id": 103,
+  "en": "This upload did not reach the field check.",
+  "zh": "本次上传未进入字段校验。"
+ },
+ {
+  "id": 104,
+  "en": "Settings for your linked Discord account.",
+  "zh": "无丢包"
+ },
+ {
+  "id": 105,
+  "en": "This scoreboard is from a different match",
+  "zh": "此计分板来自另一场对局"
+ },
+ {
+  "id": 106,
+  "en": "Hide your name on the kills leaderboard.",
+  "zh": "在击杀排行榜上隐藏你的名字。"
+ },
+ {
+  "id": 107,
+  "en": "Hide your name on the level leaderboard.",
+  "zh": "在等级排行榜上隐藏你的名字。"
+ },
+ {
+  "id": 108,
+  "en": "Press Find game to queue again in Solos.",
+  "zh": "点击“寻找对局”再次进行单排排队。"
+ },
+ {
+  "id": 109,
+  "en": "Your screenshot shows a different result",
+  "zh": "你的截图显示了不同的结果"
+ },
+ {
+  "id": 110,
+  "en": "You can queue and invite friends again.",
+  "zh": "你可以再次排队并邀请好友。"
+ },
+ {
+  "id": 111,
+  "en": "Your friends from THE FINALS show here.",
+  "zh": "你在 THE FINALS 中的好友会显示在这里。"
+ },
+ {
+  "id": 112,
+  "en": "Claimed, with no answer recorded yet.",
+  "zh": "已领取，尚未记录回复。"
+ },
+ {
+  "id": 113,
+  "en": "Finals.ID removed you from your party",
+  "zh": "Finals.ID 已将你移出小队"
+ },
+ {
+  "id": 114,
+  "en": "Used when automatic detection is off.",
+  "zh": "在自动检测关闭时使用。"
+ },
+ {
+  "id": 115,
+  "en": "A newer screenshot replaced this one",
+  "zh": "较新的截图已替换此截图"
+ },
+ {
+  "id": 116,
+  "en": "This player cannot get an invite now",
+  "zh": "该玩家目前无法收到邀请"
+ },
+ {
+  "id": 117,
+  "en": "Bringing your hidden stats to life!",
+  "zh": "让你的隐藏数据活起来！"
+ },
+ {
+  "id": 118,
+  "en": "Do you agree to the Privacy Policy?",
+  "zh": "你同意隐私政策吗？"
+ },
+ {
+  "id": 119,
+  "en": "Only your newest screenshot counts.",
+  "zh": "仅你最新的截图有效。"
+ },
+ {
+  "id": 120,
+  "en": "Checking the lobby with Finals.ID…",
+  "zh": "正在通过 Finals.ID 检查房间……"
+ },
+ {
+  "id": 121,
+  "en": "Finals.ID waits for the other team",
+  "zh": "Finals.ID 正在等待另一支队伍"
+ },
+ {
+  "id": 122,
+  "en": "Needs both teams, or 3 of one team",
+  "zh": "需要双方队伍，或同一队伍的 3 张截图"
+ },
+ {
+  "id": 123,
+  "en": "Remember my status from THE FINALS",
+  "zh": "记住我在 THE FINALS 中的状态"
+ },
+ {
+  "id": 124,
+  "en": "We could not check this screenshot",
+  "zh": "我们无法校验这张截图"
+ },
+ {
+  "id": 125,
+  "en": "Your FIDR account was not created.",
+  "zh": "你的 FIDR 账号未创建。"
+ },
+ {
+  "id": 126,
+  "en": "Part of the scoreboard is missing",
+  "zh": "计分板缺少部分内容"
+ },
+ {
+  "id": 127,
+  "en": "Set me Invisible while signing in",
+  "zh": "登录时将我设为隐身"
+ },
+ {
+  "id": 128,
+  "en": "This account is no longer linked.",
+  "zh": "此账号已不再关联。"
+ },
+ {
+  "id": 129,
+  "en": "We did not accept your screenshot",
+  "zh": "我们未接受你的截图"
+ },
+ {
+  "id": 130,
+  "en": "Admin review when the clock ends",
+  "zh": "倒计时结束时由管理员审核"
+ },
+ {
+  "id": 131,
+  "en": "Invite a player after the match.",
+  "zh": "请在对局结束后邀请玩家。"
+ },
+ {
+  "id": 132,
+  "en": "Neighborhood capped at 150 nodes",
+  "zh": "邻域上限为 150 个节点"
+ },
+ {
+  "id": 133,
+  "en": "Refresh loadouts from the server",
+  "zh": "从服务器刷新配装"
+ },
+ {
+  "id": 134,
+  "en": "Show session stats on game close",
+  "zh": "游戏关闭时显示场次数据"
+ },
+ {
+  "id": 135,
+  "en": "The teams show different results",
+  "zh": "双方队伍显示的结果不一致"
+ },
+ {
+  "id": 136,
+  "en": "An invite to this player is out",
+  "zh": "已向该玩家发出邀请"
+ },
+ {
+  "id": 137,
+  "en": "Currently playing session stats",
+  "zh": "当前正在进行的场次数据"
+ },
+ {
+  "id": 138,
+  "en": "Customs Final Round Matchmaking",
+  "zh": "自定义决赛匹配"
+ },
+ {
+  "id": 139,
+  "en": "Share match ping with finals.id",
+  "zh": "与 Finals.ID 共享对局延迟"
+ },
+ {
+  "id": 140,
+  "en": "This file type is not supported",
+  "zh": "不支持此文件类型"
+ },
+ {
+  "id": 141,
+  "en": "This image was already uploaded",
+  "zh": "此图片已上传过"
+ },
+ {
+  "id": 142,
+  "en": "We are checking your screenshot",
+  "zh": "我们正在校验你的截图"
+ },
+ {
+  "id": 143,
+  "en": "Selected scoreboard screenshot",
+  "zh": "已选择计分板截图"
+ },
+ {
+  "id": 144,
+  "en": "This match has no more uploads",
+  "zh": "本场对局已无法再上传"
+ },
+ {
+  "id": 145,
+  "en": "This player is in a FIDR match",
+  "zh": "该玩家正在参加 FIDR 对局"
+ },
+ {
+  "id": 146,
+  "en": "We cannot read the final score",
+  "zh": "我们无法读取最终比分"
+ },
+ {
+  "id": 147,
+  "en": "We cannot read this screenshot",
+  "zh": "我们无法读取此截图"
+ },
+ {
+  "id": 148,
+  "en": "Yours shows a different result",
+  "zh": "你的截图显示了不同的结果"
+ },
+ {
+  "id": 149,
+  "en": "Hide your matches and rounds.",
+  "zh": "隐藏你的对局和回合。"
+ },
+ {
+  "id": 150,
+  "en": "No graph for this season yet.",
+  "zh": "本赛季暂无图表。"
+ },
+ {
+  "id": 151,
+  "en": "Only admins see this setting.",
+  "zh": "仅管理员可见此设置。"
+ },
+ {
+  "id": 152,
+  "en": "Steam ID or Embark account id",
+  "zh": "Steam ID 或 Embark 账号 ID"
+ },
+ {
+  "id": 153,
+  "en": "Use a PNG, JPG or WebP image.",
+  "zh": "请使用 PNG、JPG 或 WebP 图片。"
+ },
+ {
+  "id": 154,
+  "en": "We cannot find this Embark ID",
+  "zh": "我们找不到此 Embark ID"
+ },
+ {
+  "id": 155,
+  "en": "You cannot invite this player",
+  "zh": "你无法邀请该玩家"
+ },
+ {
+  "id": 156,
+  "en": "An admin reviews this match.",
+  "zh": "管理员正在审核本场对局。"
+ },
+ {
+  "id": 157,
+  "en": "Choose scoreboard screenshot",
+  "zh": "选择计分板截图"
+ },
+ {
+  "id": 158,
+  "en": "Invite them after the match.",
+  "zh": "请在对局结束后邀请他们。"
+ },
+ {
+  "id": 159,
+  "en": "No answer after two retries.",
+  "zh": "重试两次后仍无响应。"
+ },
+ {
+  "id": 160,
+  "en": "Not enough valid screenshots",
+  "zh": "有效截图不足"
+ },
+ {
+  "id": 161,
+  "en": "This player is in your party",
+  "zh": "该玩家已在你的小队中"
+ },
+ {
+  "id": 162,
+  "en": "Upload the screenshot again.",
+  "zh": "请重新上传截图。"
+ },
+ {
+  "id": 163,
+  "en": "Why is there so little data?",
+  "zh": "为什么数据这么少？"
+ },
+ {
+  "id": 164,
+  "en": "You're on the latest version",
+  "zh": "你已是最新版本"
+ },
+ {
+  "id": 165,
+  "en": "Are you sure you are ready?",
+  "zh": "你确定已准备好吗？"
+ },
+ {
+  "id": 166,
+  "en": "Cosmetic not yet identified",
+  "zh": "尚未识别外观"
+ },
+ {
+  "id": 167,
+  "en": "Waiting for Steam to start…",
+  "zh": "正在等待 Steam 启动……"
+ },
+ {
+  "id": 168,
+  "en": "We accepted your screenshot",
+  "zh": "我们已接受你的截图"
+ },
+ {
+  "id": 169,
+  "en": "Did you like what you see?",
+  "zh": "你喜欢所看到的内容吗？"
+ },
+ {
+  "id": 170,
+  "en": "Finals.ID is not available",
+  "zh": "Finals.ID 当前不可用"
+ },
+ {
+  "id": 171,
+  "en": "Their party after you join",
+  "zh": "你加入后他们的小队"
+ },
+ {
+  "id": 172,
+  "en": "Upload your screenshot now",
+  "zh": "立即上传你的截图"
+ },
+ {
+  "id": 173,
+  "en": "Upload your screenshot too",
+  "zh": "也请上传你的截图"
+ },
+ {
+  "id": 174,
+  "en": "You missed the ready check",
+  "zh": "你错过了准备确认"
+ },
+ {
+  "id": 175,
+  "en": "Your matches did not load.",
+  "zh": "你的对局未能加载。"
+ },
+ {
+  "id": 176,
+  "en": "Your party is in the queue",
+  "zh": "你的小队正在排队"
+ },
+ {
+  "id": 177,
+  "en": "A party of 2 cannot queue",
+  "zh": "2 人小队无法排队"
+ },
+ {
+  "id": 178,
+  "en": "Not pulled into the match",
+  "zh": "未被拉入对局"
+ },
+ {
+  "id": 179,
+  "en": "The image file is damaged",
+  "zh": "图片文件已损坏"
+ },
+ {
+  "id": 180,
+  "en": "This player is in a match",
+  "zh": "该玩家正在对局中"
+ },
+ {
+  "id": 181,
+  "en": "Your friends did not load",
+  "zh": "你的好友未能加载"
+ },
+ {
+  "id": 182,
+  "en": "Embark ID or friend name",
+  "zh": "Embark ID 或好友名称"
+ },
+ {
+  "id": 183,
+  "en": "Live test with auto-join",
+  "zh": "带自动加入的实时测试"
+ },
+ {
+  "id": 184,
+  "en": "No result for this match",
+  "zh": "本场对局暂无结果"
+ },
+ {
+  "id": 185,
+  "en": "Outside today's schedule",
+  "zh": "不在今日日程内"
+ },
+ {
+  "id": 186,
+  "en": "Team and global messages",
+  "zh": "队伍和全局消息"
+ },
+ {
+  "id": 187,
+  "en": "Thanks for the feedback!",
+  "zh": "感谢反馈！"
+ },
+ {
+  "id": 188,
+  "en": "This is not a scoreboard",
+  "zh": "这不是计分板"
+ },
+ {
+  "id": 189,
+  "en": "Time remaining to accept",
+  "zh": "接受剩余时间"
+ },
+ {
+  "id": 190,
+  "en": "Uploading the screenshot",
+  "zh": "正在上传截图"
+ },
+ {
+  "id": 191,
+  "en": "Your party is in a match",
+  "zh": "你的小队正在对局中"
+ },
+ {
+  "id": 192,
+  "en": "Hide your career stats.",
+  "zh": "隐藏你的生涯数据。"
+ },
+ {
+  "id": 193,
+  "en": "Hide your weapon stats.",
+  "zh": "隐藏你的武器数据。"
+ },
+ {
+  "id": 194,
+  "en": "Preparing the map pool…",
+  "zh": "正在准备地图池…"
+ },
+ {
+  "id": 195,
+  "en": "Refresh from the server",
+  "zh": "从服务器刷新"
+ },
+ {
+  "id": 196,
+  "en": "Round win rate by class",
+  "zh": "各职业对局胜率"
+ },
+ {
+  "id": 197,
+  "en": "Start minimized in tray",
+  "zh": "启动时最小化到托盘"
+ },
+ {
+  "id": 198,
+  "en": "The invite was not sent",
+  "zh": "邀请未发送"
+ },
+ {
+  "id": 199,
+  "en": "The map bans start now.",
+  "zh": "禁用地图现在开始。"
+ },
+ {
+  "id": 200,
+  "en": "The party waits for you",
+  "zh": "小队在等你"
+ },
+ {
+  "id": 201,
+  "en": "When both teams confirm",
+  "zh": "当两队都确认时"
+ },
+ {
+  "id": 202,
+  "en": " after the step before",
+  "zh": " 在上一步之后"
+ },
+ {
+  "id": 203,
+  "en": "Before the ready check",
+  "zh": "准备确认之前"
+ },
+ {
+  "id": 204,
+  "en": "Finals.ID app not open",
+  "zh": "Finals.ID 应用未打开"
+ },
+ {
+  "id": 205,
+  "en": "Invite another player.",
+  "zh": "邀请其他玩家。"
+ },
+ {
+  "id": 206,
+  "en": "No cosmetics equipped.",
+  "zh": "未装备任何外观。"
+ },
+ {
+  "id": 207,
+  "en": "Ready is not available",
+  "zh": "无法准备"
+ },
+ {
+  "id": 208,
+  "en": "Remove from the party?",
+  "zh": "移出小队？"
+ },
+ {
+  "id": 209,
+  "en": "the day's map rotation",
+  "zh": "当天地图轮换"
+ },
+ {
+  "id": 210,
+  "en": "The teams do not agree",
+  "zh": "两队未达成一致"
+ },
+ {
+  "id": 211,
+  "en": "Time left in this turn",
+  "zh": "本回合剩余时间"
+ },
+ {
+  "id": 212,
+  "en": "You declined the match",
+  "zh": "你拒绝了对局"
+ },
+ {
+  "id": 213,
+  "en": "Crunching your stats…",
+  "zh": "正在计算你的数据…"
+ },
+ {
+  "id": 214,
+  "en": "Live test with invite",
+  "zh": "带邀请的实机测试"
+ },
+ {
+  "id": 215,
+  "en": "Nothing recorded yet.",
+  "zh": "暂未记录任何内容。"
+ },
+ {
+  "id": 216,
+  "en": "Pulled into the match",
+  "zh": "被拉入对局"
+ },
+ {
+  "id": 217,
+  "en": "Refresh party invites",
+  "zh": "刷新小队邀请"
+ },
+ {
+  "id": 218,
+  "en": "Submitting to server…",
+  "zh": "正在提交到服务器…"
+ },
+ {
+  "id": 219,
+  "en": "The file is too large",
+  "zh": "文件过大"
+ },
+ {
+  "id": 220,
+  "en": "Waiting for an answer",
+  "zh": "等待回答"
+ },
+ {
+  "id": 221,
+  "en": "Couldn't reach Steam",
+  "zh": "无法连接 Steam"
+ },
+ {
+  "id": 222,
+  "en": "Dismiss announcement",
+  "zh": "关闭公告"
+ },
+ {
+  "id": 223,
+  "en": "Loading your account",
+  "zh": "正在加载你的账户"
+ },
+ {
+  "id": 224,
+  "en": "Matches the uploader",
+  "zh": "与上传者一致"
+ },
+ {
+  "id": 225,
+  "en": "Result not confirmed",
+  "zh": "结果未确认"
+ },
+ {
+  "id": 226,
+  "en": "Revoke session token",
+  "zh": "吊销场次令牌"
+ },
+ {
+  "id": 227,
+  "en": "This takes a moment.",
+  "zh": "请稍等片刻。"
+ },
+ {
+  "id": 228,
+  "en": "Yes, keep me updated",
+  "zh": "是，持续通知我"
+ },
+ {
+  "id": 229,
+  "en": "You cannot queue now",
+  "zh": "你现在无法排队"
+ },
+ {
+  "id": 230,
+  "en": "You were quite busy!",
+  "zh": "你可真忙啊！"
+ },
+ {
+  "id": 231,
+  "en": "Your starting rating",
+  "zh": "你的初始排位分"
+ },
+ {
+  "id": 232,
+  "en": "An admin reviews it",
+  "zh": "由管理员审核"
+ },
+ {
+  "id": 233,
+  "en": "Decline this match?",
+  "zh": "拒绝此对局？"
+ },
+ {
+  "id": 234,
+  "en": "Get help in Discord",
+  "zh": "在 Discord 获取帮助"
+ },
+ {
+  "id": 235,
+  "en": "Get help on Discord",
+  "zh": "在 Discord 获取帮助"
+ },
+ {
+  "id": 236,
+  "en": "Hide your loadouts.",
+  "zh": "隐藏你的配装。"
+ },
+ {
+  "id": 237,
+  "en": "Leaderboard privacy",
+  "zh": "排行榜隐私"
+ },
+ {
+  "id": 238,
+  "en": "Name this cosmetic…",
+  "zh": "给此外观命名…"
+ },
+ {
+  "id": 239,
+  "en": "No career data yet.",
+  "zh": "暂无生涯数据。"
+ },
+ {
+  "id": 240,
+  "en": "No weapon data yet.",
+  "zh": "暂无武器数据。"
+ },
+ {
+  "id": 241,
+  "en": "Please remember to:",
+  "zh": "请记得："
+ },
+ {
+  "id": 242,
+  "en": "Ranked Score change",
+  "zh": "排位分变化"
+ },
+ {
+  "id": 243,
+  "en": "Simulated host loss",
+  "zh": "模拟主机断连"
+ },
+ {
+  "id": 244,
+  "en": "Time left to submit",
+  "zh": "剩余提交时间"
+ },
+ {
+  "id": 245,
+  "en": "View Privacy Policy",
+  "zh": "查看隐私政策"
+ },
+ {
+  "id": 246,
+  "en": "Weapons and gadgets",
+  "zh": "武器与小道具"
+ },
+ {
+  "id": 247,
+  "en": "When the clock ends",
+  "zh": "当计时结束时"
+ },
+ {
+  "id": 248,
+  "en": "While you were away",
+  "zh": "你离开期间"
+ },
+ {
+  "id": 249,
+  "en": "You can queue again",
+  "zh": "你可以再次排队"
+ },
+ {
+  "id": 250,
+  "en": "A player declined.",
+  "zh": "有玩家拒绝了。"
+ },
+ {
+  "id": 251,
+  "en": "Close this warning",
+  "zh": "关闭此警告"
+ },
+ {
+  "id": 252,
+  "en": "Launch on startup?",
+  "zh": "开机启动？"
+ },
+ {
+  "id": 253,
+  "en": "More party invites",
+  "zh": "更多小队邀请"
+ },
+ {
+  "id": 254,
+  "en": "No lobby read yet.",
+  "zh": "尚未读取房间。"
+ },
+ {
+  "id": 255,
+  "en": "Not yet identified",
+  "zh": "尚未识别"
+ },
+ {
+  "id": 256,
+  "en": "Nothing to compare",
+  "zh": "无可比较内容"
+ },
+ {
+  "id": 257,
+  "en": "Replace screenshot",
+  "zh": "更换截图"
+ },
+ {
+  "id": 258,
+  "en": "Starting the queue",
+  "zh": "正在开始排队"
+ },
+ {
+  "id": 259,
+  "en": "Unknown left today",
+  "zh": "今日剩余次数未知"
+ },
+ {
+  "id": 260,
+  "en": "Back to main menu",
+  "zh": "返回主菜单"
+ },
+ {
+  "id": 261,
+  "en": "Check for updates",
+  "zh": "检查更新"
+ },
+ {
+  "id": 262,
+  "en": "Choose screenshot",
+  "zh": "选择截图"
+ },
+ {
+  "id": 263,
+  "en": "Current map strip",
+  "zh": "当前地图条"
+ },
+ {
+  "id": 264,
+  "en": "Everyone accepted",
+  "zh": "所有人都已接受"
+ },
+ {
+  "id": 265,
+  "en": "Hide Map Schedule",
+  "zh": "隐藏地图日程"
+ },
+ {
+  "id": 266,
+  "en": "Launch on startup",
+  "zh": "开机启动"
+ },
+ {
+  "id": 267,
+  "en": "Loading loadouts…",
+  "zh": "正在加载配装…"
+ },
+ {
+  "id": 268,
+  "en": "No host step yet.",
+  "zh": "尚无主机步骤。"
+ },
+ {
+  "id": 269,
+  "en": "No lobby read yet",
+  "zh": "尚未读取房间"
+ },
+ {
+  "id": 270,
+  "en": "Simulated timeout",
+  "zh": "模拟超时"
+ },
+ {
+  "id": 271,
+  "en": "Today's map slots",
+  "zh": "今日地图位"
+ },
+ {
+  "id": 272,
+  "en": "Waiting for admin",
+  "zh": "等待管理员"
+ },
+ {
+  "id": 273,
+  "en": "Close match chat",
+  "zh": "关闭对局聊天"
+ },
+ {
+  "id": 274,
+  "en": "FIDR queue times",
+  "zh": "FIDR 排队时间"
+ },
+ {
+  "id": 275,
+  "en": "Finals.ID Ranked",
+  "zh": "Finals.ID 排位"
+ },
+ {
+  "id": 276,
+  "en": "Loading matches…",
+  "zh": "正在加载对局…"
+ },
+ {
+  "id": 277,
+  "en": "No matches found",
+  "zh": "未找到对局"
+ },
+ {
+  "id": 278,
+  "en": "No messages yet.",
+  "zh": "暂无消息。"
+ },
+ {
+  "id": 279,
+  "en": "No rating change",
+  "zh": "排位分无变化"
+ },
+ {
+  "id": 280,
+  "en": "Not in the lobby",
+  "zh": "不在房间内"
+ },
+ {
+  "id": 281,
+  "en": "Not the uploader",
+  "zh": "不是上传者"
+ },
+ {
+  "id": 282,
+  "en": "Onboarding steps",
+  "zh": "新手指引步骤"
+ },
+ {
+  "id": 283,
+  "en": "Profile sections",
+  "zh": "个人资料板块"
+ },
+ {
+  "id": 284,
+  "en": "Rank unavailable",
+  "zh": "段位不可用"
+ },
+ {
+  "id": 285,
+  "en": "Rejection reason",
+  "zh": "拒绝原因"
+ },
+ {
+  "id": 286,
+  "en": "Reset session RS",
+  "zh": "重置场次 RS"
+ },
+ {
+  "id": 287,
+  "en": "Result confirmed",
+  "zh": "结果已确认"
+ },
+ {
+  "id": 288,
+  "en": "Result in review",
+  "zh": "结果审核中"
+ },
+ {
+  "id": 289,
+  "en": "Scoreboard check",
+  "zh": "计分板核对"
+ },
+ {
+  "id": 290,
+  "en": "Token revocation",
+  "zh": "令牌吊销"
+ },
+ {
+  "id": 291,
+  "en": "Try again later.",
+  "zh": "请稍后重试。"
+ },
+ {
+  "id": 292,
+  "en": "Your block ended",
+  "zh": "你的封锁已结束"
+ },
+ {
+  "id": 293,
+  "en": " from the start",
+  "zh": " 从一开始"
+ },
+ {
+  "id": 294,
+  "en": "0 friends found",
+  "zh": "找到 0 位好友"
+ },
+ {
+  "id": 295,
+  "en": "Accept and join",
+  "zh": "接受并加入"
+ },
+ {
+  "id": 296,
+  "en": "Authenticating…",
+  "zh": "正在验证…"
+ },
+ {
+  "id": 297,
+  "en": "Cashout matched",
+  "zh": "提现已匹配"
+ },
+ {
+  "id": 298,
+  "en": "Customize theme",
+  "zh": "自定义主题"
+ },
+ {
+  "id": 299,
+  "en": "Discord privacy",
+  "zh": "Discord 隐私"
+ },
+ {
+  "id": 300,
+  "en": "Embark answered",
+  "zh": "Embark 已回应"
+ },
+ {
+  "id": 301,
+  "en": "Game lobby code",
+  "zh": "游戏房间代码"
+ },
+ {
+  "id": 302,
+  "en": "game lobby code",
+  "zh": "游戏房间代码"
+ },
+ {
+  "id": 303,
+  "en": "Invite a player",
+  "zh": "邀请玩家"
+ },
+ {
+  "id": 304,
+  "en": "Join time ended",
+  "zh": "加入时间已结束"
+ },
+ {
+  "id": 305,
+  "en": "Leave test mode",
+  "zh": "退出测试模式"
+ },
+ {
+  "id": 306,
+  "en": "Loading friends",
+  "zh": "正在加载好友"
+ },
+ {
+  "id": 307,
+  "en": "Loading matches",
+  "zh": "正在加载对局"
+ },
+ {
+  "id": 308,
+  "en": "No matches yet.",
+  "zh": "暂无对局。"
+ },
+ {
+  "id": 309,
+  "en": "No valid result",
+  "zh": "无有效结果"
+ },
+ {
+  "id": 310,
+  "en": "Pick one region",
+  "zh": "选择一个地区"
+ },
+ {
+  "id": 311,
+  "en": "Profile privacy",
+  "zh": "个人资料隐私"
+ },
+ {
+  "id": 312,
+  "en": "Recommended on.",
+  "zh": "建议开启。"
+ },
+ {
+  "id": 313,
+  "en": "Refresh friends",
+  "zh": "刷新好友"
+ },
+ {
+  "id": 314,
+  "en": "Refresh session",
+  "zh": "刷新场次"
+ },
+ {
+  "id": 315,
+  "en": "Reset to preset",
+  "zh": "重置为预设"
+ },
+ {
+  "id": 316,
+  "en": "Session summary",
+  "zh": "场次摘要"
+ },
+ {
+  "id": 317,
+  "en": "Starting rating",
+  "zh": "初始排位分"
+ },
+ {
+  "id": 318,
+  "en": "Steam is closed",
+  "zh": "Steam 已关闭"
+ },
+ {
+  "id": 319,
+  "en": "Update required",
+  "zh": "需要更新"
+ },
+ {
+  "id": 320,
+  "en": "Widget settings",
+  "zh": "小组件设置"
+ },
+ {
+  "id": 321,
+  "en": "Clear the spot",
+  "zh": "清空该位置"
+ },
+ {
+  "id": 322,
+  "en": "Desktop widget",
+  "zh": "桌面小组件"
+ },
+ {
+  "id": 323,
+  "en": "Discord handle",
+  "zh": "Discord 用户名"
+ },
+ {
+  "id": 324,
+  "en": "Loading stats…",
+  "zh": "正在加载数据…"
+ },
+ {
+  "id": 325,
+  "en": "New admin test",
+  "zh": "新建管理员测试"
+ },
+ {
+  "id": 326,
+  "en": "No FIDR rating",
+  "zh": "无 FIDR 排位分"
+ },
+ {
+  "id": 327,
+  "en": "No matches yet",
+  "zh": "暂无对局"
+ },
+ {
+  "id": 328,
+  "en": "Observed slots",
+  "zh": "观测到的位置"
+ },
+ {
+  "id": 329,
+  "en": "Recent matches",
+  "zh": "最近对局"
+ },
+ {
+  "id": 330,
+  "en": "Shared capture",
+  "zh": "共享截图"
+ },
+ {
+  "id": 331,
+  "en": "Slower updates",
+  "zh": "更新较慢"
+ },
+ {
+  "id": 332,
+  "en": "View changelog",
+  "zh": "查看更新日志"
+ },
+ {
+  "id": 333,
+  "en": "Yes, I'm Ready",
+  "zh": "是，我准备好了"
+ },
+ {
+  "id": 334,
+  "en": "Your FIDR rank",
+  "zh": "你的 FIDR 段位"
+ },
+ {
+  "id": 335,
+  "en": "Your ranked RS",
+  "zh": "你的排位 RS"
+ },
+ {
+  "id": 336,
+  "en": "Your team lost",
+  "zh": "你的队伍输了"
+ },
+ {
+  "id": 337,
+  "en": "Always on top",
+  "zh": "总在最前"
+ },
+ {
+  "id": 338,
+  "en": "Call an Admin",
+  "zh": "呼叫管理员"
+ },
+ {
+  "id": 339,
+  "en": "Click to name",
+  "zh": "点击命名"
+ },
+ {
+  "id": 340,
+  "en": "Close to tray",
+  "zh": "关闭到托盘"
+ },
+ {
+  "id": 341,
+  "en": "Decline match",
+  "zh": "拒绝对局"
+ },
+ {
+  "id": 342,
+  "en": "In-game party",
+  "zh": "游戏内小队"
+ },
+ {
+  "id": 343,
+  "en": "kills, damage",
+  "zh": "击杀、伤害"
+ },
+ {
+  "id": 344,
+  "en": "Lobby attempt",
+  "zh": "房间尝试"
+ },
+ {
+  "id": 345,
+  "en": "Match History",
+  "zh": "比赛记录"
+ },
+ {
+  "id": 346,
+  "en": "Maximum start",
+  "zh": "最大起始值"
+ },
+ {
+  "id": 347,
+  "en": "Minimum width",
+  "zh": "最小宽度"
+ },
+ {
+  "id": 348,
+  "en": "Names and ids",
+  "zh": "名称与 ID"
+ },
+ {
+  "id": 349,
+  "en": "Newer version",
+  "zh": "较新版本"
+ },
+ {
+  "id": 350,
+  "en": "No player yet",
+  "zh": "暂无玩家"
+ },
+ {
+  "id": 351,
+  "en": "Not this time",
+  "zh": "这次不行"
+ },
+ {
+  "id": 352,
+  "en": "Older version",
+  "zh": "较旧版本"
+ },
+ {
+  "id": 353,
+  "en": "Opening FIDR…",
+  "zh": "正在打开 FIDR…"
+ },
+ {
+  "id": 354,
+  "en": "Other weapons",
+  "zh": "其他武器"
+ },
+ {
+  "id": 355,
+  "en": "Party invites",
+  "zh": "小队邀请"
+ },
+ {
+  "id": 356,
+  "en": "Phase ends in",
+  "zh": "阶段结束倒计时"
+ },
+ {
+  "id": 357,
+  "en": "Rating change",
+  "zh": "排位分变化"
+ },
+ {
+  "id": 358,
+  "en": "Refresh stats",
+  "zh": "刷新数据"
+ },
+ {
+  "id": 359,
+  "en": "Send feedback",
+  "zh": "发送反馈"
+ },
+ {
+  "id": 360,
+  "en": "Token refresh",
+  "zh": "令牌刷新"
+ },
+ {
+  "id": 361,
+  "en": "Upload status",
+  "zh": "上传状态"
+ },
+ {
+  "id": 362,
+  "en": "Visible cards",
+  "zh": "可见卡片"
+ },
+ {
+  "id": 363,
+  "en": "Accept match",
+  "zh": "接受对局"
+ },
+ {
+  "id": 364,
+  "en": "Admin review",
+  "zh": "管理员审核"
+ },
+ {
+  "id": 365,
+  "en": "Apply import",
+  "zh": "应用导入"
+ },
+ {
+  "id": 366,
+  "en": "Career stats",
+  "zh": "生涯数据"
+ },
+ {
+  "id": 367,
+  "en": "Casual modes",
+  "zh": "休闲模式"
+ },
+ {
+  "id": 368,
+  "en": "Close widget",
+  "zh": "关闭小组件"
+ },
+ {
+  "id": 369,
+  "en": "Coming soon.",
+  "zh": "即将推出。"
+ },
+ {
+  "id": 370,
+  "en": "In the lobby",
+  "zh": "在房间内"
+ },
+ {
+  "id": 371,
+  "en": "Leaderboards",
+  "zh": "排行榜"
+ },
+ {
+  "id": 372,
+  "en": "Lobby closed",
+  "zh": "房间已关闭"
+ },
+ {
+  "id": 373,
+  "en": "Loss for you",
+  "zh": "你方失利"
+ },
+ {
+  "id": 374,
+  "en": "Map schedule",
+  "zh": "地图日程"
+ },
+ {
+  "id": 375,
+  "en": "Match result",
+  "zh": "对局结果"
+ },
+ {
+  "id": 376,
+  "en": "No loadouts.",
+  "zh": "无配装。"
+ },
+ {
+  "id": 377,
+  "en": "Open website",
+  "zh": "打开网站"
+ },
+ {
+  "id": 378,
+  "en": "Party invite",
+  "zh": "小队邀请"
+ },
+ {
+  "id": 379,
+  "en": "Ready is off",
+  "zh": "准备已关闭"
+ },
+ {
+  "id": 380,
+  "en": "Result steps",
+  "zh": "结果步骤"
+ },
+ {
+  "id": 381,
+  "en": "Spot is open",
+  "zh": "位置空闲"
+ },
+ {
+  "id": 382,
+  "en": "Steam status",
+  "zh": "Steam 状态"
+ },
+ {
+  "id": 383,
+  "en": "Test ends in",
+  "zh": "测试结束于"
+ },
+ {
+  "id": 384,
+  "en": "This session",
+  "zh": "本场次"
+ },
+ {
+  "id": 385,
+  "en": "Transparency",
+  "zh": "透明度"
+ },
+ {
+  "id": 386,
+  "en": "Weapon stats",
+  "zh": "武器数据"
+ },
+ {
+  "id": 387,
+  "en": "What changed",
+  "zh": "变化内容"
+ },
+ {
+  "id": 388,
+  "en": "You accepted",
+  "zh": "你接受了"
+ },
+ {
+  "id": 389,
+  "en": "Your friends",
+  "zh": "你的好友"
+ },
+ {
+  "id": 390,
+  "en": "✗ Not linked",
+  "zh": "✗ 未关联"
+ },
+ {
+  "id": 391,
+  "en": "Check error",
+  "zh": "检查错误"
+ },
+ {
+  "id": 392,
+  "en": "Consistency",
+  "zh": "一致性"
+ },
+ {
+  "id": 393,
+  "en": "Edit layout",
+  "zh": "编辑布局"
+ },
+ {
+  "id": 394,
+  "en": "Invite sent",
+  "zh": "邀请已发送"
+ },
+ {
+  "id": 395,
+  "en": "Leave party",
+  "zh": "离开小队"
+ },
+ {
+  "id": 396,
+  "en": "Lobby error",
+  "zh": "房间错误"
+ },
+ {
+  "id": 397,
+  "en": "Lobby reads",
+  "zh": "房间读取"
+ },
+ {
+  "id": 398,
+  "en": "Match found",
+  "zh": "已找到对局"
+ },
+ {
+  "id": 399,
+  "en": "Match steps",
+  "zh": "对局步骤"
+ },
+ {
+  "id": 400,
+  "en": "New account",
+  "zh": "新账号"
+ },
+ {
+  "id": 401,
+  "en": "Not checked",
+  "zh": "未检查"
+ },
+ {
+  "id": 402,
+  "en": "Partial day",
+  "zh": "部分日期"
+ },
+ {
+  "id": 403,
+  "en": "Ranked role",
+  "zh": "排位角色"
+ },
+ {
+  "id": 404,
+  "en": "Recent form",
+  "zh": "近期状态"
+ },
+ {
+  "id": 405,
+  "en": "Remove card",
+  "zh": "移除卡片"
+ },
+ {
+  "id": 406,
+  "en": "Running for",
+  "zh": "运行时长"
+ },
+ {
+  "id": 407,
+  "en": "Suggestions",
+  "zh": "建议"
+ },
+ {
+  "id": 408,
+  "en": "This season",
+  "zh": "本赛季"
+ },
+ {
+  "id": 409,
+  "en": "Time is up.",
+  "zh": "时间到。"
+ },
+ {
+  "id": 410,
+  "en": "Top weapons",
+  "zh": "常用武器"
+ },
+ {
+  "id": 411,
+  "en": "Tournaments",
+  "zh": "锦标赛"
+ },
+ {
+  "id": 412,
+  "en": "Add a card",
+  "zh": "添加卡片"
+ },
+ {
+  "id": 413,
+  "en": "Admin test",
+  "zh": "管理员测试"
+ },
+ {
+  "id": 414,
+  "en": "Base theme",
+  "zh": "基础主题"
+ },
+ {
+  "id": 415,
+  "en": "Being read",
+  "zh": "读取中"
+ },
+ {
+  "id": 416,
+  "en": "Best place",
+  "zh": "最佳名次"
+ },
+ {
+  "id": 417,
+  "en": "Cashed Out",
+  "zh": "已提现"
+ },
+ {
+  "id": 418,
+  "en": "FIDR queue",
+  "zh": "FIDR 队列"
+ },
+ {
+  "id": 419,
+  "en": "Full width",
+  "zh": "全宽"
+ },
+ {
+  "id": 420,
+  "en": "Host steps",
+  "zh": "主持步骤"
+ },
+ {
+  "id": 421,
+  "en": "Kill Stats",
+  "zh": "击杀数据"
+ },
+ {
+  "id": 422,
+  "en": "Live joins",
+  "zh": "实时加入"
+ },
+ {
+  "id": 423,
+  "en": "Lobby code",
+  "zh": "房间代码"
+ },
+ {
+  "id": 424,
+  "en": "Lobby host",
+  "zh": "房间主持"
+ },
+ {
+  "id": 425,
+  "en": "Match type",
+  "zh": "对局类型"
+ },
+ {
+  "id": 426,
+  "en": "Match void",
+  "zh": "对局作废"
+ },
+ {
+  "id": 427,
+  "en": "Not listed",
+  "zh": "未列出"
+ },
+ {
+  "id": 428,
+  "en": "Not ranked",
+  "zh": "非排位"
+ },
+ {
+  "id": 429,
+  "en": "Open Steam",
+  "zh": "打开 Steam"
+ },
+ {
+  "id": 430,
+  "en": "Party of 2",
+  "zh": "2 人小队"
+ },
+ {
+  "id": 431,
+  "en": "Play again",
+  "zh": "再玩一局"
+ },
+ {
+  "id": 432,
+  "en": "Rank score",
+  "zh": "段位分"
+ },
+ {
+  "id": 433,
+  "en": "Shuffle on",
+  "zh": "随机开启"
+ },
+ {
+  "id": 434,
+  "en": "Test ended",
+  "zh": "测试已结束"
+ },
+ {
+  "id": 435,
+  "en": "Test notes",
+  "zh": "测试备注"
+ },
+ {
+  "id": 436,
+  "en": "Time added",
+  "zh": "时间已增加"
+ },
+ {
+  "id": 437,
+  "en": "Unverified",
+  "zh": "未验证"
+ },
+ {
+  "id": 438,
+  "en": "Uploading…",
+  "zh": "上传中…"
+ },
+ {
+  "id": 439,
+  "en": "What's new",
+  "zh": "新内容"
+ },
+ {
+  "id": 440,
+  "en": "Your party",
+  "zh": "你的小队"
+ },
+ {
+  "id": 441,
+  "en": "0 matches",
+  "zh": "0 场对局"
+ },
+ {
+  "id": 442,
+  "en": "Animation",
+  "zh": "动画"
+ },
+ {
+  "id": 443,
+  "en": "Avg place",
+  "zh": "平均名次"
+ },
+ {
+  "id": 444,
+  "en": "Best rank",
+  "zh": "最佳段位"
+ },
+ {
+  "id": 445,
+  "en": "Best seed",
+  "zh": "最佳种子"
+ },
+ {
+  "id": 446,
+  "en": "Certainty",
+  "zh": "确定性"
+ },
+ {
+  "id": 447,
+  "en": "Check off",
+  "zh": "勾选"
+ },
+ {
+  "id": 448,
+  "en": "Clear all",
+  "zh": "全部清除"
+ },
+ {
+  "id": 449,
+  "en": "Conflicts",
+  "zh": "冲突"
+ },
+ {
+  "id": 450,
+  "en": "Dashboard",
+  "zh": "仪表板"
+ },
+ {
+  "id": 451,
+  "en": "Discarded",
+  "zh": "已丢弃"
+ },
+ {
+  "id": 452,
+  "en": "Game seen",
+  "zh": "已见游戏"
+ },
+ {
+  "id": 453,
+  "en": "Host left",
+  "zh": "主持已离开"
+ },
+ {
+  "id": 454,
+  "en": "In review",
+  "zh": "审核中"
+ },
+ {
+  "id": 455,
+  "en": "Invisible",
+  "zh": "隐身"
+ },
+ {
+  "id": 456,
+  "en": "Join time",
+  "zh": "加入时间"
+ },
+ {
+  "id": 457,
+  "en": "Lifecycle",
+  "zh": "生命周期"
+ },
+ {
+  "id": 458,
+  "en": "Live ping",
+  "zh": "实时延迟"
+ },
+ {
+  "id": 459,
+  "en": "Not ready",
+  "zh": "未准备"
+ },
+ {
+  "id": 460,
+  "en": "Open page",
+  "zh": "打开页面"
+ },
+ {
+  "id": 461,
+  "en": "Open spot",
+  "zh": "空位"
+ },
+ {
+  "id": 462,
+  "en": "Reset all",
+  "zh": "全部重置"
+ },
+ {
+  "id": 463,
+  "en": "RS change",
+  "zh": "RS 变化"
+ },
+ {
+  "id": 464,
+  "en": "Scorecard",
+  "zh": "计分卡"
+ },
+ {
+  "id": 465,
+  "en": "Starting…",
+  "zh": "开始中…"
+ },
+ {
+  "id": 466,
+  "en": "Stop test",
+  "zh": "停止测试"
+ },
+ {
+  "id": 467,
+  "en": "Templates",
+  "zh": "模板"
+ },
+ {
+  "id": 468,
+  "en": "Test note",
+  "zh": "测试备注"
+ },
+ {
+  "id": 469,
+  "en": "Try again",
+  "zh": "重试"
+ },
+ {
+  "id": 470,
+  "en": "Try Again",
+  "zh": "重试"
+ },
+ {
+  "id": 471,
+  "en": "Valid for",
+  "zh": "有效期"
+ },
+ {
+  "id": 472,
+  "en": "White row",
+  "zh": "白色行"
+ },
+ {
+  "id": 473,
+  "en": "Your spot",
+  "zh": "你的位置"
+ },
+ {
+  "id": 474,
+  "en": "Add card",
+  "zh": "添加卡片"
+ },
+ {
+  "id": 475,
+  "en": "Amethyst",
+  "zh": "紫水晶"
+ },
+ {
+  "id": 476,
+  "en": "Avg seed",
+  "zh": "平均种子"
+ },
+ {
+  "id": 477,
+  "en": "Champion",
+  "zh": "冠军"
+ },
+ {
+  "id": 478,
+  "en": "Download",
+  "zh": "下载"
+ },
+ {
+  "id": 479,
+  "en": "Graphite",
+  "zh": "石墨"
+ },
+ {
+  "id": 480,
+  "en": "In lobby",
+  "zh": "在房间中"
+ },
+ {
+  "id": 481,
+  "en": "Loadouts",
+  "zh": "配装"
+ },
+ {
+  "id": 482,
+  "en": "Map pool",
+  "zh": "地图池"
+ },
+ {
+  "id": 483,
+  "en": "Match ID",
+  "zh": "对局 ID"
+ },
+ {
+  "id": 484,
+  "en": "match ID",
+  "zh": "对局 ID"
+ },
+ {
+  "id": 485,
+  "en": "Maximize",
+  "zh": "最大化"
+ },
+ {
+  "id": 486,
+  "en": "Midnight",
+  "zh": "午夜"
+ },
+ {
+  "id": 487,
+  "en": "Minimize",
+  "zh": "最小化"
+ },
+ {
+  "id": 488,
+  "en": "No login",
+  "zh": "未登录"
+ },
+ {
+  "id": 489,
+  "en": "Playtime",
+  "zh": "游戏时长"
+ },
+ {
+  "id": 490,
+  "en": "Regions:",
+  "zh": "地区："
+ },
+ {
+  "id": 491,
+  "en": "Rotation",
+  "zh": "轮换"
+ },
+ {
+  "id": 492,
+  "en": "Scenario",
+  "zh": "场景"
+ },
+ {
+  "id": 493,
+  "en": "Sessions",
+  "zh": "场次"
+ },
+ {
+  "id": 494,
+  "en": "Settings",
+  "zh": "设置"
+ },
+ {
+  "id": 495,
+  "en": "Test lab",
+  "zh": "测试实验室"
+ },
+ {
+  "id": 496,
+  "en": "Timeline",
+  "zh": "时间线"
+ },
+ {
+  "id": 497,
+  "en": "Blocked",
+  "zh": "已屏蔽"
+ },
+ {
+  "id": 498,
+  "en": "Checked",
+  "zh": "已检查"
+ },
+ {
+  "id": 499,
+  "en": "Classes",
+  "zh": "职业"
+ },
+ {
+  "id": 500,
+  "en": "Confirm",
+  "zh": "确认"
+ },
+ {
+  "id": 501,
+  "en": "Decline",
+  "zh": "拒绝"
+ },
+ {
+  "id": 502,
+  "en": "Emerald",
+  "zh": "翡翠"
+ },
+ {
+  "id": 503,
+  "en": "Expires",
+  "zh": "过期"
+ },
+ {
+  "id": 504,
+  "en": "Friends",
+  "zh": "好友"
+ },
+ {
+  "id": 505,
+  "en": "Gadgets",
+  "zh": "道具"
+ },
+ {
+  "id": 506,
+  "en": "Game on",
+  "zh": "游戏进行中"
+ },
+ {
+  "id": 507,
+  "en": "General",
+  "zh": "通用"
+ },
+ {
+  "id": 508,
+  "en": "Global ",
+  "zh": "全局 "
+ },
+ {
+  "id": 509,
+  "en": "Go back",
+  "zh": "返回"
+ },
+ {
+  "id": 510,
+  "en": "Latency",
+  "zh": "延迟"
+ },
+ {
+  "id": 511,
+  "en": "Matches",
+  "zh": "对局"
+ },
+ {
+  "id": 512,
+  "en": "No data",
+  "zh": "无数据"
+ },
+ {
+  "id": 513,
+  "en": "Not now",
+  "zh": "暂不"
+ },
+ {
+  "id": 514,
+  "en": "Offline",
+  "zh": "离线"
+ },
+ {
+  "id": 515,
+  "en": "Older ›",
+  "zh": "更早 ›"
+ },
+ {
+  "id": 516,
+  "en": "Pending",
+  "zh": "待处理"
+ },
+ {
+  "id": 517,
+  "en": "Rarity…",
+  "zh": "稀有度…"
+ },
+ {
+  "id": 518,
+  "en": "Reasons",
+  "zh": "原因"
+ },
+ {
+  "id": 519,
+  "en": "Refresh",
+  "zh": "刷新"
+ },
+ {
+  "id": 520,
+  "en": "Revives",
+  "zh": "复活"
+ },
+ {
+  "id": 521,
+  "en": "Send to",
+  "zh": "发送至"
+ },
+ {
+  "id": 522,
+  "en": "Session",
+  "zh": "场次"
+ },
+ {
+  "id": 523,
+  "en": "Shuffle",
+  "zh": "随机"
+ },
+ {
+  "id": 524,
+  "en": "Skipped",
+  "zh": "已跳过"
+ },
+ {
+  "id": 525,
+  "en": "Sticker",
+  "zh": "贴纸"
+ },
+ {
+  "id": 526,
+  "en": "Updated",
+  "zh": "已更新"
+ },
+ {
+  "id": 527,
+  "en": "Updates",
+  "zh": "更新"
+ },
+ {
+  "id": 528,
+  "en": "Version",
+  "zh": "版本"
+ },
+ {
+  "id": 529,
+  "en": "Waiting",
+  "zh": "等待中"
+ },
+ {
+  "id": 530,
+  "en": "Warning",
+  "zh": "警告"
+ },
+ {
+  "id": 531,
+  "en": "Weapons",
+  "zh": "武器"
+ },
+ {
+  "id": 532,
+  "en": "‹ Newer",
+  "zh": "‹ 更新"
+ },
+ {
+  "id": 533,
+  "en": "Accept",
+  "zh": "接受"
+ },
+ {
+  "id": 534,
+  "en": "Answer",
+  "zh": "回答"
+ },
+ {
+  "id": 535,
+  "en": "Border",
+  "zh": "边框"
+ },
+ {
+  "id": 536,
+  "en": "Cancel",
+  "zh": "取消"
+ },
+ {
+  "id": 537,
+  "en": "Career",
+  "zh": "生涯"
+ },
+ {
+  "id": 538,
+  "en": "Casual",
+  "zh": "休闲"
+ },
+ {
+  "id": 539,
+  "en": "Colors",
+  "zh": "颜色"
+ },
+ {
+  "id": 540,
+  "en": "Damage",
+  "zh": "伤害"
+ },
+ {
+  "id": 541,
+  "en": "Deaths",
+  "zh": "死亡"
+ },
+ {
+  "id": 542,
+  "en": "Failed",
+  "zh": "失败"
+ },
+ {
+  "id": 543,
+  "en": "Fields",
+  "zh": "字段"
+ },
+ {
+  "id": 544,
+  "en": "Firsts",
+  "zh": "首次"
+ },
+ {
+  "id": 545,
+  "en": "Got it",
+  "zh": "知道了"
+ },
+ {
+  "id": 546,
+  "en": "Joined",
+  "zh": "已加入"
+ },
+ {
+  "id": 547,
+  "en": "Layout",
+  "zh": "布局"
+ },
+ {
+  "id": 548,
+  "en": "Levels",
+  "zh": "等级"
+ },
+ {
+  "id": 549,
+  "en": "Locked",
+  "zh": "已锁定"
+ },
+ {
+  "id": 550,
+  "en": "Online",
+  "zh": "在线"
+ },
+ {
+  "id": 551,
+  "en": "Played",
+  "zh": "已游玩"
+ },
+ {
+  "id": 552,
+  "en": "Player",
+  "zh": "玩家"
+ },
+ {
+  "id": 553,
+  "en": "Ranked",
+  "zh": "排位"
+ },
+ {
+  "id": 554,
+  "en": "Rarity",
+  "zh": "稀有度"
+ },
+ {
+  "id": 555,
+  "en": "Region",
+  "zh": "地区"
+ },
+ {
+  "id": 556,
+  "en": "Result",
+  "zh": "结果"
+ },
+ {
+  "id": 557,
+  "en": "Rounds",
+  "zh": "回合"
+ },
+ {
+  "id": 558,
+  "en": "Winner",
+  "zh": "胜者"
+ },
+ {
+  "id": 559,
+  "en": "Admin",
+  "zh": "管理员"
+ },
+ {
+  "id": 560,
+  "en": "Cards",
+  "zh": "卡片"
+ },
+ {
+  "id": 561,
+  "en": "Charm",
+  "zh": "挂饰"
+ },
+ {
+  "id": 562,
+  "en": "Check",
+  "zh": "检查"
+ },
+ {
+  "id": 563,
+  "en": "Close",
+  "zh": "关闭"
+ },
+ {
+  "id": 564,
+  "en": "K / D",
+  "zh": "K/D"
+ },
+ {
+  "id": 565,
+  "en": "Kills",
+  "zh": "击杀"
+ },
+ {
+  "id": 566,
+  "en": "Light",
+  "zh": "轻型"
+ },
+ {
+  "id": 567,
+  "en": "Lobby",
+  "zh": "房间"
+ },
+ {
+  "id": 568,
+  "en": "Money",
+  "zh": "金钱"
+ },
+ {
+  "id": 569,
+  "en": "Other",
+  "zh": "其他"
+ },
+ {
+  "id": 570,
+  "en": "Party",
+  "zh": "小队"
+ },
+ {
+  "id": 571,
+  "en": "Phase",
+  "zh": "阶段"
+ },
+ {
+  "id": 572,
+  "en": "Queue",
+  "zh": "队列"
+ },
+ {
+  "id": 573,
+  "en": "Ready",
+  "zh": "准备就绪"
+ },
+ {
+  "id": 574,
+  "en": "Reset",
+  "zh": "重置"
+ },
+ {
+  "id": 575,
+  "en": "Sight",
+  "zh": "瞄具"
+ },
+ {
+  "id": 576,
+  "en": "Solos",
+  "zh": "单排"
+ },
+ {
+  "id": 577,
+  "en": "Specs",
+  "zh": "技能"
+ },
+ {
+  "id": 578,
+  "en": "Total",
+  "zh": "总计"
+ },
+ {
+  "id": 579,
+  "en": "— Tyr",
+  "zh": "— Tyr"
+ },
+ {
+  "id": 580,
+  "en": "Away",
+  "zh": "离开"
+ },
+ {
+  "id": 581,
+  "en": "Club",
+  "zh": "俱乐部"
+ },
+ {
+  "id": 582,
+  "en": "Copy",
+  "zh": "复制"
+ },
+ {
+  "id": 583,
+  "en": "Host",
+  "zh": "房主"
+ },
+ {
+  "id": 584,
+  "en": "Keep",
+  "zh": "保留"
+ },
+ {
+  "id": 585,
+  "en": "Live",
+  "zh": "进行中"
+ },
+ {
+  "id": 586,
+  "en": "Loss",
+  "zh": "失败"
+ },
+ {
+  "id": 587,
+  "en": "Lost",
+  "zh": "落败"
+ },
+ {
+  "id": 588,
+  "en": "Mode",
+  "zh": "模式"
+ },
+ {
+  "id": 589,
+  "en": "Open",
+  "zh": "开放"
+ },
+ {
+  "id": 590,
+  "en": "Ping",
+  "zh": "延迟"
+ },
+ {
+  "id": 591,
+  "en": "Rank",
+  "zh": "段位"
+ },
+ {
+  "id": 592,
+  "en": "Ruby",
+  "zh": "红宝石"
+ },
+ {
+  "id": 593,
+  "en": "Save",
+  "zh": "保存"
+ },
+ {
+  "id": 594,
+  "en": "Sent",
+  "zh": "已发送"
+ },
+ {
+  "id": 595,
+  "en": "Skin",
+  "zh": "皮肤"
+ },
+ {
+  "id": 596,
+  "en": "Sort",
+  "zh": "排序"
+ },
+ {
+  "id": 597,
+  "en": "Test",
+  "zh": "测试"
+ },
+ {
+  "id": 598,
+  "en": "Time",
+  "zh": "时间"
+ },
+ {
+  "id": 599,
+  "en": "Used",
+  "zh": "已使用"
+ },
+ {
+  "id": 600,
+  "en": "Void",
+  "zh": "作废"
+ },
+ {
+  "id": 601,
+  "en": "Esc",
+  "zh": "Esc"
+ },
+ {
+  "id": 602,
+  "en": "Map",
+  "zh": "地图"
+ },
+ {
+  "id": 603,
+  "en": "Now",
+  "zh": "现在"
+ },
+ {
+  "id": 604,
+  "en": "W–L",
+  "zh": "胜–负"
+ },
+ {
+  "id": 605,
+  "en": "Finals.ID detects the end of the test match, then reads the scoreboards. Take a screenshot of the final scoreboard: test results are void.",
+  "zh": "Finals.ID 会检测测试对局的结束，然后读取计分板。请对最终计分板截图：测试结果作废。"
+ },
+ {
+  "id": 606,
+  "en": "General has been reimagined into a modular dashboard. You can now add, remove, drag, and resize cards around to suit your specific tastes.",
+  "zh": "「通用」已重构为模块化面板。现在你可以按自己的喜好添加、移除、拖动和调整卡片大小。"
+ },
+ {
+  "id": 607,
+  "en": "New Sessions tab: browse every play session the app has recorded, with kills, K/D, rounds, wins, RS change and the weapons you used.",
+  "zh": "新增「场次」标签页：浏览应用记录的所有场次，包含击杀、K/D、回合、胜场、RS 变化和你使用的武器。"
+ },
+ {
+  "id": 608,
+  "en": "Solo Showdown matches now have a preliminary design in the match history. I'll change and adjust it as necessary as I get more data.",
+  "zh": "单人决战对局现在在比赛记录中有了初步设计。等我拿到更多数据后会按需调整。"
+ },
+ {
+  "id": 609,
+  "en": "Signing in no longer pings friends as playing THE FINALS: the app sets you Invisible first, then restores your usual Steam status.",
+  "zh": "登录时不再向好友显示你正在玩 THE FINALS：应用会先将你设为隐身，再恢复你平时的 Steam 状态。"
+ },
+ {
+  "id": 610,
+  "en": "Fixed the rank score graph so it shows only the current season, instead of mixing in last season's scores from before the reset.",
+  "zh": "修复了段位分图表：现在只显示当前赛季，不再混入重置前的上赛季分数。"
+ },
+ {
+  "id": 611,
+  "en": "Session summaries now come straight from the server and update live. No more weird kill counts in the post-game summaries.",
+  "zh": "场次摘要现在直接来自服务器并实时更新。赛后摘要里不会再出现奇怪的击杀数了。"
+ },
+ {
+  "id": 612,
+  "en": "The queue was cancelled. The Finals.ID app of a player in your party stopped responding: it may be closed or offline.",
+  "zh": "队列已取消。你小队中一名玩家的 Finals.ID 应用停止响应：可能已关闭或离线。"
+ },
+ {
+  "id": 613,
+  "en": "Finals.ID detects the end of the match. Before you leave the end screen, take a screenshot of the final scoreboard.",
+  "zh": "Finals.ID 会检测对局的结束。离开结算界面前，请对最终计分板截图。"
+ },
+ {
+  "id": 614,
+  "en": "Light mode fixes: the Matches screen keeps its readable colors, and the match cards and popups are a bit less dark.",
+  "zh": "浅色模式修复：比赛界面保持可读的配色，对局卡片和弹窗也不再那么暗。"
+ },
+ {
+  "id": 615,
+  "en": "This counts toward being flagged for disruptive behavior. Too many missed or declined matches are bad for the game.",
+  "zh": "这会累计到扰乱行为标记。错过或拒绝的对局太多会影响游戏体验。"
+ },
+ {
+  "id": 616,
+  "en": "Added Share tournament button under finished tournaments in Match History, to match the website. Share your pain!",
+  "zh": "在比赛记录中已结束的锦标赛下新增「分享锦标赛」按钮，与网站保持一致。分享你的痛苦吧！"
+ },
+ {
+  "id": 617,
+  "en": "This server does not start tests from the app yet. Start it on the Finals.ID admin console, then press Join test.",
+  "zh": "该服务器暂不支持从应用内启动测试。请在 Finals.ID 管理控制台启动，然后按「加入测试」。"
+ },
+ {
+  "id": 618,
+  "en": "This session has no milestones, live joins, lobby reads or host steps: Finals.ID sends them on its admin routes.",
+  "zh": "本次场次没有里程碑、实时加入、房间读取或房主步骤：Finals.ID 通过其管理路由发送这些内容。"
+ },
+ {
+  "id": 619,
+  "en": "A newer version of Finals.id Companion App is required to keep tracking. Update from the website to continue.",
+  "zh": "需要更新版本的 Finals.id Companion App 才能继续追踪。请从网站更新后继续。"
+ },
+ {
+  "id": 620,
+  "en": "Finals.ID did not start the test. The other player must be a current site admin with a linked Embark account.",
+  "zh": "Finals.ID 未启动测试。另一名玩家必须是当前网站管理员，并已关联 Embark 账号。"
+ },
+ {
+  "id": 621,
+  "en": "Reorganized the homepage into tabs: Match History, Weapons, Loadouts, Sessions, and Other, to match website.",
+  "zh": "首页重组为标签页：比赛记录、武器、配装、场次和其他，与网站保持一致。"
+ },
+ {
+  "id": 622,
+  "en": "Match History brackets show each player's rank score beside the emblem and their club tag after the name.",
+  "zh": "比赛记录的对阵图会在徽章旁显示每位玩家的段位分，并在名字后显示俱乐部标签。"
+ },
+ {
+  "id": 623,
+  "en": "Finals.ID could not take you out of your in-game party. If you are still in one, leave it in THE FINALS.",
+  "zh": "Finals.ID 无法将你移出游戏内小队。如果你仍在某个小队中，请在 THE FINALS 里退出。"
+ },
+ {
+  "id": 624,
+  "en": "Match ping graph now available in additional match information. This is private and visible only to you.",
+  "zh": "对局延迟图表现已在更多对局信息中提供。该信息为私密内容，仅你可见。"
+ },
+ {
+  "id": 625,
+  "en": "The rank score graph now starts clean at the season reset instead of briefly showing last season's line.",
+  "zh": "段位分图表现在在赛季重置时从零开始，不再短暂显示上赛季的曲线。"
+ },
+ {
+  "id": 626,
+  "en": "This server does not send the field check of each upload yet. An upload here still goes to the check.",
+  "zh": "该服务器暂不发送每次上传的字段校验。此处的上传仍会进入校验。"
+ },
+ {
+  "id": 627,
+  "en": "Both teams confirm the result. Finals.ID sets it when the clock ends, or at once with 4 screenshots.",
+  "zh": "双方队伍确认结果。Finals.ID 会在计时结束时判定，或在收到 4 张截图后立即判定。"
+ },
+ {
+  "id": 628,
+  "en": "The map Relay Grid shows with its in-game name and arena art instead of being called Heavy Hitters.",
+  "zh": "地图「中继网格」现在显示其游戏内名称和竞技场图像，而不再叫作「重量级对决」。"
+ },
+ {
+  "id": 629,
+  "en": "Long session summaries put your kill stats in a second column instead of running down the screen.",
+  "zh": "较长的场次摘要会将击杀数据放在第二列，而不是一直往下延伸。"
+ },
+ {
+  "id": 630,
+  "en": "The app no longer opens Steam by itself. While Steam is closed it waits quietly until you do so.",
+  "zh": "应用不再自行启动 Steam。Steam 关闭时，应用会安静等待你手动打开。"
+ },
+ {
+  "id": 631,
+  "en": "Until the clock ends, a late screenshot can correct a value in these tables, but not the result.",
+  "zh": "在计时结束前，迟到的截图可以更正这些表格中的数值，但无法更改结果。"
+ },
+ {
+  "id": 632,
+  "en": "Steam login works again after the latest update 'broke' it. Embark. Please. Work with us here.",
+  "zh": "Steam 登录在最新更新「弄坏」后恢复正常。Embark，拜托，配合一下我们吧。"
+ },
+ {
+  "id": 633,
+  "en": "Finals.ID cannot read your friend list from THE FINALS now. The app tries again in a minute.",
+  "zh": "Finals.ID 目前无法从 THE FINALS 读取你的好友列表。应用会在一分钟后重试。"
+ },
+ {
+  "id": 634,
+  "en": "The session recap, the Sessions tab and the Playstyle card now share the proper radar graph.",
+  "zh": "场次回顾、「场次」标签页和打法卡片现在共用正确的雷达图。"
+ },
+ {
+  "id": 635,
+  "en": "Added a While you were away popup that shows what stats changed while you were not tracked.",
+  "zh": "新增「离开期间」弹窗，显示你未被追踪期间统计数据的变化。"
+ },
+ {
+  "id": 636,
+  "en": "This test step is not shown in this version of the app. Stop the test or leave test mode.",
+  "zh": "此版本的应用不显示该测试步骤。请停止测试或退出测试模式。"
+ },
+ {
+  "id": 637,
+  "en": "Finals.ID could not check your in-game party. If you are in one, leave it in THE FINALS.",
+  "zh": "Finals.ID 无法检查你的游戏内小队。如果你在某个小队中，请在 THE FINALS 里退出。"
+ },
+ {
+  "id": 638,
+  "en": "If you enjoyed it, buying me a coffee helps an absolute ton with keeping things going!",
+  "zh": "如果你觉得好用，请我喝杯咖啡对维持项目运转有极大帮助！"
+ },
+ {
+  "id": 639,
+  "en": "Weapon ranks on Total now follow your total stats, the same standings as the website.",
+  "zh": "「总计」中的武器排名现在依据你的总计数据，与网站的排名一致。"
+ },
+ {
+  "id": 640,
+  "en": "Sessions tab: filter by the last 7 or 30 days, and export your whole history to CSV.",
+  "zh": "「场次」标签页：可按最近 7 天或 30 天筛选，并可将完整历史导出为 CSV。"
+ },
+ {
+  "id": 641,
+  "en": "You did your part. If Finals.ID cannot set the result, your rating does not change.",
+  "zh": "你已经尽了自己的责任。如果 Finals.ID 无法判定结果，你的排位分不会变化。"
+ },
+ {
+  "id": 642,
+  "en": "We sent you a lobby invite in THE FINALS. Accept it there, or join with the code.",
+  "zh": "我们已在 THE FINALS 中向你发送房间邀请。请在那里接受，或使用代码加入。"
+ },
+ {
+  "id": 643,
+  "en": "Updates download faster and slow connections no longer get cut off mid-download.",
+  "zh": "更新下载更快，网络较慢时也不会再下载中途断开。"
+ },
+ {
+  "id": 644,
+  "en": "The game started before everyone was ready, so Finals.ID is making a new lobby.",
+  "zh": "在所有人就绪前游戏就开始了，因此 Finals.ID 正在创建新房间。"
+ },
+ {
+  "id": 645,
+  "en": "Added the ability to see the current active map window for Ranked and Cashout.",
+  "zh": "新增查看排位和提现当前生效地图时段的功能。"
+ },
+ {
+  "id": 646,
+  "en": "The app tries again every few seconds. Your rank shows the last known value.",
+  "zh": "应用每隔几秒重试一次。你的段位显示的是最后一次已知数值。"
+ },
+ {
+  "id": 647,
+  "en": "This is your in-game party. To add a player, change the party in THE FINALS.",
+  "zh": "这是你的游戏内小队。要添加玩家，请在 THE FINALS 中更改小队。"
+ },
+ {
+  "id": 648,
+  "en": "We sent you a second invite in THE FINALS. You can still join with the code.",
+  "zh": "我们已在 THE FINALS 中向你发送第二次邀请。你仍可使用代码加入。"
+ },
+ {
+  "id": 649,
+  "en": "Couldn't update your privacy settings. Check your connection and try again.",
+  "zh": "无法更新你的隐私设置。请检查网络连接后重试。"
+ },
+ {
+  "id": 650,
+  "en": "That vote missed the turn: it is not your team’s turn or the timer ran out.",
+  "zh": "该投票错过了时机：现在不是你小队的回合，或计时已结束。"
+ },
+ {
+  "id": 651,
+  "en": "Loadouts now show the actual weapon skins and cosmetics you have equipped.",
+  "zh": "配装现在会显示你实际装备的武器皮肤和外观。"
+ },
+ {
+  "id": 652,
+  "en": "The test match finished. Test results are void and never count for rating.",
+  "zh": "测试对局已结束。测试结果作废，不计入排位分。"
+ },
+ {
+  "id": 653,
+  "en": "No party invites. Invites from friends show here and on top of every tab.",
+  "zh": "暂无小队邀请。好友的邀请会显示在这里以及每个标签页的顶部。"
+ },
+ {
+  "id": 654,
+  "en": "Result set from 3 screenshots of one team. The other team did not submit.",
+  "zh": "结果由一支队伍的 3 张截图判定。另一支队伍未提交。"
+ },
+ {
+  "id": 655,
+  "en": "A party in the queue cannot invite. Cancel the queue to invite a friend.",
+  "zh": "小队在队列中时无法邀请。请取消队列后再邀请好友。"
+ },
+ {
+  "id": 656,
+  "en": "Career over time shows K/D to four decimal places and win rate to three.",
+  "zh": "生涯走势显示 K/D 保留四位小数，胜率保留三位小数。"
+ },
+ {
+  "id": 657,
+  "en": "Match History now shows last season's matches under a season separator.",
+  "zh": "比赛记录现在会在赛季分隔符下显示上赛季的对局。"
+ },
+ {
+  "id": 658,
+  "en": "Added a Refresh button to Loadouts to pull the latest from the server.",
+  "zh": "为配装添加「刷新」按钮，可从服务器获取最新数据。"
+ },
+ {
+  "id": 659,
+  "en": "The lobby host became unavailable, so Finals.ID is making a new lobby.",
+  "zh": "房间房主已不可用，因此 Finals.ID 正在创建新房间。"
+ },
+ {
+  "id": 660,
+  "en": "Your in-game party stays, because a player of your new party is in it.",
+  "zh": "你的游戏内小队保持不变，因为新小队的其中一名玩家就在该小队中。"
+ },
+ {
+  "id": 661,
+  "en": "This one does not count toward being flagged for disruptive behavior.",
+  "zh": "这一次不会计入扰乱行为标记。"
+ },
+ {
+  "id": 662,
+  "en": "Map backgrounds now show for both Nozomi and Nozomi/Citadel matches.",
+  "zh": "诺佐米和诺佐米/堡垒的对局现在都会显示地图背景。"
+ },
+ {
+  "id": 663,
+  "en": "New announcement banner to bug people to raise this issue to embark.",
+  "zh": "新增公告横幅，提醒大家向 Embark 反馈此问题。"
+ },
+ {
+  "id": 664,
+  "en": "Test result from one valid screenshot. A test takes one as the fact.",
+  "zh": "测试结果由一张有效截图得出。测试以一张截图为准。"
+ },
+ {
+  "id": 665,
+  "en": "You are not in a live admin test, or you are no longer a site admin.",
+  "zh": "你不在进行中的管理员测试中，或你已不再是网站管理员。"
+ },
+ {
+  "id": 666,
+  "en": "No invite or join has run yet. They start once the lobby is set up.",
+  "zh": "尚未执行邀请或加入。房间设置完成后才会开始。"
+ },
+ {
+  "id": 667,
+  "en": "Season 12 Spotlight matches are labeled Spotlight in Match History.",
+  "zh": "第 12 赛季的聚焦对局在比赛记录中标记为「聚焦」。"
+ },
+ {
+  "id": 668,
+  "en": "Fixed a crash on startup that some people ran into after updating.",
+  "zh": "修复了部分玩家更新后启动时崩溃的问题。"
+ },
+ {
+  "id": 669,
+  "en": "If you think that this ruling is wrong, contact us in the Discord.",
+  "zh": "如果你认为该判定有误，请在 Discord 中联系我们。"
+ },
+ {
+  "id": 670,
+  "en": "Initial rework of The Finals Tracker into the current application.",
+  "zh": "将 The Finals Tracker 初步重构为当前应用。"
+ },
+ {
+  "id": 671,
+  "en": "Couldn't send your feedback. Check your connection and try again.",
+  "zh": "无法发送你的反馈。请检查网络连接后重试。"
+ },
+ {
+  "id": 672,
+  "en": "Finals.ID is not available. The app tries again in a few seconds.",
+  "zh": "Finals.ID 暂不可用。应用会在几秒后重试。"
+ },
+ {
+  "id": 673,
+  "en": "Please agree on a map, or a completely random one will be banned.",
+  "zh": "请就地图达成一致，否则将随机禁用一张。"
+ },
+ {
+  "id": 674,
+  "en": "Couldn't revoke your token. Check your connection and try again.",
+  "zh": "无法撤销你的令牌。请检查网络连接后重试。"
+ },
+ {
+  "id": 675,
+  "en": "Result set from the screenshots. Both teams confirm this result.",
+  "zh": "结果由截图判定。双方队伍均已确认该结果。"
+ },
+ {
+  "id": 676,
+  "en": "You're in a Ranked or Cashout match. Ready is off until it ends.",
+  "zh": "你正在排位或提现对局中。对局结束前无法就绪。"
+ },
+ {
+  "id": 677,
+  "en": "Party member's votes show on the top right of their chosen map.",
+  "zh": "小队成员的投票显示在其所选地图的右上角。"
+ },
+ {
+  "id": 678,
+  "en": "That map can’t be banned. Pick a map that is still in the pool.",
+  "zh": "该地图无法禁用。请选择仍在池中的地图。"
+ },
+ {
+  "id": 679,
+  "en": "This server does not say which spot is yours, so you can watch ",
+  "zh": "该服务器不会说明哪个位置属于你，因此你可以观看 "
+ },
+ {
+  "id": 680,
+  "en": "Result set from the screenshots. 4 accepted screenshots agree.",
+  "zh": "结果由截图判定。4 张已接受的截图一致。"
+ },
+ {
+  "id": 681,
+  "en": "Test result from both screenshots. They show the same result.",
+  "zh": "测试结果由两张截图得出。它们显示的结果相同。"
+ },
+ {
+  "id": 682,
+  "en": "That test step already closed. The view updates in a moment.",
+  "zh": "该测试步骤已关闭。视图稍后更新。"
+ },
+ {
+  "id": 683,
+  "en": "No uploads yet. Each upload and its field check shows here.",
+  "zh": "暂无上传。每次上传及其字段校验都会显示在这里。"
+ },
+ {
+  "id": 684,
+  "en": "Not enough matches for a graph yet. The graph shows after ",
+  "zh": "对局数量还不足以生成图表。图表会在 "
+ },
+ {
+  "id": 685,
+  "en": "That screenshot could not be opened. Choose another image.",
+  "zh": "无法打开该截图。请选择其他图片。"
+ },
+ {
+  "id": 686,
+  "en": "This person has been temporarily blocked from matchmaking.",
+  "zh": "此人已被暂时禁止匹配。"
+ },
+ {
+  "id": 687,
+  "en": "FIDR is Solos or Trios. Find a third to queue as a party.",
+  "zh": "FIDR 仅支持单排或三排。请找第三人组队排队。"
+ },
+ {
+  "id": 688,
+  "en": "Go to Gamemode → Private Match → Paste Lobby Code → Join.",
+  "zh": "前往游戏模式 → 私人比赛 → 粘贴房间代码 → 加入。"
+ },
+ {
+  "id": 689,
+  "en": "No spots left. Cancel an invite to invite another player.",
+  "zh": "没有空位。请取消一个邀请后再邀请其他玩家。"
+ },
+ {
+  "id": 690,
+  "en": "The scoreboard does not show which team cashed out first.",
+  "zh": "计分板未显示哪支队伍先完成提现。"
+ },
+ {
+  "id": 691,
+  "en": "Your party is in a match. Invite friends after the match.",
+  "zh": "你的小队正在对局中。请在对局结束后邀请好友。"
+ },
+ {
+  "id": 692,
+  "en": "Your Ready ends and you leave your party when you accept.",
+  "zh": "接受后你将取消就绪并退出当前小队。"
+ },
+ {
+  "id": 693,
+  "en": "Between rounds. Ping resumes when the next round starts.",
+  "zh": "回合之间。延迟检测将在下一回合开始时恢复。"
+ },
+ {
+  "id": 694,
+  "en": "Check the other admin’s id, the region and the scenario.",
+  "zh": "请核对另一名管理员的 ID、区域和场景。"
+ },
+ {
+  "id": 695,
+  "en": "Couldn't load loadouts. Check your connection and retry.",
+  "zh": "无法加载配装。请检查网络连接后重试。"
+ },
+ {
+  "id": 696,
+  "en": "Finals.ID does not take a screenshot for this match now.",
+  "zh": "Finals.ID 目前不会为该对局截图。"
+ },
+ {
+  "id": 697,
+  "en": "Fixed a bug where the anticheat falsely flagged the app.",
+  "zh": "修复了反作弊误报该应用的问题。"
+ },
+ {
+  "id": 698,
+  "en": " layout. Drag, resize, remove, or add cards, then save.",
+  "zh": " 布局。拖动、调整大小、移除或添加卡片，然后保存。"
+ },
+ {
+  "id": 699,
+  "en": "4 screenshots are in. The clock now runs twice as fast.",
+  "zh": "4 张截图已提交。现在计时以两倍速度运行。"
+ },
+ {
+  "id": 700,
+  "en": "Global chat is not open now. Your message was not sent.",
+  "zh": "全局聊天目前未开放。你的消息未发送。"
+ },
+ {
+  "id": 701,
+  "en": "Your current credentials don't have access to this data",
+  "zh": "你当前的凭据无权访问此数据"
+ },
+ {
+  "id": 702,
+  "en": "Couldn’t reach Finals.ID. Upload the screenshot again.",
+  "zh": "无法连接 Finals.ID。请重新上传截图。"
+ },
+ {
+  "id": 703,
+  "en": "Enter the other admin’s Steam ID or Embark account id.",
+  "zh": "请输入另一名管理员的 Steam ID 或 Embark 账号 ID。"
+ },
+ {
+  "id": 704,
+  "en": "A player left your party, so the queue was cancelled.",
+  "zh": "一名玩家离开了你的小队，队列已取消。"
+ },
+ {
+  "id": 705,
+  "en": "Couldn't submit. Check your connection and try again.",
+  "zh": "无法提交。请检查网络连接后重试。"
+ },
+ {
+  "id": 706,
+  "en": "This app and api are currently maintained just by me.",
+  "zh": "此应用和 API 目前仅由我一人维护。"
+ },
+ {
+  "id": 707,
+  "en": "Couldn't update the Invisible after refresh setting.",
+  "zh": "无法更新「刷新后隐身」设置。"
+ },
+ {
+  "id": 708,
+  "en": "FIDR tabs, available after you create a FIDR account",
+  "zh": "FIDR 标签页，创建 FIDR 账号后可用"
+ },
+ {
+  "id": 709,
+  "en": "Fixed a blank window that some Linux users ran into.",
+  "zh": "修复了部分 Linux 用户遇到的空白窗口问题。"
+ },
+ {
+  "id": 710,
+  "en": "Not registered in FIDR. Ask your friend to register.",
+  "zh": "未在 FIDR 注册。请让好友先注册。"
+ },
+ {
+  "id": 711,
+  "en": "You can leave this screen. Your status updates here.",
+  "zh": "你可以离开此界面。状态会在这里更新。"
+ },
+ {
+  "id": 712,
+  "en": "You leave the queue and your party when you accept.",
+  "zh": "接受后你将退出队列和小队。"
+ },
+ {
+  "id": 713,
+  "en": "Finals.ID is making a new lobby. Use the new code.",
+  "zh": "Finals.ID 正在创建新房间。请使用新代码。"
+ },
+ {
+  "id": 714,
+  "en": "No rating change until the admin sets the result.",
+  "zh": "在管理员判定结果前，排位分不会变化。"
+ },
+ {
+  "id": 715,
+  "en": "The ready check failed. You’re back in FIDR home.",
+  "zh": "准备确认失败。你已返回 FIDR 首页。"
+ },
+ {
+  "id": 716,
+  "en": "You already have a running test. Press Join test.",
+  "zh": "你已有进行中的测试。请按「加入测试」。"
+ },
+ {
+  "id": 717,
+  "en": "You cannot invite friends while you have a block.",
+  "zh": "在被封禁期间无法邀请好友。"
+ },
+ {
+  "id": 718,
+  "en": "Your last match closed. You’re back in FIDR home.",
+  "zh": "你的上一场对局已关闭。你已返回 FIDR 首页。"
+ },
+ {
+  "id": 719,
+  "en": "You’re back in the queue, in your original place.",
+  "zh": "你已回到队列中的原位置。"
+ },
+ {
+  "id": 720,
+  "en": "Preparations for the big update and small fixes.",
+  "zh": "为大更新做准备并修复一些小问题。"
+ },
+ {
+  "id": 721,
+  "en": "You get no party invites while you have a block.",
+  "zh": "被封禁期间你不会收到小队邀请。"
+ },
+ {
+  "id": 722,
+  "en": "A participant is no longer a linked site admin.",
+  "zh": "一名参与者已不再是已关联的网站管理员。"
+ },
+ {
+  "id": 723,
+  "en": "That is not a Steam ID or an Embark account id.",
+  "zh": "这不是 Steam ID 或 Embark 账号 ID。"
+ },
+ {
+  "id": 724,
+  "en": "You also left your in-game party in THE FINALS.",
+  "zh": "你同时也退出了 THE FINALS 中的游戏内小队。"
+ },
+ {
+  "id": 725,
+  "en": "Call an Admin is not available for this match.",
+  "zh": "该对局无法呼叫管理员。"
+ },
+ {
+  "id": 726,
+  "en": "Jev could not confirm enough of the screenshot",
+  "zh": "Jev 无法确认截图中的足够信息"
+ },
+ {
+  "id": 727,
+  "en": "That didn’t go through. Refresh and try again.",
+  "zh": "操作未成功。请刷新后重试。"
+ },
+ {
+  "id": 728,
+  "en": "The placements and prizes do not hold together",
+  "zh": "名次与奖励前后不一致"
+ },
+ {
+  "id": 729,
+  "en": "This person has been blocked from matchmaking.",
+  "zh": "此人已被禁止匹配。"
+ },
+ {
+  "id": 730,
+  "en": " If you press Find game now, you queue alone.",
+  "zh": " 如果你现在按「查找对局」，将独自排队。"
+ },
+ {
+  "id": 731,
+  "en": " once the match ends, and confirm the result.",
+  "zh": " 对局结束后，并确认结果。"
+ },
+ {
+  "id": 732,
+  "en": "Check that both teams and all six names show.",
+  "zh": "请确认双方队伍和全部六个名字都显示出来。"
+ },
+ {
+  "id": 733,
+  "en": "Everyone is in. The match starts in a moment.",
+  "zh": "所有人都已加入。对局即将开始。"
+ },
+ {
+  "id": 734,
+  "en": "Your call did not reach Finals.ID. Try again.",
+  "zh": "你的请求未送达 Finals.ID。请重试。"
+ },
+ {
+  "id": 735,
+  "en": "Couldn't update the start-minimized setting.",
+  "zh": "无法更新启动时最小化设置。"
+ },
+ {
+  "id": 736,
+  "en": "Keep this screen open until the upload ends.",
+  "zh": "请保持此界面打开，直到上传完成。"
+ },
+ {
+  "id": 737,
+  "en": "Results are void and never count for rating.",
+  "zh": "结果作废，永不计入排位分。"
+ },
+ {
+  "id": 738,
+  "en": "The party leader removed you from the party.",
+  "zh": "小队长已将你移出小队。"
+ },
+ {
+  "id": 739,
+  "en": "The screenshots did not agree on this value.",
+  "zh": "各截图在此数值上不一致。"
+ },
+ {
+  "id": 740,
+  "en": "Type the Embark ID of a player in the field.",
+  "zh": "请输入场上某位玩家的 Embark ID。"
+ },
+ {
+  "id": 741,
+  "en": "You are temporarily blocked from matchmaking",
+  "zh": "你已被暂时禁止匹配"
+ },
+ {
+  "id": 742,
+  "en": "You can call an admin after the ready check.",
+  "zh": "准备确认后你可以呼叫管理员。"
+ },
+ {
+  "id": 743,
+  "en": "A player in your party cancelled the queue.",
+  "zh": "你小队中的一名玩家取消了排队。"
+ },
+ {
+  "id": 744,
+  "en": "Check the name, or type the full Embark ID.",
+  "zh": "请核对名称，或输入完整的 Embark ID。"
+ },
+ {
+  "id": 745,
+  "en": "The game lobby could not be set up in time.",
+  "zh": "游戏房间未能及时创建。"
+ },
+ {
+  "id": 746,
+  "en": "This match closed more than 10 minutes ago.",
+  "zh": "该对局已在 10 分钟前关闭。"
+ },
+ {
+  "id": 747,
+  "en": "This scenario makes no live invite or join.",
+  "zh": "该场景不会发起实时邀请或加入。"
+ },
+ {
+  "id": 748,
+  "en": "Couldn't re-mint. Reopen the app to retry.",
+  "zh": "无法重新签发令牌。请重新打开应用后重试。"
+ },
+ {
+  "id": 749,
+  "en": "Couldn't update the close-to-tray setting.",
+  "zh": "无法更新关闭到托盘设置。"
+ },
+ {
+  "id": 750,
+  "en": "Couldn't update the session-stats setting.",
+  "zh": "无法更新场次统计设置。"
+ },
+ {
+  "id": 751,
+  "en": "Couldn't update the token refresh setting.",
+  "zh": "无法更新令牌刷新设置。"
+ },
+ {
+  "id": 752,
+  "en": "Not every player joined the lobby in time.",
+  "zh": "并非所有玩家都及时加入了房间。"
+ },
+ {
+  "id": 753,
+  "en": "Couldn't update the Steam restore status.",
+  "zh": "无法更新 Steam 恢复状态。"
+ },
+ {
+  "id": 754,
+  "en": "Couldn't update the Steam status setting.",
+  "zh": "无法更新 Steam 状态设置。"
+ },
+ {
+  "id": 755,
+  "en": "FIDR tabs, not available in an admin test",
+  "zh": "FIDR 标签页，在管理员测试中不可用"
+ },
+ {
+  "id": 756,
+  "en": "Rank history and career-over-time graphs.",
+  "zh": "段位历史与生涯走势图表。"
+ },
+ {
+  "id": 757,
+  "en": "You can call an admin after the map bans.",
+  "zh": "禁用地图后你可以呼叫管理员。"
+ },
+ {
+  "id": 758,
+  "en": "FIDR isn’t available on this server yet.",
+  "zh": "该服务器暂不支持 FIDR。"
+ },
+ {
+  "id": 759,
+  "en": "Press F12 in Steam to take a screenshot.",
+  "zh": "在 Steam 中按 F12 截图。"
+ },
+ {
+  "id": 760,
+  "en": "The rating graph shows on Profile after ",
+  "zh": "排位分图表会在 "
+ },
+ {
+  "id": 761,
+  "en": "Couldn't update Steam status detection.",
+  "zh": "无法更新 Steam 状态检测。"
+ },
+ {
+  "id": 762,
+  "en": "One screenshot shows a different result",
+  "zh": "有一张截图显示的结果不同"
+ },
+ {
+  "id": 763,
+  "en": "Stay in the main menu, so that you can ",
+  "zh": "请停留在主菜单，以便 "
+ },
+ {
+  "id": 764,
+  "en": "Your vote didn’t go through. Try again.",
+  "zh": "你的投票未成功。请重试。"
+ },
+ {
+  "id": 765,
+  "en": "An admin blocked you from matchmaking.",
+  "zh": "管理员已禁止你匹配。"
+ },
+ {
+  "id": 766,
+  "en": "The logo now recolors with your theme.",
+  "zh": "徽标现在会随你的主题变色。"
+ },
+ {
+  "id": 767,
+  "en": "This match already has an open ticket.",
+  "zh": "这场对局已有未关闭的工单。"
+ },
+ {
+  "id": 768,
+  "en": "When the clock ends, or at once with 4",
+  "zh": "计时结束时，或凑满 4 时立即"
+ },
+ {
+  "id": 769,
+  "en": "Check what you entered and try again.",
+  "zh": "请检查输入内容后重试。"
+ },
+ {
+  "id": 770,
+  "en": "Choose a PNG, JPG or WebP screenshot.",
+  "zh": "请选择 PNG、JPG 或 WebP 格式的截图。"
+ },
+ {
+  "id": 771,
+  "en": "Global chat opens after the map bans.",
+  "zh": "全局聊天在禁用地图结束后开放。"
+ },
+ {
+  "id": 772,
+  "en": "Not enough valid screenshots arrived.",
+  "zh": "收到的有效截图不足。"
+ },
+ {
+  "id": 773,
+  "en": "The game lobby was in the wrong mode.",
+  "zh": "游戏房间的模式不正确。"
+ },
+ {
+  "id": 774,
+  "en": "The result was not confirmed in time.",
+  "zh": "结果未及时确认。"
+ },
+ {
+  "id": 775,
+  "en": "You leave your party when you accept.",
+  "zh": "接受后你将退出当前小队。"
+ },
+ {
+  "id": 776,
+  "en": "another round of the same tournament",
+  "zh": "同一锦标赛的下一轮"
+ },
+ {
+  "id": 777,
+  "en": "Couldn't reach the server. Retrying.",
+  "zh": "无法连接服务器。正在重试。"
+ },
+ {
+  "id": 778,
+  "en": "Couldn't read your privacy settings.",
+  "zh": "无法读取你的隐私设置。"
+ },
+ {
+  "id": 779,
+  "en": "Couldn’t reach Finals.ID. Try again.",
+  "zh": "无法连接 Finals.ID。请重试。"
+ },
+ {
+  "id": 780,
+  "en": "The player must have a FIDR account.",
+  "zh": "该玩家必须拥有 FIDR 账号。"
+ },
+ {
+  "id": 781,
+  "en": "You leave the queue when you accept.",
+  "zh": "接受后你将退出队列。"
+ },
+ {
+  "id": 782,
+  "en": "Your message didn’t send. Try again.",
+  "zh": "消息未能发送。请重试。"
+ },
+ {
+  "id": 783,
+  "en": "Couldn’t reach Finals.ID. Retrying.",
+  "zh": "无法连接 Finals.ID。正在重试。"
+ },
+ {
+  "id": 784,
+  "en": "Link a Discord account to use this.",
+  "zh": "请关联 Discord 账号后使用。"
+ },
+ {
+  "id": 785,
+  "en": "Only your team sees these messages.",
+  "zh": "只有你的队伍能看到这些消息。"
+ },
+ {
+  "id": 786,
+  "en": "Picking the map from the remaining ",
+  "zh": "从剩余地图中选择 "
+ },
+ {
+  "id": 787,
+  "en": "The game lobby could not be set up.",
+  "zh": "无法创建游戏房间。"
+ },
+ {
+  "id": 788,
+  "en": "Too many submissions. Try again in ",
+  "zh": "提交次数过多。请在 "
+ },
+ {
+  "id": 789,
+  "en": "Cashout is off the ranked rotation",
+  "zh": "提现已移出排位轮换"
+ },
+ {
+  "id": 790,
+  "en": "Finals.ID could not open a ticket.",
+  "zh": "Finals.ID 无法创建工单。"
+ },
+ {
+  "id": 791,
+  "en": "Pick a friend or type an Embark ID",
+  "zh": "选择好友或输入 Embark ID"
+ },
+ {
+  "id": 792,
+  "en": "The lobby host became unavailable.",
+  "zh": "房间房主已不可用。"
+ },
+ {
+  "id": 793,
+  "en": "The match ran past its time limit.",
+  "zh": "对局已超过时间限制。"
+ },
+ {
+  "id": 794,
+  "en": "The match was closed by Finals.ID.",
+  "zh": "对局已被 Finals.ID 关闭。"
+ },
+ {
+  "id": 795,
+  "en": "the screenshots but not upload one",
+  "zh": "有截图但未上传一张"
+ },
+ {
+  "id": 796,
+  "en": "Couldn't open the desktop widget.",
+  "zh": "无法打开桌面小组件。"
+ },
+ {
+  "id": 797,
+  "en": "Invite two friends to play Trios.",
+  "zh": "邀请两位好友来玩三排。"
+ },
+ {
+  "id": 798,
+  "en": "No FIDR queue window is scheduled",
+  "zh": "未安排 FIDR 排队时段"
+ },
+ {
+  "id": 799,
+  "en": "Only the party leader can invite.",
+  "zh": "只有小队队长可以邀请。"
+ },
+ {
+  "id": 800,
+  "en": "The test ran past its time limit.",
+  "zh": "测试已超过时间限制。"
+ },
+ {
+  "id": 801,
+  "en": "The white row is another player’s",
+  "zh": "白色行是其他玩家的"
+ },
+ {
+  "id": 802,
+  "en": "Ping over the match: no reading.",
+  "zh": "整场对局延迟：无数据。"
+ },
+ {
+  "id": 803,
+  "en": "Result set from the screenshots.",
+  "zh": "结果已根据截图设定。"
+ },
+ {
+  "id": 804,
+  "en": "That test request was not valid.",
+  "zh": "该测试请求无效。"
+ },
+ {
+  "id": 805,
+  "en": "The app tries again in a minute.",
+  "zh": "应用将在一分钟后重试。"
+ },
+ {
+  "id": 806,
+  "en": "You are blocked from matchmaking",
+  "zh": "你已被禁止匹配"
+ },
+ {
+  "id": 807,
+  "en": "Your Ready ends when you accept.",
+  "zh": "接受后你的准备状态将结束。"
+ },
+ {
+  "id": 808,
+  "en": "Couldn't read autostart status.",
+  "zh": "无法读取自启动状态。"
+ },
+ {
+  "id": 809,
+  "en": "Not in a Cashout or Ranked game",
+  "zh": "不在提现或排位对局中"
+ },
+ {
+  "id": 810,
+  "en": "Ranked 3v3 using the TGM system",
+  "zh": "采用 TGM 系统的排位 3v3"
+ },
+ {
+  "id": 811,
+  "en": "The image could not be prepared",
+  "zh": "无法处理该图片"
+ },
+ {
+  "id": 812,
+  "en": "You are no longer a site admin.",
+  "zh": "你已不再是网站管理员。"
+ },
+ {
+  "id": 813,
+  "en": "Change the party in THE FINALS",
+  "zh": "在 THE FINALS 中更换小队"
+ },
+ {
+  "id": 814,
+  "en": "Liked the app? Buy me a coffee",
+  "zh": "喜欢这个应用？请我喝杯咖啡"
+ },
+ {
+  "id": 815,
+  "en": "One vote bans the map at once.",
+  "zh": "一票即可立即禁用该地图。"
+ },
+ {
+  "id": 816,
+  "en": "Solos only play against Solos.",
+  "zh": "单排只会匹配单排。"
+ },
+ {
+  "id": 817,
+  "en": "The panels could not be placed",
+  "zh": "无法放置面板"
+ },
+ {
+  "id": 818,
+  "en": "Trios only play against Trios.",
+  "zh": "三排只会匹配三排。"
+ },
+ {
+  "id": 819,
+  "en": "Your team and all six players.",
+  "zh": "你的队伍以及全部六名玩家。"
+ },
+ {
+  "id": 820,
+  "en": "At 0, a random map is banned.",
+  "zh": "归零时随机禁用一张地图。"
+ },
+ {
+  "id": 821,
+  "en": "Hidden until the map bans end",
+  "zh": "在禁用地图结束前隐藏"
+ },
+ {
+  "id": 822,
+  "en": "New tabs added: API and Club.",
+  "zh": "新增标签页：API 和俱乐部。"
+ },
+ {
+  "id": 823,
+  "en": "The layout was not recognised",
+  "zh": "无法识别该布局"
+ },
+ {
+  "id": 824,
+  "en": "You cannot call an admin now.",
+  "zh": "现在无法呼叫管理员。"
+ },
+ {
+  "id": 825,
+  "en": "Invite a third player first.",
+  "zh": "请先邀请第三位玩家。"
+ },
+ {
+  "id": 826,
+  "en": "join the lobby with the code",
+  "zh": "用代码加入房间"
+ },
+ {
+  "id": 827,
+  "en": "Maps contradict the rotation",
+  "zh": "地图与轮换不一致"
+ },
+ {
+  "id": 828,
+  "en": "Rows with 4 or more failures",
+  "zh": "失败 4 次及以上的行"
+ },
+ {
+  "id": 829,
+  "en": "The rows could not be placed",
+  "zh": "无法放置这些行"
+ },
+ {
+  "id": 830,
+  "en": "Too many names or ids failed",
+  "zh": "失败的名字或 ID 过多"
+ },
+ {
+  "id": 831,
+  "en": "Two uploads read differently",
+  "zh": "两次上传的读取结果不同"
+ },
+ {
+  "id": 832,
+  "en": "Average ping over the match",
+  "zh": "整场对局的平均延迟"
+ },
+ {
+  "id": 833,
+  "en": "No winner on the scoreboard",
+  "zh": "计分板上没有胜者"
+ },
+ {
+  "id": 834,
+  "en": "Sessions are more reliable.",
+  "zh": "场次数据更可靠。"
+ },
+ {
+  "id": 835,
+  "en": "Sign in to use admin tests.",
+  "zh": "请登录后使用管理员测试。"
+ },
+ {
+  "id": 836,
+  "en": "The FIDR queue window ended",
+  "zh": "FIDR 排队时段已结束"
+ },
+ {
+  "id": 837,
+  "en": "The image could not be read",
+  "zh": "无法读取该图片"
+ },
+ {
+  "id": 838,
+  "en": "This block has no end date.",
+  "zh": "该封禁没有结束日期。"
+ },
+ {
+  "id": 839,
+  "en": "An admin stopped the test.",
+  "zh": "管理员已停止该测试。"
+ },
+ {
+  "id": 840,
+  "en": "Creating your FIDR account",
+  "zh": "正在创建你的 FIDR 账号"
+ },
+ {
+  "id": 841,
+  "en": "One round. Best team wins.",
+  "zh": "一局定胜负，最强队伍获胜。"
+ },
+ {
+  "id": 842,
+  "en": "Only the leader can invite",
+  "zh": "只有队长可以邀请"
+ },
+ {
+  "id": 843,
+  "en": "screenshot the scoreboards",
+  "zh": "对计分板截图"
+ },
+ {
+  "id": 844,
+  "en": "Simulated failure injected",
+  "zh": "已注入模拟故障"
+ },
+ {
+  "id": 845,
+  "en": "That name wasn't accepted.",
+  "zh": "该名称未被接受。"
+ },
+ {
+  "id": 846,
+  "en": " rated matches. You have ",
+  "zh": " 场排位分对局。你有 "
+ },
+ {
+  "id": 847,
+  "en": "Couldn't reach the server",
+  "zh": "无法连接服务器"
+ },
+ {
+  "id": 848,
+  "en": "Loading the map schedule…",
+  "zh": "正在加载地图日程…"
+ },
+ {
+  "id": 849,
+  "en": "Pay attention to the app!",
+  "zh": "请注意应用！"
+ },
+ {
+  "id": 850,
+  "en": "Update ready, restarting…",
+  "zh": "更新已就绪，正在重启…"
+ },
+ {
+  "id": 851,
+  "en": "You aren’t in this match.",
+  "zh": "你不在该对局中。"
+ },
+ {
+  "id": 852,
+  "en": "Your starting rating for ",
+  "zh": "你的起始排位分，适用于 "
+ },
+ {
+  "id": 853,
+  "en": "Blocked from matchmaking",
+  "zh": "已被禁止匹配"
+ },
+ {
+  "id": 854,
+  "en": "Cannot get an invite now",
+  "zh": "现在无法获取邀请"
+ },
+ {
+  "id": 855,
+  "en": "Loading who queues with ",
+  "zh": "正在加载与 一起排队的玩家 "
+ },
+ {
+  "id": 856,
+  "en": "No Embark account linked",
+  "zh": "未关联 Embark 账号"
+ },
+ {
+  "id": 857,
+  "en": "Random ban, time ran out",
+  "zh": "时间耗尽，随机禁用"
+ },
+ {
+  "id": 858,
+  "en": "the map bans but not ban",
+  "zh": "禁用地图环节但没有禁用"
+ },
+ {
+  "id": 859,
+  "en": "Too few fields confirmed",
+  "zh": "确认的字段过少"
+ },
+ {
+  "id": 860,
+  "en": " invited you to a party",
+  "zh": " 邀请你加入小队"
+ },
+ {
+  "id": 861,
+  "en": "Finals.id Companion App",
+  "zh": "Finals.id 伙伴应用"
+ },
+ {
+  "id": 862,
+  "en": "Message all six players",
+  "zh": "给全部六名玩家发消息"
+ },
+ {
+  "id": 863,
+  "en": "Only the leader invites",
+  "zh": "只有队长可以邀请"
+ },
+ {
+  "id": 864,
+  "en": "Remember to screenshot!",
+  "zh": "记得截图！"
+ },
+ {
+  "id": 865,
+  "en": "The invite expires soon",
+  "zh": "邀请即将过期"
+ },
+ {
+  "id": 866,
+  "en": "The test session ended.",
+  "zh": "测试场次已结束。"
+ },
+ {
+  "id": 867,
+  "en": "Another model answered",
+  "zh": "另一个模型给出了结果"
+ },
+ {
+  "id": 868,
+  "en": "FIDR is Solos or Trios",
+  "zh": "FIDR 仅支持单排或三排"
+ },
+ {
+  "id": 869,
+  "en": "Global chat is closed.",
+  "zh": "全局聊天已关闭。"
+ },
+ {
+  "id": 870,
+  "en": "Invite after the match",
+  "zh": "对局结束后再邀请"
+ },
+ {
+  "id": 871,
+  "en": "Lobby presence checked",
+  "zh": "已检查房间在线状态"
+ },
+ {
+  "id": 872,
+  "en": "Next FIDR queue window",
+  "zh": "下一个 FIDR 排队时段"
+ },
+ {
+  "id": 873,
+  "en": "No kills this session.",
+  "zh": "本场次没有击杀。"
+ },
+ {
+  "id": 874,
+  "en": "Test match in progress",
+  "zh": "测试对局进行中"
+ },
+ {
+  "id": 875,
+  "en": "Test result, not rated",
+  "zh": "测试结果，不计排位分"
+ },
+ {
+  "id": 876,
+  "en": "Too many fields failed",
+  "zh": "失败的字段过多"
+ },
+ {
+  "id": 877,
+  "en": "Try again in a moment.",
+  "zh": "请稍后重试。"
+ },
+ {
+  "id": 878,
+  "en": "Upload and check, live",
+  "zh": "上传并实时校验"
+ },
+ {
+  "id": 879,
+  "en": " to accept the match.",
+  "zh": " 以接受对局。"
+ },
+ {
+  "id": 880,
+  "en": "couldn't open browser",
+  "zh": "无法打开浏览器"
+ },
+ {
+  "id": 881,
+  "en": "From the match events",
+  "zh": "来自对局事件"
+ },
+ {
+  "id": 882,
+  "en": "Invite a third player",
+  "zh": "邀请第三位玩家"
+ },
+ {
+  "id": 883,
+  "en": "Joining the party of ",
+  "zh": "正在加入 的小队 "
+ },
+ {
+  "id": 884,
+  "en": "Keep THE FINALS open.",
+  "zh": "请保持 THE FINALS 运行。"
+ },
+ {
+  "id": 885,
+  "en": "Loading older matches",
+  "zh": "正在加载更早的对局"
+ },
+ {
+  "id": 886,
+  "en": "No stat changes found",
+  "zh": "未发现数据变化"
+ },
+ {
+  "id": 887,
+  "en": "Not seen in the match",
+  "zh": "未在对局中出现"
+ },
+ {
+  "id": 888,
+  "en": "Refreshed the footer.",
+  "zh": "已刷新页脚。"
+ },
+ {
+  "id": 889,
+  "en": "Restore my account to",
+  "zh": "将我的账号恢复到"
+ },
+ {
+  "id": 890,
+  "en": "Sign in to play FIDR.",
+  "zh": "请登录后游玩 FIDR。"
+ },
+ {
+  "id": 891,
+  "en": "All four bans are in",
+  "zh": "四次禁用已全部完成"
+ },
+ {
+  "id": 892,
+  "en": "Declined your invite",
+  "zh": "拒绝了你的邀请"
+ },
+ {
+  "id": 893,
+  "en": "No active admin test",
+  "zh": "没有进行中的管理员测试"
+ },
+ {
+  "id": 894,
+  "en": "No friends to invite",
+  "zh": "没有可邀请的好友"
+ },
+ {
+  "id": 895,
+  "en": "Please make sure to ",
+  "zh": "请务必 "
+ },
+ {
+  "id": 896,
+  "en": "Screenshot submitted",
+  "zh": "截图已提交"
+ },
+ {
+  "id": 897,
+  "en": "Suspended Structures",
+  "zh": "悬浮结构"
+ },
+ {
+  "id": 898,
+  "en": "The queue opens soon",
+  "zh": "队列即将开放"
+ },
+ {
+  "id": 899,
+  "en": "when minting is done",
+  "zh": "在铸造完成后"
+ },
+ {
+  "id": 900,
+  "en": "Auto-refresh failed",
+  "zh": "自动刷新失败"
+ },
+ {
+  "id": 901,
+  "en": "couldn't open Steam",
+  "zh": "无法打开 Steam"
+ },
+ {
+  "id": 902,
+  "en": "Create FIDR account",
+  "zh": "创建 FIDR 账号"
+ },
+ {
+  "id": 903,
+  "en": "Host left the lobby",
+  "zh": "房主离开了房间"
+ },
+ {
+  "id": 904,
+  "en": "Majority vote wins!",
+  "zh": "多数票获胜！"
+ },
+ {
+  "id": 905,
+  "en": "Map to be announced",
+  "zh": "地图待公布"
+ },
+ {
+  "id": 906,
+  "en": "Muted text on cards",
+  "zh": "卡片上的次要文字"
+ },
+ {
+  "id": 907,
+  "en": "Newest on the right",
+  "zh": "最新的在右侧"
+ },
+ {
+  "id": 908,
+  "en": "Offline, last data ",
+  "zh": "离线，最后数据 "
+ },
+ {
+  "id": 909,
+  "en": "Refreshing session…",
+  "zh": "正在刷新场次…"
+ },
+ {
+  "id": 910,
+  "en": "Scoreboard uploaded",
+  "zh": "计分板已上传"
+ },
+ {
+  "id": 911,
+  "en": "Sign in to see this",
+  "zh": "请登录后查看"
+ },
+ {
+  "id": 912,
+  "en": "The key was refused",
+  "zh": "密钥被拒绝"
+ },
+ {
+  "id": 913,
+  "en": "The party is locked",
+  "zh": "小队已锁定"
+ },
+ {
+  "id": 914,
+  "en": "the ranked map pool",
+  "zh": "排位地图池"
+ },
+ {
+  "id": 915,
+  "en": "Upload a scoreboard",
+  "zh": "上传计分板"
+ },
+ {
+  "id": 916,
+  "en": "You will only have ",
+  "zh": "你将只有 "
+ },
+ {
+  "id": 917,
+  "en": "Your party is full.",
+  "zh": "你的小队已满。"
+ },
+ {
+  "id": 918,
+  "en": "Apply the settings",
+  "zh": "应用设置"
+ },
+ {
+  "id": 919,
+  "en": "Bearer minted for ",
+  "zh": "已为以下对象签发 Bearer："
+ },
+ {
+  "id": 920,
+  "en": "FIDR tabs, loading",
+  "zh": "FIDR 标签页加载中"
+ },
+ {
+  "id": 921,
+  "en": "No rating changed.",
+  "zh": "排位分没有变化。"
+ },
+ {
+  "id": 922,
+  "en": "No team cashed out",
+  "zh": "没有队伍完成提现"
+ },
+ {
+  "id": 923,
+  "en": "Open match history",
+  "zh": "打开比赛记录"
+ },
+ {
+  "id": 924,
+  "en": "Text on background",
+  "zh": "背景上的文字"
+ },
+ {
+  "id": 925,
+  "en": "Under Construction",
+  "zh": "施工中"
+ },
+ {
+  "id": 926,
+  "en": "Up Down Left Right",
+  "zh": "上下左右"
+ },
+ {
+  "id": 927,
+  "en": "Your party is full",
+  "zh": "你的小队已满"
+ },
+ {
+  "id": 928,
+  "en": " players accepted",
+  "zh": " 名玩家已接受"
+ },
+ {
+  "id": 929,
+  "en": "Checking invites…",
+  "zh": "正在检查邀请…"
+ },
+ {
+  "id": 930,
+  "en": "Currently Playing",
+  "zh": "当前正在游玩"
+ },
+ {
+  "id": 931,
+  "en": "Game seen running",
+  "zh": "检测到游戏正在运行"
+ },
+ {
+  "id": 932,
+  "en": "Las Vegas Stadium",
+  "zh": "拉斯维加斯体育场"
+ },
+ {
+  "id": 933,
+  "en": "Latest version: v",
+  "zh": "最新版本：v"
+ },
+ {
+  "id": 934,
+  "en": "Lobby code issued",
+  "zh": "已发放房间代码"
+ },
+ {
+  "id": 935,
+  "en": "Match in progress",
+  "zh": "对局进行中"
+ },
+ {
+  "id": 936,
+  "en": "Message your team",
+  "zh": "给队伍发消息"
+ },
+ {
+  "id": 937,
+  "en": "Open from any tab",
+  "zh": "可从任意标签页打开"
+ },
+ {
+  "id": 938,
+  "en": "Overwhelming loss",
+  "zh": "惨败"
+ },
+ {
+  "id": 939,
+  "en": "P.E.A.C.E. Center",
+  "zh": "P.E.A.C.E 中心"
+ },
+ {
+  "id": 940,
+  "en": "Place the players",
+  "zh": "放置玩家"
+ },
+ {
+  "id": 941,
+  "en": "Recover the lobby",
+  "zh": "恢复房间"
+ },
+ {
+  "id": 942,
+  "en": "Reserve the lobby",
+  "zh": "预留房间"
+ },
+ {
+  "id": 943,
+  "en": "respect fair play",
+  "zh": "尊重公平竞技"
+ },
+ {
+  "id": 944,
+  "en": "Seen in the lobby",
+  "zh": "在房间中看到"
+ },
+ {
+  "id": 945,
+  "en": "Solo or Trio only",
+  "zh": "仅限单人或三人"
+ },
+ {
+  "id": 946,
+  "en": "Submit the result",
+  "zh": "提交结果"
+ },
+ {
+  "id": 947,
+  "en": "Take a screenshot",
+  "zh": "截图"
+ },
+ {
+  "id": 948,
+  "en": "Upload screenshot",
+  "zh": "上传截图"
+ },
+ {
+  "id": 949,
+  "en": "View last session",
+  "zh": "查看上一场次"
+ },
+ {
+  "id": 950,
+  "en": "Waiting for lobby",
+  "zh": "等待房间"
+ },
+ {
+  "id": 951,
+  "en": "Create the lobby",
+  "zh": "创建房间"
+ },
+ {
+  "id": 952,
+  "en": "Creating account",
+  "zh": "正在创建账号"
+ },
+ {
+  "id": 953,
+  "en": "Different result",
+  "zh": "结果不同"
+ },
+ {
+  "id": 954,
+  "en": "Fair matchmaking",
+  "zh": "公平匹配"
+ },
+ {
+  "id": 955,
+  "en": "Map not recorded",
+  "zh": "未记录地图"
+ },
+ {
+  "id": 956,
+  "en": "Moving Platforms",
+  "zh": "移动平台"
+ },
+ {
+  "id": 957,
+  "en": "No kills logged.",
+  "zh": "未记录击杀。"
+ },
+ {
+  "id": 958,
+  "en": "Overwhelming win",
+  "zh": "压倒性胜利"
+ },
+ {
+  "id": 959,
+  "en": "P.E.A.C.E Center",
+  "zh": "P.E.A.C.E 中心"
+ },
+ {
+  "id": 960,
+  "en": "Play FIDR Ranked",
+  "zh": "开始 FIDR 排位"
+ },
+ {
+  "id": 961,
+  "en": "PNG, JPG or WebP",
+  "zh": "PNG、JPG 或 WebP"
+ },
+ {
+  "id": 962,
+  "en": "Seen in the game",
+  "zh": "游戏内可见"
+ },
+ {
+  "id": 963,
+  "en": "Share tournament",
+  "zh": "分享锦标赛"
+ },
+ {
+  "id": 964,
+  "en": "Starlight Hollow",
+  "zh": "星光谷"
+ },
+ {
+  "id": 965,
+  "en": "Time left to ban",
+  "zh": "剩余禁用时间"
+ },
+ {
+  "id": 966,
+  "en": "Update available",
+  "zh": "有可用更新"
+ },
+ {
+  "id": 967,
+  "en": "You have a block",
+  "zh": "你有一次禁用机会"
+ },
+ {
+  "id": 968,
+  "en": " after the call",
+  "zh": " 通话结束后"
+ },
+ {
+  "id": 969,
+  "en": "Admin in chat: ",
+  "zh": "聊天中的管理员： "
+ },
+ {
+  "id": 970,
+  "en": "Back to profile",
+  "zh": "返回个人资料"
+ },
+ {
+  "id": 971,
+  "en": "Buy me a coffee",
+  "zh": "请我喝杯咖啡"
+ },
+ {
+  "id": 972,
+  "en": "Creating lobby…",
+  "zh": "正在创建房间…"
+ },
+ {
+  "id": 973,
+  "en": "Fortune Stadium",
+  "zh": "财富体育场"
+ },
+ {
+  "id": 974,
+  "en": "Happy queueing!",
+  "zh": "排队愉快！"
+ },
+ {
+  "id": 975,
+  "en": "In a FIDR match",
+  "zh": "在 FIDR 对局中"
+ },
+ {
+  "id": 976,
+  "en": "Invite a friend",
+  "zh": "邀请好友"
+ },
+ {
+  "id": 977,
+  "en": "Invite answered",
+  "zh": "邀请已回复"
+ },
+ {
+  "id": 978,
+  "en": "Leave the lobby",
+  "zh": "离开房间"
+ },
+ {
+  "id": 979,
+  "en": "Map bans opened",
+  "zh": "禁用地图已开启"
+ },
+ {
+  "id": 980,
+  "en": "Not created yet",
+  "zh": "尚未创建"
+ },
+ {
+  "id": 981,
+  "en": "Not on FIDR yet",
+  "zh": "尚未在 FIDR 上"
+ },
+ {
+  "id": 982,
+  "en": "Objective score",
+  "zh": "目标分"
+ },
+ {
+  "id": 983,
+  "en": "objective score",
+  "zh": "目标分"
+ },
+ {
+  "id": 984,
+  "en": "Opponents’ turn",
+  "zh": "轮到对手"
+ },
+ {
+  "id": 985,
+  "en": "Scoreboard read",
+  "zh": "计分板已读取"
+ },
+ {
+  "id": 986,
+  "en": "Session expired",
+  "zh": "会话已过期"
+ },
+ {
+  "id": 987,
+  "en": "Team Deathmatch",
+  "zh": "团队死斗"
+ },
+ {
+  "id": 988,
+  "en": "Waiting to join",
+  "zh": "等待加入"
+ },
+ {
+  "id": 989,
+  "en": "Where you start",
+  "zh": "起点位置"
+ },
+ {
+  "id": 990,
+  "en": " RS, no change",
+  "zh": " RS，无变化"
+ },
+ {
+  "id": 991,
+  "en": " wins in a row",
+  "zh": " 连胜"
+ },
+ {
+  "id": 992,
+  "en": "Duck and Cover",
+  "zh": "卧倒隐蔽"
+ },
+ {
+  "id": 993,
+  "en": "Galaxy Estates",
+  "zh": "银河庄园"
+ },
+ {
+  "id": 994,
+  "en": "Holds together",
+  "zh": "前后一致"
+ },
+ {
+  "id": 995,
+  "en": "Join the lobby",
+  "zh": "加入房间"
+ },
+ {
+  "id": 996,
+  "en": "Kills / Deaths",
+  "zh": "击杀 / 死亡"
+ },
+ {
+  "id": 997,
+  "en": "Lobby reserved",
+  "zh": "房间已预留"
+ },
+ {
+  "id": 998,
+  "en": "Low contrast: ",
+  "zh": "低对比度： "
+ },
+ {
+  "id": 999,
+  "en": "Match finished",
+  "zh": "对局结束"
+ },
+ {
+  "id": 1000,
+  "en": "Match starting",
+  "zh": "对局即将开始"
+ },
+ {
+  "id": 1001,
+  "en": "Nozomi/Citadel",
+  "zh": "希望/要塞"
+ },
+ {
+  "id": 1002,
+  "en": "Play the match",
+  "zh": "开始对局"
+ },
+ {
+  "id": 1003,
+  "en": "Rating updated",
+  "zh": "排位分已更新"
+ },
+ {
+  "id": 1004,
+  "en": "Refresh failed",
+  "zh": "刷新失败"
+ },
+ {
+  "id": 1005,
+  "en": "Result decided",
+  "zh": "结果已确定"
+ },
+ {
+  "id": 1006,
+  "en": "Send to global",
+  "zh": "发送至全局"
+ },
+ {
+  "id": 1007,
+  "en": "Session active",
+  "zh": "会话进行中"
+ },
+ {
+  "id": 1008,
+  "en": "Set the squads",
+  "zh": "设置小队"
+ },
+ {
+  "id": 1009,
+  "en": "Share / import",
+  "zh": "分享 / 导入"
+ },
+ {
+  "id": 1010,
+  "en": "Skyway Stadium",
+  "zh": "天路体育场"
+ },
+ {
+  "id": 1011,
+  "en": "Standard Issue",
+  "zh": "标准配发"
+ },
+ {
+  "id": 1012,
+  "en": "Start the game",
+  "zh": "开始游戏"
+ },
+ {
+  "id": 1013,
+  "en": "thirty seconds",
+  "zh": "三十秒"
+ },
+ {
+  "id": 1014,
+  "en": "Time to submit",
+  "zh": "提交时间"
+ },
+ {
+  "id": 1015,
+  "en": "Unknown player",
+  "zh": "未知玩家"
+ },
+ {
+  "id": 1016,
+  "en": "Watch the game",
+  "zh": "观看对局"
+ },
+ {
+  "id": 1017,
+  "en": " by Embark ID",
+  "zh": " 按 Embark ID"
+ },
+ {
+  "id": 1018,
+  "en": " in the lobby",
+  "zh": " 在房间中"
+ },
+ {
+  "id": 1019,
+  "en": " test players",
+  "zh": " 名测试玩家"
+ },
+ {
+  "id": 1020,
+  "en": "A test player",
+  "zh": "一名测试玩家"
+ },
+ {
+  "id": 1021,
+  "en": "Admin in chat",
+  "zh": "聊天中的管理员"
+ },
+ {
+  "id": 1022,
+  "en": "Cannot invite",
+  "zh": "无法邀请"
+ },
+ {
+  "id": 1023,
+  "en": "Cash not read",
+  "zh": "现金未读取"
+ },
+ {
+  "id": 1024,
+  "en": "Check outcome",
+  "zh": "查看结果"
+ },
+ {
+  "id": 1025,
+  "en": "Does not hold",
+  "zh": "前后不一致"
+ },
+ {
+  "id": 1026,
+  "en": "FIDR sections",
+  "zh": "FIDR 板块"
+ },
+ {
+  "id": 1027,
+  "en": "Finding match",
+  "zh": "正在寻找对局"
+ },
+ {
+  "id": 1028,
+  "en": "Heavy Hitters",
+  "zh": "硬碰硬"
+ },
+ {
+  "id": 1029,
+  "en": "Hide advanced",
+  "zh": "隐藏高级选项"
+ },
+ {
+  "id": 1030,
+  "en": "In your party",
+  "zh": "在你的小队中"
+ },
+ {
+  "id": 1031,
+  "en": "Informational",
+  "zh": "提示信息"
+ },
+ {
+  "id": 1032,
+  "en": "Join answered",
+  "zh": "加入请求已回复"
+ },
+ {
+  "id": 1033,
+  "en": "Less griefing",
+  "zh": "减少恶意干扰"
+ },
+ {
+  "id": 1034,
+  "en": "Lobby created",
+  "zh": "房间已创建"
+ },
+ {
+  "id": 1035,
+  "en": "Match history",
+  "zh": "比赛记录"
+ },
+ {
+  "id": 1036,
+  "en": "Match started",
+  "zh": "对局已开始"
+ },
+ {
+  "id": 1037,
+  "en": "No answer yet",
+  "zh": "尚未回复"
+ },
+ {
+  "id": 1038,
+  "en": "No cards yet.",
+  "zh": "暂无卡片。"
+ },
+ {
+  "id": 1039,
+  "en": "No pings lost",
+  "zh": "未丢失延迟"
+ },
+ {
+  "id": 1040,
+  "en": "Nobody online",
+  "zh": "无人在线"
+ },
+ {
+  "id": 1041,
+  "en": "North America",
+  "zh": "北美"
+ },
+ {
+  "id": 1042,
+  "en": "Not available",
+  "zh": "不可用"
+ },
+ {
+  "id": 1043,
+  "en": "Refresh token",
+  "zh": "刷新令牌"
+ },
+ {
+  "id": 1044,
+  "en": "Solo Showdown",
+  "zh": "单人决战"
+ },
+ {
+  "id": 1045,
+  "en": "Status hidden",
+  "zh": "状态已隐藏"
+ },
+ {
+  "id": 1046,
+  "en": "Support score",
+  "zh": "支援分"
+ },
+ {
+  "id": 1047,
+  "en": "support score",
+  "zh": "支援分"
+ },
+ {
+  "id": 1048,
+  "en": "The host left",
+  "zh": "房主已离开"
+ },
+ {
+  "id": 1049,
+  "en": "Update failed",
+  "zh": "更新失败"
+ },
+ {
+  "id": 1050,
+  "en": "Wins in a row",
+  "zh": "连胜场次"
+ },
+ {
+  "id": 1051,
+  "en": "Your team won",
+  "zh": "你的队伍获胜"
+ },
+ {
+  "id": 1052,
+  "en": " invited you",
+  "zh": " 邀请了你"
+ },
+ {
+  "id": 1053,
+  "en": " s to accept",
+  "zh": " 秒内接受"
+ },
+ {
+  "id": 1054,
+  "en": "1 invite out",
+  "zh": "已发出 1 个邀请"
+ },
+ {
+  "id": 1055,
+  "en": "Cancel queue",
+  "zh": "取消排队"
+ },
+ {
+  "id": 1056,
+  "en": "Cancel ready",
+  "zh": "取消准备"
+ },
+ {
+  "id": 1057,
+  "en": "Cannot queue",
+  "zh": "无法排队"
+ },
+ {
+  "id": 1058,
+  "en": "Combat score",
+  "zh": "战斗分"
+ },
+ {
+  "id": 1059,
+  "en": "combat score",
+  "zh": "战斗分"
+ },
+ {
+  "id": 1060,
+  "en": "Eliminations",
+  "zh": "击杀"
+ },
+ {
+  "id": 1061,
+  "en": "Fangwai City",
+  "zh": "方外城"
+ },
+ {
+  "id": 1062,
+  "en": "Fangway City",
+  "zh": "方威城"
+ },
+ {
+  "id": 1063,
+  "en": "Game started",
+  "zh": "游戏已开始"
+ },
+ {
+  "id": 1064,
+  "en": "Highest ping",
+  "zh": "最高延迟"
+ },
+ {
+  "id": 1065,
+  "en": "Invite again",
+  "zh": "再次邀请"
+ },
+ {
+  "id": 1066,
+  "en": "is permanent",
+  "zh": "是永久的"
+ },
+ {
+  "id": 1067,
+  "en": "Map selected",
+  "zh": "已选择地图"
+ },
+ {
+  "id": 1068,
+  "en": "Retrying in ",
+  "zh": "重试倒计时 "
+ },
+ {
+  "id": 1069,
+  "en": "Season start",
+  "zh": "赛季开始"
+ },
+ {
+  "id": 1070,
+  "en": "Send to team",
+  "zh": "发送至队伍"
+ },
+ {
+  "id": 1071,
+  "en": "Test started",
+  "zh": "测试已开始"
+ },
+ {
+  "id": 1072,
+  "en": "Test stopped",
+  "zh": "测试已停止"
+ },
+ {
+  "id": 1073,
+  "en": "Unknown item",
+  "zh": "未知项目"
+ },
+ {
+  "id": 1074,
+  "en": "Upload again",
+  "zh": "重新上传"
+ },
+ {
+  "id": 1075,
+  "en": "You need to ",
+  "zh": "你需要 "
+ },
+ {
+  "id": 1076,
+  "en": " win streak",
+  "zh": " 连胜"
+ },
+ {
+  "id": 1077,
+  "en": "1 ping lost",
+  "zh": "丢失 1 个 ping"
+ },
+ {
+  "id": 1078,
+  "en": "Copy failed",
+  "zh": "复制失败"
+ },
+ {
+  "id": 1079,
+  "en": "Expires in ",
+  "zh": "过期倒计时 "
+ },
+ {
+  "id": 1080,
+  "en": "Final Round",
+  "zh": "决赛"
+ },
+ {
+  "id": 1081,
+  "en": "Head 2 Head",
+  "zh": "一对一"
+ },
+ {
+  "id": 1082,
+  "en": "Link copied",
+  "zh": "链接已复制"
+ },
+ {
+  "id": 1083,
+  "en": "Lobby ready",
+  "zh": "房间已就绪"
+ },
+ {
+  "id": 1084,
+  "en": "Lowest ping",
+  "zh": "最低延迟"
+ },
+ {
+  "id": 1085,
+  "en": "no response",
+  "zh": "无响应"
+ },
+ {
+  "id": 1086,
+  "en": "None failed",
+  "zh": "无失败"
+ },
+ {
+  "id": 1087,
+  "en": "Other admin",
+  "zh": "其他管理员"
+ },
+ {
+  "id": 1088,
+  "en": "Packet loss",
+  "zh": "丢包"
+ },
+ {
+  "id": 1089,
+  "en": "Point Break",
+  "zh": "金爆点"
+ },
+ {
+  "id": 1090,
+  "en": "Power Shift",
+  "zh": "平台争霸"
+ },
+ {
+  "id": 1091,
+  "en": "Ready check",
+  "zh": "准备确认"
+ },
+ {
+  "id": 1092,
+  "en": "Refreshing…",
+  "zh": "刷新中…"
+ },
+ {
+  "id": 1093,
+  "en": "Reset delta",
+  "zh": "重置差值"
+ },
+ {
+  "id": 1094,
+  "en": "Scoreboards",
+  "zh": "计分板"
+ },
+ {
+  "id": 1095,
+  "en": "Screenshots",
+  "zh": "截图"
+ },
+ {
+  "id": 1096,
+  "en": "this season",
+  "zh": "本赛季"
+ },
+ {
+  "id": 1097,
+  "en": "Unknown yet",
+  "zh": "未知"
+ },
+ {
+  "id": 1098,
+  "en": "You, leader",
+  "zh": "你，队长"
+ },
+ {
+  "id": 1099,
+  "en": "Background",
+  "zh": "背景"
+ },
+ {
+  "id": 1100,
+  "en": "being read",
+  "zh": "正在读取"
+ },
+ {
+  "id": 1101,
+  "en": "DevOps by ",
+  "zh": "DevOps 由 "
+ },
+ {
+  "id": 1102,
+  "en": "Game ended",
+  "zh": "游戏已结束"
+ },
+ {
+  "id": 1103,
+  "en": "Go to Home",
+  "zh": "前往首页"
+ },
+ {
+  "id": 1104,
+  "en": "Hide share",
+  "zh": "隐藏分享"
+ },
+ {
+  "id": 1105,
+  "en": "In a match",
+  "zh": "对局中"
+ },
+ {
+  "id": 1106,
+  "en": "Map banned",
+  "zh": "地图已禁用"
+ },
+ {
+  "id": 1107,
+  "en": "Milestones",
+  "zh": "里程碑"
+ },
+ {
+  "id": 1108,
+  "en": "No reading",
+  "zh": "未读取"
+ },
+ {
+  "id": 1109,
+  "en": "Opens soon",
+  "zh": "即将开放"
+ },
+ {
+  "id": 1110,
+  "en": "Party size",
+  "zh": "小队人数"
+ },
+ {
+  "id": 1111,
+  "en": "Quick Cash",
+  "zh": "快速提现"
+ },
+ {
+  "id": 1112,
+  "en": "Relay Grid",
+  "zh": "中继网格"
+ },
+ {
+  "id": 1113,
+  "en": "Rounds won",
+  "zh": "获胜回合"
+ },
+ {
+  "id": 1114,
+  "en": "rounds won",
+  "zh": "获胜回合"
+ },
+ {
+  "id": 1115,
+  "en": "Show fewer",
+  "zh": "收起"
+ },
+ {
+  "id": 1116,
+  "en": "Start test",
+  "zh": "开始测试"
+ },
+ {
+  "id": 1117,
+  "en": "Tournament",
+  "zh": "锦标赛"
+ },
+ {
+  "id": 1118,
+  "en": "world tour",
+  "zh": "世界巡回赛"
+ },
+ {
+  "id": 1119,
+  "en": "World Tour",
+  "zh": "世界巡回赛"
+ },
+ {
+  "id": 1120,
+  "en": " matches.",
+  "zh": " 场比赛。"
+ },
+ {
+  "id": 1121,
+  "en": " tomorrow",
+  "zh": " 明天"
+ },
+ {
+  "id": 1122,
+  "en": "Available",
+  "zh": "可用"
+ },
+ {
+  "id": 1123,
+  "en": "Can queue",
+  "zh": "可以排队"
+ },
+ {
+  "id": 1124,
+  "en": "Check now",
+  "zh": "立即检查"
+ },
+ {
+  "id": 1125,
+  "en": "Checking…",
+  "zh": "检查中…"
+ },
+ {
+  "id": 1126,
+  "en": "Embark ID",
+  "zh": "Embark ID"
+ },
+ {
+  "id": 1127,
+  "en": "FIDR home",
+  "zh": "FIDR 首页"
+ },
+ {
+  "id": 1128,
+  "en": "Finals.ID",
+  "zh": "Finals.ID"
+ },
+ {
+  "id": 1129,
+  "en": "Find game",
+  "zh": "寻找对局"
+ },
+ {
+  "id": 1130,
+  "en": "High Rise",
+  "zh": "高层区"
+ },
+ {
+  "id": 1131,
+  "en": "Join test",
+  "zh": "加入测试"
+ },
+ {
+  "id": 1132,
+  "en": "Las Vegas",
+  "zh": "拉斯维加斯"
+ },
+ {
+  "id": 1133,
+  "en": "Legendary",
+  "zh": "传说"
+ },
+ {
+  "id": 1134,
+  "en": "Load more",
+  "zh": "加载更多"
+ },
+ {
+  "id": 1135,
+  "en": "No answer",
+  "zh": "无回复"
+ },
+ {
+  "id": 1136,
+  "en": "No change",
+  "zh": "无变化"
+ },
+ {
+  "id": 1137,
+  "en": "No upload",
+  "zh": "未上传"
+ },
+ {
+  "id": 1138,
+  "en": "No winner",
+  "zh": "无胜者"
+ },
+ {
+  "id": 1139,
+  "en": "Not found",
+  "zh": "未找到"
+ },
+ {
+  "id": 1140,
+  "en": "Not timed",
+  "zh": "未计时"
+ },
+ {
+  "id": 1141,
+  "en": "Objective",
+  "zh": "目标"
+ },
+ {
+  "id": 1142,
+  "en": "Opponents",
+  "zh": "对手"
+ },
+ {
+  "id": 1143,
+  "en": "Party of ",
+  "zh": "小队人数 "
+ },
+ {
+  "id": 1144,
+  "en": "Play FIDR",
+  "zh": "开始 FIDR"
+ },
+ {
+  "id": 1145,
+  "en": "Pulled in",
+  "zh": "已加入"
+ },
+ {
+  "id": 1146,
+  "en": "Revoking…",
+  "zh": "正在撤销…"
+ },
+ {
+  "id": 1147,
+  "en": "round won",
+  "zh": "回合获胜"
+ },
+ {
+  "id": 1148,
+  "en": "Seeding: ",
+  "zh": "种子排名："
+ },
+ {
+  "id": 1149,
+  "en": "September",
+  "zh": "九月"
+ },
+ {
+  "id": 1150,
+  "en": "Show more",
+  "zh": "显示更多"
+ },
+ {
+  "id": 1151,
+  "en": "Simulated",
+  "zh": "模拟"
+ },
+ {
+  "id": 1152,
+  "en": "Spotlight",
+  "zh": "焦点"
+ },
+ {
+  "id": 1153,
+  "en": "Timed out",
+  "zh": "超时"
+ },
+ {
+  "id": 1154,
+  "en": "Uploading",
+  "zh": "上传中"
+ },
+ {
+  "id": 1155,
+  "en": "Wednesday",
+  "zh": "星期三"
+ },
+ {
+  "id": 1156,
+  "en": "Yesterday",
+  "zh": "昨天"
+ },
+ {
+  "id": 1157,
+  "en": "Your team",
+  "zh": "你的队伍"
+ },
+ {
+  "id": 1158,
+  "en": "Your turn",
+  "zh": "轮到你了"
+ },
+ {
+  "id": 1159,
+  "en": " maximum",
+  "zh": " 上限"
+ },
+ {
+  "id": 1160,
+  "en": "A player",
+  "zh": "一名玩家"
+ },
+ {
+  "id": 1161,
+  "en": "a player",
+  "zh": "一名玩家"
+ },
+ {
+  "id": 1162,
+  "en": "Accepted",
+  "zh": "已接受"
+ },
+ {
+  "id": 1163,
+  "en": "attempt ",
+  "zh": "次尝试 "
+ },
+ {
+  "id": 1164,
+  "en": "Checking",
+  "zh": "检查中"
+ },
+ {
+  "id": 1165,
+  "en": "clan tag",
+  "zh": "战队标签"
+ },
+ {
+  "id": 1166,
+  "en": "Critical",
+  "zh": "严重"
+ },
+ {
+  "id": 1167,
+  "en": "December",
+  "zh": "十二月"
+ },
+ {
+  "id": 1168,
+  "en": "Declined",
+  "zh": "已拒绝"
+ },
+ {
+  "id": 1169,
+  "en": "February",
+  "zh": "二月"
+ },
+ {
+  "id": 1170,
+  "en": "In queue",
+  "zh": "排队中"
+ },
+ {
+  "id": 1171,
+  "en": "Inferred",
+  "zh": "推断"
+ },
+ {
+  "id": 1172,
+  "en": "Inviting",
+  "zh": "邀请中"
+ },
+ {
+  "id": 1173,
+  "en": "just now",
+  "zh": "刚刚"
+ },
+ {
+  "id": 1174,
+  "en": "Loading…",
+  "zh": "加载中…"
+ },
+ {
+  "id": 1175,
+  "en": "Logo by ",
+  "zh": "标志由 "
+ },
+ {
+  "id": 1176,
+  "en": "Map bans",
+  "zh": "禁用地图"
+ },
+ {
+  "id": 1177,
+  "en": "New test",
+  "zh": "新测试"
+ },
+ {
+  "id": 1178,
+  "en": "not read",
+  "zh": "未读"
+ },
+ {
+  "id": 1179,
+  "en": "November",
+  "zh": "十一月"
+ },
+ {
+  "id": 1180,
+  "en": "Observed",
+  "zh": "观测"
+ },
+ {
+  "id": 1181,
+  "en": "Open now",
+  "zh": "现已开放"
+ },
+ {
+  "id": 1182,
+  "en": "Opponent",
+  "zh": "对手"
+ },
+ {
+  "id": 1183,
+  "en": "Platinum",
+  "zh": "铂金"
+ },
+ {
+  "id": 1184,
+  "en": "Positive",
+  "zh": "正向"
+ },
+ {
+  "id": 1185,
+  "en": "Rejected",
+  "zh": "已拒绝"
+ },
+ {
+  "id": 1186,
+  "en": "Saturday",
+  "zh": "星期六"
+ },
+ {
+  "id": 1187,
+  "en": "Sending…",
+  "zh": "发送中…"
+ },
+ {
+  "id": 1188,
+  "en": "started ",
+  "zh": "已开始 "
+ },
+ {
+  "id": 1189,
+  "en": "Teammate",
+  "zh": "队友"
+ },
+ {
+  "id": 1190,
+  "en": "Thursday",
+  "zh": "星期四"
+ },
+ {
+  "id": 1191,
+  "en": "Tomorrow",
+  "zh": "明天"
+ },
+ {
+  "id": 1192,
+  "en": "Uncommon",
+  "zh": "罕见"
+ },
+ {
+  "id": 1193,
+  "en": "Unranked",
+  "zh": "未定级"
+ },
+ {
+  "id": 1194,
+  "en": "Updating",
+  "zh": "更新中"
+ },
+ {
+  "id": 1195,
+  "en": "Vertical",
+  "zh": "垂直"
+ },
+ {
+  "id": 1196,
+  "en": "Win rate",
+  "zh": "胜率"
+ },
+ {
+  "id": 1197,
+  "en": " first.",
+  "zh": " 先。"
+ },
+ {
+  "id": 1198,
+  "en": " of 4, ",
+  "zh": " / 4，"
+ },
+ {
+  "id": 1199,
+  "en": "Assists",
+  "zh": "助攻"
+ },
+ {
+  "id": 1200,
+  "en": "Cashout",
+  "zh": "提现"
+ },
+ {
+  "id": 1201,
+  "en": "Created",
+  "zh": "已创建"
+ },
+ {
+  "id": 1202,
+  "en": "Diamond",
+  "zh": "钻石"
+ },
+ {
+  "id": 1203,
+  "en": "Discord",
+  "zh": "Discord"
+ },
+ {
+  "id": 1204,
+  "en": "Expired",
+  "zh": "已过期"
+ },
+ {
+  "id": 1205,
+  "en": "Invite ",
+  "zh": "邀请 "
+ },
+ {
+  "id": 1206,
+  "en": "January",
+  "zh": "一月"
+ },
+ {
+  "id": 1207,
+  "en": "Joining",
+  "zh": "加入中"
+ },
+ {
+  "id": 1208,
+  "en": "Loading",
+  "zh": "加载中"
+ },
+ {
+  "id": 1209,
+  "en": "No club",
+  "zh": "无俱乐部"
+ },
+ {
+  "id": 1210,
+  "en": "October",
+  "zh": "十月"
+ },
+ {
+  "id": 1211,
+  "en": "Overall",
+  "zh": "总计"
+ },
+ {
+  "id": 1212,
+  "en": "Profile",
+  "zh": "个人资料"
+ },
+ {
+  "id": 1213,
+  "en": "Stopped",
+  "zh": "已停止"
+ },
+ {
+  "id": 1214,
+  "en": "Support",
+  "zh": "支援"
+ },
+ {
+  "id": 1215,
+  "en": "Tuesday",
+  "zh": "星期二"
+ },
+ {
+  "id": 1216,
+  "en": "Unknown",
+  "zh": "未知"
+ },
+ {
+  "id": 1217,
+  "en": "Upload ",
+  "zh": "上传 "
+ },
+ {
+  "id": 1218,
+  "en": "Website",
+  "zh": "网站"
+ },
+ {
+  "id": 1219,
+  "en": "Welcome",
+  "zh": "欢迎"
+ },
+ {
+  "id": 1220,
+  "en": " kills",
+  "zh": " 次击杀"
+ },
+ {
+  "id": 1221,
+  "en": " ready",
+  "zh": " 已就绪"
+ },
+ {
+  "id": 1222,
+  "en": "Accent",
+  "zh": "强调色"
+ },
+ {
+  "id": 1223,
+  "en": "August",
+  "zh": "八月"
+ },
+ {
+  "id": 1224,
+  "en": "Bernal",
+  "zh": "贝纳尔"
+ },
+ {
+  "id": 1225,
+  "en": "Bronze",
+  "zh": "青铜"
+ },
+ {
+  "id": 1226,
+  "en": "Combat",
+  "zh": "战斗"
+ },
+ {
+  "id": 1227,
+  "en": "Common",
+  "zh": "普通"
+ },
+ {
+  "id": 1228,
+  "en": "Copied",
+  "zh": "已复制"
+ },
+ {
+  "id": 1229,
+  "en": "Dodged",
+  "zh": "弃赛"
+ },
+ {
+  "id": 1230,
+  "en": "Escape",
+  "zh": "Esc"
+ },
+ {
+  "id": 1231,
+  "en": "Europe",
+  "zh": "欧洲"
+ },
+ {
+  "id": 1232,
+  "en": "Format",
+  "zh": "格式"
+ },
+ {
+  "id": 1233,
+  "en": "Friday",
+  "zh": "星期五"
+ },
+ {
+  "id": 1234,
+  "en": "Leader",
+  "zh": "队长"
+ },
+ {
+  "id": 1235,
+  "en": "Level ",
+  "zh": "等级 "
+ },
+ {
+  "id": 1236,
+  "en": "Linked",
+  "zh": "已关联"
+ },
+ {
+  "id": 1237,
+  "en": "Medium",
+  "zh": "中型"
+ },
+ {
+  "id": 1238,
+  "en": "Member",
+  "zh": "成员"
+ },
+ {
+  "id": 1239,
+  "en": "Monaco",
+  "zh": "摩纳哥"
+ },
+ {
+  "id": 1240,
+  "en": "Monday",
+  "zh": "星期一"
+ },
+ {
+  "id": 1241,
+  "en": "Mythic",
+  "zh": "神话"
+ },
+ {
+  "id": 1242,
+  "en": "Rating",
+  "zh": "排位分"
+ },
+ {
+  "id": 1243,
+  "en": "Remove",
+  "zh": "移除"
+ },
+ {
+  "id": 1244,
+  "en": "Revoke",
+  "zh": "撤销"
+ },
+ {
+  "id": 1245,
+  "en": "Silver",
+  "zh": "白银"
+ },
+ {
+  "id": 1246,
+  "en": "Start!",
+  "zh": "开始！"
+ },
+ {
+  "id": 1247,
+  "en": "Streak",
+  "zh": "连胜"
+ },
+ {
+  "id": 1248,
+  "en": "Submit",
+  "zh": "提交"
+ },
+ {
+  "id": 1249,
+  "en": "Sunday",
+  "zh": "星期日"
+ },
+ {
+  "id": 1250,
+  "en": "until ",
+  "zh": "直到 "
+ },
+ {
+  "id": 1251,
+  "en": "Up to ",
+  "zh": "最多 "
+ },
+ {
+  "id": 1252,
+  "en": "Window",
+  "zh": "时间窗口"
+ },
+ {
+  "id": 1253,
+  "en": " more",
+  "zh": " 更多"
+ },
+ {
+  "id": 1254,
+  "en": " of 4",
+  "zh": " / 4"
+ },
+ {
+  "id": 1255,
+  "en": "April",
+  "zh": "四月"
+ },
+ {
+  "id": 1256,
+  "en": "Debug",
+  "zh": "调试"
+ },
+ {
+  "id": 1257,
+  "en": "Elims",
+  "zh": "击杀"
+ },
+ {
+  "id": 1258,
+  "en": "Enter",
+  "zh": "回车"
+ },
+ {
+  "id": 1259,
+  "en": "Error",
+  "zh": "错误"
+ },
+ {
+  "id": 1260,
+  "en": "from ",
+  "zh": "来自 "
+ },
+ {
+  "id": 1261,
+  "en": "Graph",
+  "zh": "图表"
+ },
+ {
+  "id": 1262,
+  "en": "Heavy",
+  "zh": "重型"
+ },
+ {
+  "id": 1263,
+  "en": "Image",
+  "zh": "图片"
+ },
+ {
+  "id": 1264,
+  "en": "Kyoto",
+  "zh": "京都"
+ },
+ {
+  "id": 1265,
+  "en": "March",
+  "zh": "三月"
+ },
+ {
+  "id": 1266,
+  "en": "Maxed",
+  "zh": "已满级"
+ },
+ {
+  "id": 1267,
+  "en": "North",
+  "zh": "北"
+ },
+ {
+  "id": 1268,
+  "en": "Retry",
+  "zh": "重试"
+ },
+ {
+  "id": 1269,
+  "en": "Seen ",
+  "zh": "已查看 "
+ },
+ {
+  "id": 1270,
+  "en": "Seoul",
+  "zh": "首尔"
+ },
+ {
+  "id": 1271,
+  "en": "South",
+  "zh": "南"
+ },
+ {
+  "id": 1272,
+  "en": "Today",
+  "zh": "今天"
+ },
+ {
+  "id": 1273,
+  "en": "Trace",
+  "zh": "追踪"
+ },
+ {
+  "id": 1274,
+  "en": "Trios",
+  "zh": "三排"
+ },
+ {
+  "id": 1275,
+  "en": " dmg",
+  "zh": " 伤害"
+ },
+ {
+  "id": 1276,
+  "en": " dpk",
+  "zh": " dpk"
+ },
+ {
+  "id": 1277,
+  "en": " of ",
+  "zh": " / "
+ },
+ {
+  "id": 1278,
+  "en": "and ",
+  "zh": "和 "
+ },
+ {
+  "id": 1279,
+  "en": "avg ",
+  "zh": "平均 "
+ },
+ {
+  "id": 1280,
+  "en": "Back",
+  "zh": "返回"
+ },
+ {
+  "id": 1281,
+  "en": "Ban ",
+  "zh": "禁用 "
+ },
+ {
+  "id": 1282,
+  "en": "Bots",
+  "zh": "机器人"
+ },
+ {
+  "id": 1283,
+  "en": "Card",
+  "zh": "卡片"
+ },
+ {
+  "id": 1284,
+  "en": "Ctrl",
+  "zh": "Ctrl"
+ },
+ {
+  "id": 1285,
+  "en": "Down",
+  "zh": "下"
+ },
+ {
+  "id": 1286,
+  "en": "East",
+  "zh": "东"
+ },
+ {
+  "id": 1287,
+  "en": "Epic",
+  "zh": "史诗"
+ },
+ {
+  "id": 1288,
+  "en": "Full",
+  "zh": "满"
+ },
+ {
+  "id": 1289,
+  "en": "Gold",
+  "zh": "黄金"
+ },
+ {
+  "id": 1290,
+  "en": "Home",
+  "zh": "首页"
+ },
+ {
+  "id": 1291,
+  "en": "Info",
+  "zh": "信息"
+ },
+ {
+  "id": 1292,
+  "en": "Join",
+  "zh": "加入"
+ },
+ {
+  "id": 1293,
+  "en": "July",
+  "zh": "七月"
+ },
+ {
+  "id": 1294,
+  "en": "June",
+  "zh": "六月"
+ },
+ {
+  "id": 1295,
+  "en": "Next",
+  "zh": "下一步"
+ },
+ {
+  "id": 1296,
+  "en": "Pool",
+  "zh": "池"
+ },
+ {
+  "id": 1297,
+  "en": "Rare",
+  "zh": "稀有"
+ },
+ {
+  "id": 1298,
+  "en": "Send",
+  "zh": "发送"
+ },
+ {
+  "id": 1299,
+  "en": "Solo",
+  "zh": "单人"
+ },
+ {
+  "id": 1300,
+  "en": "Team",
+  "zh": "队伍"
+ },
+ {
+  "id": 1301,
+  "en": "Trio",
+  "zh": "三人"
+ },
+ {
+  "id": 1302,
+  "en": "Warn",
+  "zh": "警告"
+ },
+ {
+  "id": 1303,
+  "en": "WebP",
+  "zh": "WebP"
+ },
+ {
+  "id": 1304,
+  "en": "West",
+  "zh": "西"
+ },
+ {
+  "id": 1305,
+  "en": "Wins",
+  "zh": "胜场"
+ },
+ {
+  "id": 1306,
+  "en": " MB",
+  "zh": " MB"
+ },
+ {
+  "id": 1307,
+  "en": " RS",
+  "zh": " RS"
+ },
+ {
+  "id": 1308,
+  "en": " XP",
+  "zh": "经验"
+ },
+ {
+  "id": 1309,
+  "en": "Any",
+  "zh": "任意"
+ },
+ {
+  "id": 1310,
+  "en": "Apr",
+  "zh": "4月"
+ },
+ {
+  "id": 1311,
+  "en": "Aug",
+  "zh": "8月"
+ },
+ {
+  "id": 1312,
+  "en": "Avg",
+  "zh": "平均"
+ },
+ {
+  "id": 1313,
+  "en": "Dec",
+  "zh": "12月"
+ },
+ {
+  "id": 1314,
+  "en": "Duo",
+  "zh": "双人"
+ },
+ {
+  "id": 1315,
+  "en": "Feb",
+  "zh": "2月"
+ },
+ {
+  "id": 1316,
+  "en": "ID ",
+  "zh": "ID "
+ },
+ {
+  "id": 1317,
+  "en": "Jan",
+  "zh": "1月"
+ },
+ {
+  "id": 1318,
+  "en": "Jul",
+  "zh": "7月"
+ },
+ {
+  "id": 1319,
+  "en": "Jun",
+  "zh": "6月"
+ },
+ {
+  "id": 1320,
+  "en": "K/D",
+  "zh": "K/D"
+ },
+ {
+  "id": 1321,
+  "en": "Mar",
+  "zh": "3月"
+ },
+ {
+  "id": 1322,
+  "en": "Max",
+  "zh": "最大"
+ },
+ {
+  "id": 1323,
+  "en": "May",
+  "zh": "5月"
+ },
+ {
+  "id": 1324,
+  "en": "Min",
+  "zh": "最小"
+ },
+ {
+  "id": 1325,
+  "en": "Nov",
+  "zh": "11月"
+ },
+ {
+  "id": 1326,
+  "en": "Obj",
+  "zh": "目标"
+ },
+ {
+  "id": 1327,
+  "en": "Oct",
+  "zh": "10月"
+ },
+ {
+  "id": 1328,
+  "en": "Sep",
+  "zh": "9月"
+ },
+ {
+  "id": 1329,
+  "en": "Tab",
+  "zh": "Tab"
+ },
+ {
+  "id": 1330,
+  "en": "Win",
+  "zh": "胜"
+ },
+ {
+  "id": 1331,
+  "en": "You",
+  "zh": "你"
+ },
+ {
+  "id": 1332,
+  "en": "During a Ranked or Cashout match, the Ranked card on General shows your live ping. Your ping is also optionally recorded and sent to the server, to provide per-match ping history. This information will also be used to help the Status page on the website to better reflect real ping conditions worldwide. You can disable this in the Settings if you do not want this.",
+  "zh": "在排位或提现对局中，首页的「排位」卡片会显示你的实时延迟。你的延迟也可选择被记录并发送到服务器，以提供每场对局的延迟历史。这些信息还将用于帮助网站的状态页面更准确地反映全球真实延迟情况。如果你不希望如此，可以在设置中关闭。"
+ },
+ {
+  "id": 1333,
+  "en": "Fixed a Steam login 'error' that blocked us from getting the account token properly. Please contact embark support, tickets, or the feedback channel and ask for an official API. We have still not received word from them on our own requests. And yet they have time for this. And also banning mention of the site on the main discord. It is ridiculous.",
+  "zh": "修复了一个 Steam 登录「错误」，此前它导致我们无法正常获取账户令牌。请联系 Embark 支持、工单或反馈频道，要求提供官方 API。我们自己的请求至今仍未收到他们的任何回复。可他们却有时间为这种事折腾，还要在主 Discord 上禁止提及本站。真是荒唐。"
+ },
+ {
+  "id": 1334,
+  "en": "The map card is now split into two cards, Ranked and Cashout, each with its own timer and a new tooltip layout. When the exact Cashout map is not known yet it shows a best guess with the odds in the tooltip. This is done to reflect the changes Embark has done to separate Cashout and Ranked map rotations.",
+  "zh": "地图卡片现拆分为「排位」和「提现」两张卡片，各有独立计时器和全新的提示框布局。当提现地图尚未确定时会显示最佳推测，并在提示框中给出概率。这样做是为了反映 Embark 将提现与排位地图轮换分开的改动。"
+ },
+ {
+  "id": 1335,
+  "en": "This match is historic and was pulled from Embark's servers directly. For matches that happen without an active token, we only get the basics from their systems. This includes map, event type, placement, kills, deaths, damage, and when it was played. That is it.",
+  "zh": "本场为历史对局，直接从 Embark 服务器拉取。对于没有有效令牌时发生的对局，我们只能从他们的系统获取基础信息，包括地图、事件类型、名次、击杀、死亡、伤害以及对局时间。仅此而已。"
+ },
+ {
+  "id": 1336,
+  "en": "Access supports educational projects, non-commercial public websites, new community features, and esports tools for member match and performance data. Applications are reviewed individually. Betting, policy violations, and Finals.id replicas are not accepted.",
+  "zh": "访问权限支持教育项目、非商业公开网站、新的社区功能，以及用于获取成员比赛与表现数据的电竞工具。申请将逐份审核。博彩、违反政策的行为及 Finals.id 仿制品不予受理。"
+ },
+ {
+  "id": 1337,
+  "en": "Before you submit: make sure the exact skin you want to name is the one equipped in-game, with Shuffle turned off. Give it a few minutes, then hit Refresh on the loadouts so we read your current skin, otherwise you may end up naming the wrong one.",
+  "zh": "提交前请确认：要命名的皮肤正是游戏内实际装备的那一个，且已关闭随机。稍等几分钟，然后在配装页点击刷新，让我们读取你当前的皮肤，否则可能会命名错误的皮肤。"
+ },
+ {
+  "id": 1338,
+  "en": "We cannot detect the game as running, which means that you may not be able to join the lobby in time once you find a game, and receive a penalty. Please make sure your game is running and that you are in the main menu.",
+  "zh": "无法检测到游戏正在运行，这意味着找到对局后你可能无法及时进入房间，并受到惩罚。请确认游戏已启动并停留在主菜单。"
+ },
+ {
+  "id": 1339,
+  "en": "Access is limited and revocable for policy violations or any other reason. Finals.id may modify, suspend, terminate, or interrupt API access at any time without notice, including for maintenance and error correction.",
+  "zh": "访问权限有限，且可因违反政策或任何其他原因被撤销。Finals.id 可随时修改、暂停、终止或中断 API 访问，恕不另行通知，包括因维护和错误修复。"
+ },
+ {
+  "id": 1340,
+  "en": "Weapons with a skin we haven't catalogued yet now show a question mark over the icon. We need your help identifying them: click a flagged slot and submit the skin's name and rarity so everyone gets the right names.",
+  "zh": "带有尚未收录皮肤的武器，现在会在图标上显示问号。我们需要你协助识别：点击带标记的槽位并提交皮肤名称与稀有度，让大家都能看到正确的名称。"
+ },
+ {
+  "id": 1341,
+  "en": "Session summaries now track your real match count, wins and losses, damage, and a Ranked vs Casual split, and the post-game popup has a Refresh button to pull in a match the server was still processing.",
+  "zh": "场次摘要现在会统计真实对局数、胜负、伤害，以及排位与休闲的拆分数据；对局结束弹窗新增刷新按钮，可拉取服务器仍在处理的对局。"
+ },
+ {
+  "id": 1342,
+  "en": "The app refreshes the token roughly every 10-12 hours. Do you want it to boot Steam at that time if it's not open in order to finish its work? You can disable this functionality here if you don't.",
+  "zh": "应用大约每 10-12 小时刷新一次令牌。你是否希望在刷新时若 Steam 未启动则自动启动 Steam 以完成刷新？如果不需要，可在此处关闭该功能。"
+ },
+ {
+  "id": 1343,
+  "en": "New Currently Playing bar: while a match is running, the home screen shows your live session so far. Kills, deaths, wins, matches, RS and the weapons you've used, updating as you play.",
+  "zh": "新增「正在游玩」栏：对局进行时，首页会显示你当前场次的实时数据。击杀、死亡、胜场、对局数、RS 以及你使用过的武器，都会随游戏实时更新。"
+ },
+ {
+  "id": 1344,
+  "en": "If you want the full data always, please make sure to open the app at least once every time before you launch the game, which will refresh the token in our servers. Happy gaming!",
+  "zh": "如果希望始终获得完整数据，请在每次启动游戏前至少先打开一次应用，这会在我们的服务器上刷新令牌。祝游戏愉快！"
+ },
+ {
+  "id": 1345,
+  "en": "Sessions are more reliable: a network blip when you close the game no longer loses the session, and a session that was interrupted is finished off the next time you open the app.",
+  "zh": "场次记录更可靠了：关闭游戏时的网络波动不会再丢失场次，被中断的场次会在下次打开应用时补完。"
+ },
+ {
+  "id": 1346,
+  "en": " is one sitting the server recorded. Combat, Support and Objective are the sitting totals. Radar spokes are per match against exceptional ceilings. Local jsonl is not mixed in.",
+  "zh": " 是服务器记录的一场场次。战斗、支援与目标为本次场次合计。雷达图辐条为每场对局相对于极限上限的数值。本地 jsonl 不计入。"
+ },
+ {
+  "id": 1347,
+  "en": "Start Finals.id Companion App automatically when you sign in to your computer. It runs quietly in the tray and keeps your session alive, so your stats always stay up to date.",
+  "zh": "登录电脑时自动启动 Finals.id Companion App。它会在托盘中静默运行并保持会话有效，让你的数据始终最新。"
+ },
+ {
+  "id": 1348,
+  "en": "Enhanced the skin submission process: naming an unidentified skin now sends along the weapon it's equipped on, so your submission lands on the right art and resolves faster.",
+  "zh": "优化了皮肤提交流程：为未识别皮肤命名时现在会一并提交其所属武器，使提交对应到正确的图像并更快处理。"
+ },
+ {
+  "id": 1349,
+  "en": "Explain your audience, the data you need, and what your project adds. Public website applications must be non-commercial and must not duplicate existing Finals.id features.",
+  "zh": "请说明你的受众、所需数据以及你的项目带来的价值。公开网站申请必须为非商业用途，且不得重复 Finals.id 已有功能。"
+ },
+ {
+  "id": 1350,
+  "en": "Minimize redundant requests. Reuse or cache results only where response Cache-Control permits. Never override no-store directives, privacy changes, or revoked access.",
+  "zh": "尽量减少重复请求。仅在响应 Cache-Control 允许时复用或缓存结果。绝不绕过 no-store 指令、隐私变更或已撤销的访问权限。"
+ },
+ {
+  "id": 1351,
+  "en": "Steam starts Invisible and stays that way after the refresh, so friends don't see you come online while you're away. You stay Invisible until you change it in Steam.",
+  "zh": "Steam 会以隐身状态启动，并在刷新后继续保持，这样你不在时好友不会看到你上线。除非你在 Steam 中更改，否则会一直保持隐身。"
+ },
+ {
+  "id": 1352,
+  "en": "Help name skins the app hasn't identified yet: click a loadout slot, then submit a name and rarity for any unknown cosmetic. Thanks for helping build this out!",
+  "zh": "帮助为应用尚未识别的皮肤命名：点击配装槽位，然后为任何未知外观提交名称与稀有度。感谢你一起完善这些数据！"
+ },
+ {
+  "id": 1353,
+  "en": "This slot is set to Shuffle, so its skin changes every refresh and can't be identified. Turn Shuffle off in-game, pick one skin, then reload and name it here.",
+  "zh": "该槽位已设为随机，皮肤每次刷新都会变化，无法识别。请在游戏内关闭随机，选定一个皮肤，然后重新加载并在此处为其命名。"
+ },
+ {
+  "id": 1354,
+  "en": "Results will be available once everyone has submitted a screenshot of the final scoreboard displaying all 6 players, as it is shown once the match ends.",
+  "zh": "等所有人提交显示全部 6 名玩家的最终计分板截图后即可查看结果，因为该计分板会在对局结束时显示一次。"
+ },
+ {
+  "id": 1355,
+  "en": "If the screenshots of the two teams still show different results when the clock ends, an admin reviews the match. No rating changes until then.",
+  "zh": "如果计时结束时两队截图结果仍不一致，将由管理员复核本场对局。复核完成前排位分不会变动。"
+ },
+ {
+  "id": 1356,
+  "en": "THE FINALS and all related assets are property of Embark Studios. This app is unofficial and not affiliated with or endorsed by Embark Studios.",
+  "zh": "THE FINALS 及所有相关资产归 Embark Studios 所有。本应用为非官方工具，与 Embark Studios 无隶属关系，也未获其认可。"
+ },
+ {
+  "id": 1357,
+  "en": "Delete this organization or team? Shared access ends immediately, and every scoped API key for it stops working immediately.",
+  "zh": "要删除此组织或队伍吗？共享访问将立即终止，其所有范围内 API 密钥也会立即失效。"
+ },
+ {
+  "id": 1358,
+  "en": "Submitting sends your application and policy acknowledgments to Finals.id for review. Terms version: 2026-09-09.1.",
+  "zh": "提交后将把你的申请与政策确认发送至 Finals.id 审核。条款版本：2026-09-09.1。"
+ },
+ {
+  "id": 1359,
+  "en": "My project will not involve betting or gambling with real or virtual currency, or violate Finals.id policies.",
+  "zh": "我的项目不会涉及使用真实或虚拟货币的博彩或赌博，也不会违反 Finals.id 政策。"
+ },
+ {
+  "id": 1360,
+  "en": "Play with the companion linked. Closed sittings from GET /v1/me/sessions land here. Local jsonl is not shown.",
+  "zh": "关联 Companion 后游玩。来自 GET /v1/me/sessions 的已结束场次会显示在这里。不显示本地 jsonl。"
+ },
+ {
+  "id": 1361,
+  "en": "I will not use the data to create a Finals.id replica or duplicate features already available on Finals.id.",
+  "zh": "我不会使用这些数据创建 Finals.id 仿制品或重复 Finals.id 已有功能。"
+ },
+ {
+  "id": 1362,
+  "en": "Your application is waiting for approval. To change what this team can read, withdraw it and apply again.",
+  "zh": "你的申请正在等待审批。如需更改此队伍可读取的内容，请撤回申请后重新提交。"
+ },
+ {
+  "id": 1363,
+  "en": "Same as Service, but allows you to also get full scoped access to all data of your club members.",
+  "zh": "与 Service 相同，但还可获得俱乐部成员全部数据的完整范围内访问权限。"
+ },
+ {
+  "id": 1364,
+  "en": "I have read and accept the API terms below, including review, limited access and revocation.",
+  "zh": "我已阅读并接受下方的 API 条款，包括审核、有限访问与撤销。"
+ },
+ {
+  "id": 1365,
+  "en": "A personal key acts as you: it can read your hidden stats and change your privacy settings.",
+  "zh": "个人密钥等同于你的身份：可读取你的隐藏数据并更改隐私设置。"
+ },
+ {
+  "id": 1366,
+  "en": "This allows you to get api access to your friends / teammates profiles once they let you.",
+  "zh": "允许你在好友 / 队友允许后，获取其个人资料的 API 访问权限。"
+ },
+ {
+  "id": 1367,
+  "en": "Automated access to non-API endpoints, including generated HTML pages, is not permitted.",
+  "zh": "不允许以自动化方式访问非 API 端点，包括生成的 HTML 页面。"
+ },
+ {
+  "id": 1368,
+  "en": "You are not placed on any leaderboard yet. Play a ranked match and check back.",
+  "zh": "你尚未进入任何排行榜。进行一场排位对局后再来看看。"
+ },
+ {
+  "id": 1369,
+  "en": "Your hidden stats and privacy settings. No other players or full leaderboards.",
+  "zh": "你的隐藏数据与隐私设置。不包含其他玩家或完整排行榜。"
+ },
+ {
+  "id": 1370,
+  "en": "Apply for reviewed organization access. Submitting does not grant API access.",
+  "zh": "申请经审核的组织访问权限。提交申请不会直接获得 API 访问权限。"
+ },
+ {
+  "id": 1371,
+  "en": "Not tracked: accuracy, headshots, and gadget or specialization use beyond XP.",
+  "zh": "不追踪：命中率、爆头数，以及 XP 之外的道具或专精使用情况。"
+ },
+ {
+  "id": 1372,
+  "en": "This is the only time it is shown. Save it somewhere private before closing.",
+  "zh": "密钥仅显示这一次。关闭前请妥善保存。"
+ },
+ {
+  "id": 1373,
+  "en": "Stay here while your key is created. Tabs unlock after you dismiss the key.",
+  "zh": "密钥生成期间请留在本页。关闭密钥提示后其他标签页才会解锁。"
+ },
+ {
+  "id": 1374,
+  "en": "Create a team, apply to one, or submit an organization application below.",
+  "zh": "创建队伍、申请加入队伍，或在下方提交组织申请。"
+ },
+ {
+  "id": 1375,
+  "en": " All time has no comparison with other players. Pick a season for that.",
+  "zh": " 全部时间无法与其他玩家对比。请选择赛季后再进行对比。"
+ },
+ {
+  "id": 1376,
+  "en": "This tier is for services that want to use our api systems more deeply.",
+  "zh": "此层级适用于希望更深入使用我们 API 系统的服务。"
+ },
+ {
+  "id": 1377,
+  "en": "Two tracked matches are needed before a playstyle shape means anything.",
+  "zh": "至少需要两场已记录的对局，玩法风格图形才有意义。"
+ },
+ {
+  "id": 1378,
+  "en": "No estimate yet. The map name shows here as soon as it is observed.",
+  "zh": "暂无预估。一旦观测到地图名称就会显示在这里。"
+ },
+ {
+  "id": 1379,
+  "en": "Running win rate across tracked matches, averaged over the last 10.",
+  "zh": "已记录对局的滚动胜率，取最近 10 场的平均值。"
+ },
+ {
+  "id": 1380,
+  "en": " to an active member. You leave it once the transfer goes through.",
+  "zh": " 转交给一名活跃成员。转让生效后你将退出。"
+ },
+ {
+  "id": 1381,
+  "en": "Pick a wider period, or play some matches with the tracker linked.",
+  "zh": "请选择更长的时间范围，或关联追踪器后进行一些对局。"
+ },
+ {
+  "id": 1382,
+  "en": "Two tracked matches are needed before a form line means anything.",
+  "zh": "至少需要两场已记录的对局，状态曲线才有意义。"
+ },
+ {
+  "id": 1383,
+  "en": "Give a friend or teammate api access to your player information.",
+  "zh": "允许好友或队友获取你的玩家信息的 API 访问权限。"
+ },
+ {
+  "id": 1384,
+  "en": "League numbers are kept per season. Pick a season to compare.",
+  "zh": "联赛数据按赛季分别保存。请选择一个赛季进行对比。"
+ },
+ {
+  "id": 1385,
+  "en": "Attribute Finals.id prominently beside the data and link to ",
+  "zh": "在数据旁显著标注 Finals.id，并链接到 "
+ },
+ {
+  "id": 1386,
+  "en": " Under 5 matches here, so no comparison with other players.",
+  "zh": " 此处不足 5 场对局，无法与其他玩家对比。"
+ },
+ {
+  "id": 1387,
+  "en": "Closing or pressing Escape discards this key from the app.",
+  "zh": "关闭窗口或按 Esc 键会从应用中丢弃此密钥。"
+ },
+ {
+  "id": 1388,
+  "en": "Career snapshots from Other, with ranked / casual / both.",
+  "zh": "「其他」页面中的生涯快照，可查看排位 / 休闲 / 全部。"
+ },
+ {
+  "id": 1389,
+  "en": "Clipboard unavailable. Select and copy the key manually.",
+  "zh": "剪贴板不可用。请手动选中并复制密钥。"
+ },
+ {
+  "id": 1390,
+  "en": "Couldn't load sessions. Check your connection and retry.",
+  "zh": "无法加载场次。请检查网络连接后重试。"
+ },
+ {
+  "id": 1391,
+  "en": "Key shown once. Scoped to this active organization only.",
+  "zh": "密钥仅显示一次。仅限此活跃组织范围使用。"
+ },
+ {
+  "id": 1392,
+  "en": "Win rate, with its distance from the population baseline",
+  "zh": "胜率，以及它与总体基准的差距"
+ },
+ {
+  "id": 1393,
+  "en": "Fetching teams and organizations you own or belong to.",
+  "zh": "正在获取你拥有或所属的队伍与组织。"
+ },
+ {
+  "id": 1394,
+  "en": "Objective score per match, averaged over your last 10.",
+  "zh": "每场对局的目标分，取你最近 10 场的平均值。"
+ },
+ {
+  "id": 1395,
+  "en": "Same as personal, grant scoped access to your account.",
+  "zh": "与个人密钥相同，授予对你账户的范围内访问权限。"
+ },
+ {
+  "id": 1396,
+  "en": "In-game ping. Placeholder when you're not in a match.",
+  "zh": "游戏内延迟。未在对局中时显示占位内容。"
+ },
+ {
+  "id": 1397,
+  "en": "Revocation is not confirmed. Refresh before retrying.",
+  "zh": "撤销尚未确认。请先刷新再重试。"
+ },
+ {
+  "id": 1398,
+  "en": "Kills per death, averaged over your last 10 matches.",
+  "zh": "每次死亡的击杀数，取你最近 10 场对局的平均值。"
+ },
+ {
+  "id": 1399,
+  "en": "Support score per match, averaged over your last 10.",
+  "zh": "每场对局的支援分，取你最近 10 场的平均值。"
+ },
+ {
+  "id": 1400,
+  "en": " No comparison with other players for this map yet.",
+  "zh": " 此地图暂无与其他玩家的对比数据。"
+ },
+ {
+  "id": 1401,
+  "en": "Combat score per match, averaged over your last 10.",
+  "zh": "每场对局的战斗分，取你最近 10 场的平均值。"
+ },
+ {
+  "id": 1402,
+  "en": "Remove this member? Their access ends immediately.",
+  "zh": "要移除此成员吗？其访问权限将立即终止。"
+ },
+ {
+  "id": 1403,
+  "en": "Class XP appears once your recent matches are in.",
+  "zh": "你的近期对局数据到位后，职业 XP 就会显示。"
+ },
+ {
+  "id": 1404,
+  "en": "Create one for a script or integration you trust.",
+  "zh": "为你信任的脚本或集成创建一个密钥。"
+ },
+ {
+  "id": 1405,
+  "en": "Latest tracked match scorecard, kit, and result.",
+  "zh": "最近一场已记录对局的计分卡、配装与结果。"
+ },
+ {
+  "id": 1406,
+  "en": "Only active organizations can issue scoped keys.",
+  "zh": "只有活跃组织才能签发范围内密钥。"
+ },
+ {
+  "id": 1407,
+  "en": " whose finish the stored rounds do not settle.",
+  "zh": " 其胜负无法由已存储的回合判定。"
+ },
+ {
+  "id": 1408,
+  "en": "Copied. Your clipboard still contains the key.",
+  "zh": "已复制。你的剪贴板中仍保留该密钥。"
+ },
+ {
+  "id": 1409,
+  "en": "Label: 1–80 characters. The key is shown once.",
+  "zh": "名称：1–80 个字符。密钥仅显示一次。"
+ },
+ {
+  "id": 1410,
+  "en": "Rounds are for Ranked and Cashout tournaments.",
+  "zh": "回合数据适用于排位与提现锦标赛。"
+ },
+ {
+  "id": 1411,
+  "en": "You are not placed on any community board yet.",
+  "zh": "你尚未进入任何社区榜单。"
+ },
+ {
+  "id": 1412,
+  "en": " sessions. Totals cover loaded history only.",
+  "zh": " 个场次。合计仅包含已加载的历史记录。"
+ },
+ {
+  "id": 1413,
+  "en": "No squad partners recorded for this session.",
+  "zh": "本场次未记录小队队友。"
+ },
+ {
+  "id": 1414,
+  "en": "No maps played in this mode and season yet.",
+  "zh": "该模式与赛季下暂无已游玩的地图。"
+ },
+ {
+  "id": 1415,
+  "en": "RS trend appears after a few ranked matches",
+  "zh": "进行几场排位对局后才会显示 RS 趋势"
+ },
+ {
+  "id": 1416,
+  "en": "You are not placed on any season board yet.",
+  "zh": "你尚未进入任何赛季榜单。"
+ },
+ {
+  "id": 1417,
+  "en": " The timeline comes from the match events.",
+  "zh": " 时间线来自对局事件。"
+ },
+ {
+  "id": 1418,
+  "en": "Insert a Esports organization invite code.",
+  "zh": "输入电竞组织邀请码。"
+ },
+ {
+  "id": 1419,
+  "en": "K/D, win rate, combat, support, objective.",
+  "zh": "K/D、胜率、战斗、支援、目标。"
+ },
+ {
+  "id": 1420,
+  "en": "Browse the full leaderboards on finals.id",
+  "zh": "在 finals.id 浏览完整排行榜"
+ },
+ {
+  "id": 1421,
+  "en": "Enter exact 18-digit Esports invite code.",
+  "zh": "请输入完整的 18 位电竞邀请码。"
+ },
+ {
+  "id": 1422,
+  "en": "Feedback, last session, Discord, website.",
+  "zh": "反馈、上次场次、Discord、网站。"
+ },
+ {
+  "id": 1423,
+  "en": "Current Cashout map with time remaining.",
+  "zh": "当前提现地图及剩余时间。"
+ },
+ {
+  "id": 1424,
+  "en": "No class was recorded for these matches.",
+  "zh": "这些对局未记录职业。"
+ },
+ {
+  "id": 1425,
+  "en": "That team is not accepting applications.",
+  "zh": "该队伍当前不接受申请。"
+ },
+ {
+  "id": 1426,
+  "en": "Fetching your personal and scoped keys.",
+  "zh": "正在获取你的个人密钥与范围内密钥。"
+ },
+ {
+  "id": 1427,
+  "en": "Link an account to see your placements.",
+  "zh": "关联账户后即可查看你的名次。"
+ },
+ {
+  "id": 1428,
+  "en": "Link your account to manage API access.",
+  "zh": "关联账户以管理 API 访问权限。"
+ },
+ {
+  "id": 1429,
+  "en": "Not enough matches to draw a form line.",
+  "zh": "对局不足，无法绘制状态曲线。"
+ },
+ {
+  "id": 1430,
+  "en": "No league comparison for this map yet.",
+  "zh": "此地图暂无联赛对比数据。"
+ },
+ {
+  "id": 1431,
+  "en": "Stats are still loading for this club.",
+  "zh": "该俱乐部的数据仍在加载中。"
+ },
+ {
+  "id": 1432,
+  "en": "The test lobby could not be completed.",
+  "zh": "测试房间未能完成。"
+ },
+ {
+  "id": 1433,
+  "en": "Leave the website empty to remove it.",
+  "zh": "将网站留空即可移除。"
+ },
+ {
+  "id": 1434,
+  "en": "No matches recorded for this session.",
+  "zh": "本场次未记录任何对局。"
+ },
+ {
+  "id": 1435,
+  "en": "Rank score, from account rank history",
+  "zh": "排位分，来自账户段位历史"
+ },
+ {
+  "id": 1436,
+  "en": "Revoke a personal key to free a slot.",
+  "zh": "撤销一个个人密钥以释放名额。"
+ },
+ {
+  "id": 1437,
+  "en": "Your next match may use the next map.",
+  "zh": "你的下一场对局可能会使用下一张地图。"
+ },
+ {
+  "id": 1438,
+  "en": "No loadout recorded on this map yet.",
+  "zh": "此地图尚无配装记录。"
+ },
+ {
+  "id": 1439,
+  "en": "RS history is unavailable right now.",
+  "zh": "当前无法获取 RS 历史记录。"
+ },
+ {
+  "id": 1440,
+  "en": "Not enough history for a trend yet.",
+  "zh": "历史记录不足，暂无法生成趋势。"
+ },
+ {
+  "id": 1441,
+  "en": "Only the owner can rename the team.",
+  "zh": "只有所有者可以重命名队伍。"
+ },
+ {
+  "id": 1442,
+  "en": "95% of pings were at or under this",
+  "zh": "95% 的延迟处于或低于此值"
+ },
+ {
+  "id": 1443,
+  "en": "Choose a card to add to the board.",
+  "zh": "选择一张卡片添加到面板。"
+ },
+ {
+  "id": 1444,
+  "en": "No class split in this window yet.",
+  "zh": "该时间范围内暂无职业分布。"
+ },
+ {
+  "id": 1445,
+  "en": "No members returned for this club.",
+  "zh": "该俱乐部未返回任何成员。"
+ },
+ {
+  "id": 1446,
+  "en": "No queue split in this window yet.",
+  "zh": "该时间范围内暂无队列分布。"
+ },
+ {
+  "id": 1447,
+  "en": "Those matches could not be loaded.",
+  "zh": "无法加载这些对局。"
+ },
+ {
+  "id": 1448,
+  "en": "Name and purpose cannot be blank.",
+  "zh": "名称和用途不能为空。"
+ },
+ {
+  "id": 1449,
+  "en": "Club standing from the Club tab.",
+  "zh": "俱乐部排名，来自「俱乐部」标签页。"
+ },
+ {
+  "id": 1450,
+  "en": "Esports member-performance tools",
+  "zh": "电竞成员表现工具"
+ },
+ {
+  "id": 1451,
+  "en": "Light / Medium / Heavy XP share.",
+  "zh": "轻型 / 中型 / 重型 XP 占比。"
+ },
+ {
+  "id": 1452,
+  "en": "No kit data for this window yet.",
+  "zh": "该时间范围内暂无配装数据。"
+ },
+ {
+  "id": 1453,
+  "en": "Rank score over time from Other.",
+  "zh": "排位分变化，来自「其他」页面。"
+ },
+ {
+  "id": 1454,
+  "en": "Enter exact 18-digit team code.",
+  "zh": "请输入完整的 18 位队伍码。"
+ },
+ {
+  "id": 1455,
+  "en": "This player hides weapon stats.",
+  "zh": "该玩家隐藏了武器数据。"
+ },
+ {
+  "id": 1456,
+  "en": "Checking the community boards…",
+  "zh": "正在检查社区榜单…"
+ },
+ {
+  "id": 1457,
+  "en": "Choose what this team can read",
+  "zh": "选择此队伍可读取的内容"
+ },
+ {
+  "id": 1458,
+  "en": "Education or personal learning",
+  "zh": "教育或个人学习"
+ },
+ {
+  "id": 1459,
+  "en": "No twist recorded on this map.",
+  "zh": "此地图尚无变数记录。"
+ },
+ {
+  "id": 1460,
+  "en": "Opening the old sessions file…",
+  "zh": "正在打开旧的场次文件…"
+ },
+ {
+  "id": 1461,
+  "en": "Per-map stats could not load. ",
+  "zh": "无法加载每张地图的数据。 "
+ },
+ {
+  "id": 1462,
+  "en": "This session has no match ids.",
+  "zh": "本场次没有对局 ID。"
+ },
+ {
+  "id": 1463,
+  "en": "Lifetime totals from General.",
+  "zh": "生涯总计，来自「首页」。"
+ },
+ {
+  "id": 1464,
+  "en": "No items match these filters.",
+  "zh": "没有符合这些筛选条件的项目。"
+ },
+ {
+  "id": 1465,
+  "en": "Non-commercial public website",
+  "zh": "非商业公开网站"
+ },
+ {
+  "id": 1466,
+  "en": "Nothing used on this map yet.",
+  "zh": "此地图尚无使用记录。"
+ },
+ {
+  "id": 1467,
+  "en": "Organization application form",
+  "zh": "组织申请表"
+ },
+ {
+  "id": 1468,
+  "en": "18-digit Esports invite code",
+  "zh": "18 位电竞邀请码"
+ },
+ {
+  "id": 1469,
+  "en": "What each access kind can do",
+  "zh": "各类访问权限的用途"
+ },
+ {
+  "id": 1470,
+  "en": "Keep personal keys private.",
+  "zh": "请妥善保管个人密钥，切勿泄露。"
+ },
+ {
+  "id": 1471,
+  "en": "Not enough ranked data yet.",
+  "zh": "排位数据不足。"
+ },
+ {
+  "id": 1472,
+  "en": "This player hides loadouts.",
+  "zh": "该玩家隐藏了配装。"
+ },
+ {
+  "id": 1473,
+  "en": "Diverging kill/death bars.",
+  "zh": "击杀/死亡分叉条形图。"
+ },
+ {
+  "id": 1474,
+  "en": "No sessions in this period",
+  "zh": "此期间无场次"
+ },
+ {
+  "id": 1475,
+  "en": "Radar of recent vs career.",
+  "zh": "近期与生涯对比雷达图。"
+ },
+ {
+  "id": 1476,
+  "en": "Revoke this unused invite?",
+  "zh": "撤销这个未使用的邀请？"
+ },
+ {
+  "id": 1477,
+  "en": "How will you use the API?",
+  "zh": "你将如何使用 API？"
+ },
+ {
+  "id": 1478,
+  "en": "Most recent tracked match",
+  "zh": "最近记录的对局"
+ },
+ {
+  "id": 1479,
+  "en": "Need two tracked matches.",
+  "zh": "需要两场已记录的对局。"
+ },
+ {
+  "id": 1480,
+  "en": "No class totals reported.",
+  "zh": "未上报各职业总计。"
+ },
+ {
+  "id": 1481,
+  "en": "No sessions on the server",
+  "zh": "服务器上没有场次"
+ },
+ {
+  "id": 1482,
+  "en": "This map could not load. ",
+  "zh": "此地图无法加载。 "
+ },
+ {
+  "id": 1483,
+  "en": "Top weapons from General.",
+  "zh": "来自 General 的常用武器。"
+ },
+ {
+  "id": 1484,
+  "en": "Your queue was cancelled.",
+  "zh": "你的排队已取消。"
+ },
+ {
+  "id": 1485,
+  "en": "Your shared access scopes",
+  "zh": "你的共享访问范围"
+ },
+ {
+  "id": 1486,
+  "en": "Could not open the file.",
+  "zh": "无法打开文件。"
+ },
+ {
+  "id": 1487,
+  "en": "Loads as matches arrive…",
+  "zh": "对局到来时加载…"
+ },
+ {
+  "id": 1488,
+  "en": "Match list from General.",
+  "zh": "来自 General 的对局列表。"
+ },
+ {
+  "id": 1489,
+  "en": "Members and applications",
+  "zh": "成员与申请"
+ },
+ {
+  "id": 1490,
+  "en": "No club on this account.",
+  "zh": "此账号未加入俱乐部。"
+ },
+ {
+  "id": 1491,
+  "en": "Organization application",
+  "zh": "组织申请"
+ },
+ {
+  "id": 1492,
+  "en": "Required acknowledgments",
+  "zh": "必选确认项"
+ },
+ {
+  "id": 1493,
+  "en": "The data is as follows: ",
+  "zh": "数据如下： "
+ },
+ {
+  "id": 1494,
+  "en": "K/D line with W/L tape.",
+  "zh": "带胜负条带的 K/D 曲线。"
+ },
+ {
+  "id": 1495,
+  "en": "No local sessions file.",
+  "zh": "没有本地场次文件。"
+ },
+ {
+  "id": 1496,
+  "en": "No tracked matches yet.",
+  "zh": "还没有已记录的对局。"
+ },
+ {
+  "id": 1497,
+  "en": "Personal key slots used",
+  "zh": "已使用的个人密钥槽位"
+ },
+ {
+  "id": 1498,
+  "en": "Club data unavailable.",
+  "zh": "俱乐部数据不可用。"
+ },
+ {
+  "id": 1499,
+  "en": "Connect your own tools",
+  "zh": "接入你自己的工具"
+ },
+ {
+  "id": 1500,
+  "en": "Invite exact recipient",
+  "zh": "邀请指定接收者"
+ },
+ {
+  "id": 1501,
+  "en": "K/D above your average",
+  "zh": "K/D 高于你的平均"
+ },
+ {
+  "id": 1502,
+  "en": "K/D below your average",
+  "zh": "K/D 低于你的平均"
+ },
+ {
+  "id": 1503,
+  "en": "Keys and shared access",
+  "zh": "密钥与共享访问"
+ },
+ {
+  "id": 1504,
+  "en": "Single objective tile.",
+  "zh": "单个目标数据块。"
+ },
+ {
+  "id": 1505,
+  "en": "Accept Esports invite",
+  "zh": "接受电竞邀请"
+ },
+ {
+  "id": 1506,
+  "en": "Loading shared access",
+  "zh": "正在加载共享访问"
+ },
+ {
+  "id": 1507,
+  "en": "New community feature",
+  "zh": "新社区功能"
+ },
+ {
+  "id": 1508,
+  "en": "No finishes recorded.",
+  "zh": "没有完赛记录。"
+ },
+ {
+  "id": 1509,
+  "en": "No tracked match yet.",
+  "zh": "还没有记录的对局。"
+ },
+ {
+  "id": 1510,
+  "en": "No weeks to draw yet.",
+  "zh": "还没有可绘制的周数据。"
+ },
+ {
+  "id": 1511,
+  "en": "Results, newest first",
+  "zh": "结果，最新在前"
+ },
+ {
+  "id": 1512,
+  "en": "Single win-rate tile.",
+  "zh": "单个胜率数据块。"
+ },
+ {
+  "id": 1513,
+  "en": "Casual cashout queue",
+  "zh": "休闲提现队列"
+ },
+ {
+  "id": 1514,
+  "en": "Checking the boards…",
+  "zh": "正在查询排行榜…"
+ },
+ {
+  "id": 1515,
+  "en": "Kills against deaths",
+  "zh": "击杀与死亡对比"
+ },
+ {
+  "id": 1516,
+  "en": "Loading current map…",
+  "zh": "正在加载当前地图…"
+ },
+ {
+  "id": 1517,
+  "en": "Map change imminent.",
+  "zh": "地图即将更换。"
+ },
+ {
+  "id": 1518,
+  "en": "No full leaderboards",
+  "zh": "没有完整排行榜"
+ },
+ {
+  "id": 1519,
+  "en": "No shared access yet",
+  "zh": "还没有共享访问"
+ },
+ {
+  "id": 1520,
+  "en": "Not enough data yet.",
+  "zh": "数据还不够。"
+ },
+ {
+  "id": 1521,
+  "en": "Not enough days yet.",
+  "zh": "天数还不够。"
+ },
+ {
+  "id": 1522,
+  "en": "of 10 personal slots",
+  "zh": "共 10 个个人槽位"
+ },
+ {
+  "id": 1523,
+  "en": "Rank score over time",
+  "zh": "排位分变化趋势"
+ },
+ {
+  "id": 1524,
+  "en": "Single support tile.",
+  "zh": "单个支援数据块。"
+ },
+ {
+  "id": 1525,
+  "en": "Switch to Line Chart",
+  "zh": "切换为折线图"
+ },
+ {
+  "id": 1526,
+  "en": "The queue is closed.",
+  "zh": "队列已关闭。"
+ },
+ {
+  "id": 1527,
+  "en": "Withdraw application",
+  "zh": "撤回申请"
+ },
+ {
+  "id": 1528,
+  "en": "Current Cashout Map",
+  "zh": "当前提现地图"
+ },
+ {
+  "id": 1529,
+  "en": "Loading RS history…",
+  "zh": "正在加载 RS 历史…"
+ },
+ {
+  "id": 1530,
+  "en": "Roster unavailable.",
+  "zh": "阵容不可用。"
+ },
+ {
+  "id": 1531,
+  "en": "Showing the newest ",
+  "zh": "显示最新的 "
+ },
+ {
+  "id": 1532,
+  "en": "Single combat tile.",
+  "zh": "单个战斗数据块。"
+ },
+ {
+  "id": 1533,
+  "en": "18-digit team code",
+  "zh": "18 位队伍代码"
+ },
+ {
+  "id": 1534,
+  "en": "Above your average",
+  "zh": "高于你的平均"
+ },
+ {
+  "id": 1535,
+  "en": "Below your average",
+  "zh": "低于你的平均"
+ },
+ {
+  "id": 1536,
+  "en": "Casual rounds lost",
+  "zh": "休闲回合败场"
+ },
+ {
+  "id": 1537,
+  "en": "Current Ranked Map",
+  "zh": "当前排位地图"
+ },
+ {
+  "id": 1538,
+  "en": "Designated club ID",
+  "zh": "指定俱乐部 ID"
+ },
+ {
+  "id": 1539,
+  "en": "Enter valid color.",
+  "zh": "请输入有效的颜色。"
+ },
+ {
+  "id": 1540,
+  "en": "Loading item meta…",
+  "zh": "正在加载物品信息…"
+ },
+ {
+  "id": 1541,
+  "en": "Objective / scored",
+  "zh": "目标 / 得分"
+ },
+ {
+  "id": 1542,
+  "en": "Organization color",
+  "zh": "组织颜色"
+ },
+ {
+  "id": 1543,
+  "en": "Service or Esports",
+  "zh": "服务或电竞"
+ },
+ {
+  "id": 1544,
+  "en": "Submit application",
+  "zh": "提交申请"
+ },
+ {
+  "id": 1545,
+  "en": "The lobby was void",
+  "zh": "房间作废"
+ },
+ {
+  "id": 1546,
+  "en": "Transfer ownership",
+  "zh": "转移所有权"
+ },
+ {
+  "id": 1547,
+  "en": "Casual rounds won",
+  "zh": "休闲回合胜场"
+ },
+ {
+  "id": 1548,
+  "en": "Close and discard",
+  "zh": "关闭并丢弃"
+ },
+ {
+  "id": 1549,
+  "en": "Close application",
+  "zh": "关闭申请"
+ },
+ {
+  "id": 1550,
+  "en": "Copy your key now",
+  "zh": "立即复制你的密钥"
+ },
+ {
+  "id": 1551,
+  "en": "e.g. Match export",
+  "zh": "例如：对局导出"
+ },
+ {
+  "id": 1552,
+  "en": "Integration label",
+  "zh": "集成标签"
+ },
+ {
+  "id": 1553,
+  "en": "Load more invites",
+  "zh": "加载更多邀请"
+ },
+ {
+  "id": 1554,
+  "en": "Load more members",
+  "zh": "加载更多成员"
+ },
+ {
+  "id": 1555,
+  "en": "Loading sessions…",
+  "zh": "正在加载场次…"
+ },
+ {
+  "id": 1556,
+  "en": "Match unavailable",
+  "zh": "对局不可用"
+ },
+ {
+  "id": 1557,
+  "en": "Most recent match",
+  "zh": "最近的对局"
+ },
+ {
+  "id": 1558,
+  "en": "Not observed yet.",
+  "zh": "尚未观测。"
+ },
+ {
+  "id": 1559,
+  "en": "Old sessions file",
+  "zh": "旧的场次文件"
+ },
+ {
+  "id": 1560,
+  "en": "Organization name",
+  "zh": "组织名称"
+ },
+ {
+  "id": 1561,
+  "en": "Organization type",
+  "zh": "组织类型"
+ },
+ {
+  "id": 1562,
+  "en": "Personal API keys",
+  "zh": "个人 API 密钥"
+ },
+ {
+  "id": 1563,
+  "en": "Roster refreshed ",
+  "zh": "阵容已刷新 "
+ },
+ {
+  "id": 1564,
+  "en": "Select a use case",
+  "zh": "选择用途"
+ },
+ {
+  "id": 1565,
+  "en": "Submit for review",
+  "zh": "提交审核"
+ },
+ {
+  "id": 1566,
+  "en": "Win rate per week",
+  "zh": "每周胜率"
+ },
+ {
+  "id": 1567,
+  "en": " / 10 slots used",
+  "zh": " / 10 个槽位已用"
+ },
+ {
+  "id": 1568,
+  "en": " 5-match average",
+  "zh": " 5 场平均"
+ },
+ {
+  "id": 1569,
+  "en": "API terms of use",
+  "zh": "API 使用条款"
+ },
+ {
+  "id": 1570,
+  "en": "Avg Combat Score",
+  "zh": "平均战斗分"
+ },
+ {
+  "id": 1571,
+  "en": "Career Over Time",
+  "zh": "生涯趋势"
+ },
+ {
+  "id": 1572,
+  "en": "Community boards",
+  "zh": "社区排行榜"
+ },
+ {
+  "id": 1573,
+  "en": "Load more scopes",
+  "zh": "加载更多范围"
+ },
+ {
+  "id": 1574,
+  "en": "Loading members…",
+  "zh": "正在加载成员…"
+ },
+ {
+  "id": 1575,
+  "en": "New personal key",
+  "zh": "新建个人密钥"
+ },
+ {
+  "id": 1576,
+  "en": "No club history.",
+  "zh": "没有俱乐部历史。"
+ },
+ {
+  "id": 1577,
+  "en": "No name history.",
+  "zh": "没有名称历史。"
+ },
+ {
+  "id": 1578,
+  "en": "No other players",
+  "zh": "没有其他玩家"
+ },
+ {
+  "id": 1579,
+  "en": "Not observed yet",
+  "zh": "尚未观测"
+ },
+ {
+  "id": 1580,
+  "en": "Nothing changed.",
+  "zh": "没有任何更改。"
+ },
+ {
+  "id": 1581,
+  "en": "Own profile only",
+  "zh": "仅自己的资料"
+ },
+ {
+  "id": 1582,
+  "en": "Refresh sessions",
+  "zh": "刷新场次"
+ },
+ {
+  "id": 1583,
+  "en": "Single K/D tile.",
+  "zh": "单个 K/D 数据块。"
+ },
+ {
+  "id": 1584,
+  "en": "Support / scored",
+  "zh": "支援 / 得分"
+ },
+ {
+  "id": 1585,
+  "en": "the map rotation",
+  "zh": "地图轮换"
+ },
+ {
+  "id": 1586,
+  "en": "5-match average",
+  "zh": "5 场平均"
+ },
+ {
+  "id": 1587,
+  "en": "API key created",
+  "zh": "API 密钥已创建"
+ },
+ {
+  "id": 1588,
+  "en": "Choose a member",
+  "zh": "选择成员"
+ },
+ {
+  "id": 1589,
+  "en": "Combat / scored",
+  "zh": "战斗 / 得分"
+ },
+ {
+  "id": 1590,
+  "en": "No keys to show",
+  "zh": "没有可显示的密钥"
+ },
+ {
+  "id": 1591,
+  "en": "No members yet.",
+  "zh": "还没有成员。"
+ },
+ {
+  "id": 1592,
+  "en": "Only you so far",
+  "zh": "目前只有你"
+ },
+ {
+  "id": 1593,
+  "en": "Review required",
+  "zh": "需要审核"
+ },
+ {
+  "id": 1594,
+  "en": "Revives / match",
+  "zh": "每场复活"
+ },
+ {
+  "id": 1595,
+  "en": "Showing latest ",
+  "zh": "显示最新的 "
+ },
+ {
+  "id": 1596,
+  "en": "Specializations",
+  "zh": "专精"
+ },
+ {
+  "id": 1597,
+  "en": "Terminal Attack",
+  "zh": "终端突袭"
+ },
+ {
+  "id": 1598,
+  "en": "The screenshots",
+  "zh": "这些截图"
+ },
+ {
+  "id": 1599,
+  "en": "This is a chart",
+  "zh": "这是一张图表"
+ },
+ {
+  "id": 1600,
+  "en": "Career filters",
+  "zh": "生涯筛选"
+ },
+ {
+  "id": 1601,
+  "en": "Current season",
+  "zh": "当前赛季"
+ },
+ {
+  "id": 1602,
+  "en": "Damage / match",
+  "zh": "每场伤害"
+ },
+ {
+  "id": 1603,
+  "en": "Deaths / match",
+  "zh": "每场死亡"
+ },
+ {
+  "id": 1604,
+  "en": "Enable manager",
+  "zh": "启用管理者"
+ },
+ {
+  "id": 1605,
+  "en": "Esports invite",
+  "zh": "电竞邀请"
+ },
+ {
+  "id": 1606,
+  "en": "Last-10 table.",
+  "zh": "最近 10 场表格。"
+ },
+ {
+  "id": 1607,
+  "en": "Loading trend…",
+  "zh": "正在加载趋势…"
+ },
+ {
+  "id": 1608,
+  "en": "Member consent",
+  "zh": "成员同意"
+ },
+ {
+  "id": 1609,
+  "en": "New scoped key",
+  "zh": "新建范围密钥"
+ },
+ {
+  "id": 1610,
+  "en": "None recorded.",
+  "zh": "无记录。"
+ },
+ {
+  "id": 1611,
+  "en": "Remove manager",
+  "zh": "移除管理者"
+ },
+ {
+  "id": 1612,
+  "en": "Season to date",
+  "zh": "本赛季至今"
+ },
+ {
+  "id": 1613,
+  "en": "Sessions shown",
+  "zh": "显示的场次"
+ },
+ {
+  "id": 1614,
+  "en": "The screenshot",
+  "zh": "截图"
+ },
+ {
+  "id": 1615,
+  "en": "This scope is ",
+  "zh": "该范围为 "
+ },
+ {
+  "id": 1616,
+  "en": "Your placement",
+  "zh": "你的名次"
+ },
+ {
+  "id": 1617,
+  "en": "Accept invite",
+  "zh": "接受邀请"
+ },
+ {
+  "id": 1618,
+  "en": "Avg Objective",
+  "zh": "平均目标分"
+ },
+ {
+  "id": 1619,
+  "en": "Avg objective",
+  "zh": "平均目标分"
+ },
+ {
+  "id": 1620,
+  "en": "Changing soon",
+  "zh": "即将更换"
+ },
+ {
+  "id": 1621,
+  "en": "Create invite",
+  "zh": "创建邀请"
+ },
+ {
+  "id": 1622,
+  "en": "daily buckets",
+  "zh": "按天统计"
+ },
+ {
+  "id": 1623,
+  "en": "Downs / match",
+  "zh": "击倒 / 场"
+ },
+ {
+  "id": 1624,
+  "en": "Effectiveness",
+  "zh": "有效性"
+ },
+ {
+  "id": 1625,
+  "en": "Esports color",
+  "zh": "电竞队颜色"
+ },
+ {
+  "id": 1626,
+  "en": "Even with you",
+  "zh": "与你持平"
+ },
+ {
+  "id": 1627,
+  "en": "Kills / match",
+  "zh": "击杀 / 场"
+ },
+ {
+  "id": 1628,
+  "en": "Loading club…",
+  "zh": "正在加载俱乐部…"
+ },
+ {
+  "id": 1629,
+  "en": "No categories",
+  "zh": "暂无分类"
+ },
+ {
+  "id": 1630,
+  "en": "Per-map stats",
+  "zh": "各地图数据"
+ },
+ {
+  "id": 1631,
+  "en": "Possible maps",
+  "zh": "可能出现的地图"
+ },
+ {
+  "id": 1632,
+  "en": "Revoke invite",
+  "zh": "撤销邀请"
+ },
+ {
+  "id": 1633,
+  "en": "Season spark.",
+  "zh": "赛季走势。"
+ },
+ {
+  "id": 1634,
+  "en": "Shared access",
+  "zh": "共享访问"
+ },
+ {
+  "id": 1635,
+  "en": "Unknown card.",
+  "zh": "未知卡片。"
+ },
+ {
+  "id": 1636,
+  "en": "Yes, transfer",
+  "zh": "是，转移"
+ },
+ {
+  "id": 1637,
+  "en": "Yes, withdraw",
+  "zh": "是，撤回"
+ },
+ {
+  "id": 1638,
+  "en": "Club History",
+  "zh": "俱乐部历史"
+ },
+ {
+  "id": 1639,
+  "en": "Intended use",
+  "zh": "用途说明"
+ },
+ {
+  "id": 1640,
+  "en": "Item Details",
+  "zh": "物品详情"
+ },
+ {
+  "id": 1641,
+  "en": "K/D per week",
+  "zh": "每周 K/D"
+ },
+ {
+  "id": 1642,
+  "en": "Latest match",
+  "zh": "最近一场对局"
+ },
+ {
+  "id": 1643,
+  "en": "Loading keys",
+  "zh": "正在加载密钥"
+ },
+ {
+  "id": 1644,
+  "en": "Match ledger",
+  "zh": "对局账本"
+ },
+ {
+  "id": 1645,
+  "en": "Name History",
+  "zh": "名称历史"
+ },
+ {
+  "id": 1646,
+  "en": "No trend yet",
+  "zh": "暂无趋势"
+ },
+ {
+  "id": 1647,
+  "en": "OpenAPI spec",
+  "zh": "OpenAPI 规范"
+ },
+ {
+  "id": 1648,
+  "en": "players were",
+  "zh": "名玩家已"
+ },
+ {
+  "id": 1649,
+  "en": "Rank History",
+  "zh": "段位历史"
+ },
+ {
+  "id": 1650,
+  "en": "Ranked queue",
+  "zh": "排位队列"
+ },
+ {
+  "id": 1651,
+  "en": "Refresh keys",
+  "zh": "刷新密钥"
+ },
+ {
+  "id": 1652,
+  "en": "row priority",
+  "zh": "行优先级"
+ },
+ {
+  "id": 1653,
+  "en": "Save details",
+  "zh": "保存详情"
+ },
+ {
+  "id": 1654,
+  "en": "Time in game",
+  "zh": "游戏时长"
+ },
+ {
+  "id": 1655,
+  "en": " of matches",
+  "zh": " 的对局"
+ },
+ {
+  "id": 1656,
+  "en": "% certainty",
+  "zh": "% 置信度"
+ },
+ {
+  "id": 1657,
+  "en": "All classes",
+  "zh": "全部体型"
+ },
+ {
+  "id": 1658,
+  "en": "All leagues",
+  "zh": "全部联赛"
+ },
+ {
+  "id": 1659,
+  "en": "All tracked",
+  "zh": "全部已追踪"
+ },
+ {
+  "id": 1660,
+  "en": "Avg Support",
+  "zh": "平均支援分"
+ },
+ {
+  "id": 1661,
+  "en": "Avg support",
+  "zh": "平均支援分"
+ },
+ {
+  "id": 1662,
+  "en": "Class split",
+  "zh": "体型占比"
+ },
+ {
+  "id": 1663,
+  "en": "Combined RS",
+  "zh": "综合 RS"
+ },
+ {
+  "id": 1664,
+  "en": "Create team",
+  "zh": "创建队伍"
+ },
+ {
+  "id": 1665,
+  "en": "few matches",
+  "zh": "场次较少"
+ },
+ {
+  "id": 1666,
+  "en": "Invite code",
+  "zh": "邀请码"
+ },
+ {
+  "id": 1667,
+  "en": "New API key",
+  "zh": "新的 API 密钥"
+ },
+ {
+  "id": 1668,
+  "en": "No club tag",
+  "zh": "无俱乐部标签"
+ },
+ {
+  "id": 1669,
+  "en": "No sessions",
+  "zh": "暂无场次"
+ },
+ {
+  "id": 1670,
+  "en": "One stretch",
+  "zh": "一段连续时段"
+ },
+ {
+  "id": 1671,
+  "en": "Own account",
+  "zh": "自己的账号"
+ },
+ {
+  "id": 1672,
+  "en": "Set manager",
+  "zh": "设置管理员"
+ },
+ {
+  "id": 1673,
+  "en": "Submitting…",
+  "zh": "提交中…"
+ },
+ {
+  "id": 1674,
+  "en": "Team totals",
+  "zh": "队伍总计"
+ },
+ {
+  "id": 1675,
+  "en": "Unavailable",
+  "zh": "不可用"
+ },
+ {
+  "id": 1676,
+  "en": "Unknown map",
+  "zh": "未知地图"
+ },
+ {
+  "id": 1677,
+  "en": "Unspecified",
+  "zh": "未指定"
+ },
+ {
+  "id": 1678,
+  "en": "Your boards",
+  "zh": "你的榜单"
+ },
+ {
+  "id": 1679,
+  "en": " anonymous",
+  "zh": " 匿名"
+ },
+ {
+  "id": 1680,
+  "en": "All queues",
+  "zh": "全部队列"
+ },
+ {
+  "id": 1681,
+  "en": "Avg combat",
+  "zh": "平均战斗分"
+ },
+ {
+  "id": 1682,
+  "en": "Create key",
+  "zh": "创建密钥"
+ },
+ {
+  "id": 1683,
+  "en": "K/D over 5",
+  "zh": "近 5 场 K/D"
+ },
+ {
+  "id": 1684,
+  "en": "Low sample",
+  "zh": "样本不足"
+ },
+ {
+  "id": 1685,
+  "en": "low sample",
+  "zh": "样本不足"
+ },
+ {
+  "id": 1686,
+  "en": "Match form",
+  "zh": "近期战绩"
+ },
+ {
+  "id": 1687,
+  "en": "No cashout",
+  "zh": "无提现"
+ },
+ {
+  "id": 1688,
+  "en": "player was",
+  "zh": "名玩家已"
+ },
+ {
+  "id": 1689,
+  "en": "Save color",
+  "zh": "保存颜色"
+ },
+ {
+  "id": 1690,
+  "en": "status 400",
+  "zh": "状态码 400"
+ },
+ {
+  "id": 1691,
+  "en": "status 401",
+  "zh": "状态码 401"
+ },
+ {
+  "id": 1692,
+  "en": "status 403",
+  "zh": "状态码 403"
+ },
+ {
+  "id": 1693,
+  "en": "status 409",
+  "zh": "状态码 409"
+ },
+ {
+  "id": 1694,
+  "en": "Yes, leave",
+  "zh": "是，离开"
+ },
+ {
+  "id": 1695,
+  "en": "‹ Sessions",
+  "zh": "‹ 场次"
+ },
+ {
+  "id": 1696,
+  "en": " best day",
+  "zh": " 最佳日"
+ },
+ {
+  "id": 1697,
+  "en": " of picks",
+  "zh": " 的选择"
+ },
+ {
+  "id": 1698,
+  "en": " together",
+  "zh": " 场共同对局"
+ },
+ {
+  "id": 1699,
+  "en": "All items",
+  "zh": "全部物品"
+ },
+ {
+  "id": 1700,
+  "en": "All modes",
+  "zh": "全部模式"
+ },
+ {
+  "id": 1701,
+  "en": "Anonymous",
+  "zh": "匿名"
+ },
+ {
+  "id": 1702,
+  "en": "Class mix",
+  "zh": "体型构成"
+ },
+ {
+  "id": 1703,
+  "en": "Club rank",
+  "zh": "俱乐部排名"
+ },
+ {
+  "id": 1704,
+  "en": "Creating…",
+  "zh": "创建中…"
+ },
+ {
+  "id": 1705,
+  "en": "Data View",
+  "zh": "数据视图"
+ },
+ {
+  "id": 1706,
+  "en": "East Asia",
+  "zh": "东亚"
+ },
+ {
+  "id": 1707,
+  "en": "Finals.id",
+  "zh": "Finals.id"
+ },
+ {
+  "id": 1708,
+  "en": "Item meta",
+  "zh": "物品信息"
+ },
+ {
+  "id": 1709,
+  "en": "Join team",
+  "zh": "加入队伍"
+ },
+ {
+  "id": 1710,
+  "en": "Last used",
+  "zh": "最后使用"
+ },
+ {
+  "id": 1711,
+  "en": "not admin",
+  "zh": "非管理员"
+ },
+ {
+  "id": 1712,
+  "en": "Pick rate",
+  "zh": "选用率"
+ },
+ {
+  "id": 1713,
+  "en": "Pie chart",
+  "zh": "饼图"
+ },
+ {
+  "id": 1714,
+  "en": "Placement",
+  "zh": "名次"
+ },
+ {
+  "id": 1715,
+  "en": "Playstyle",
+  "zh": "打法风格"
+ },
+ {
+  "id": 1716,
+  "en": "Team name",
+  "zh": "队伍名称"
+ },
+ {
+  "id": 1717,
+  "en": "Top class",
+  "zh": "最常用体型"
+ },
+ {
+  "id": 1718,
+  "en": " active ",
+  "zh": " 活跃 "
+ },
+ {
+  "id": 1719,
+  "en": " matches",
+  "zh": " 场对局"
+ },
+ {
+  "id": 1720,
+  "en": " weapons",
+  "zh": " 把武器"
+ },
+ {
+  "id": 1721,
+  "en": "Activity",
+  "zh": "活跃度"
+ },
+ {
+  "id": 1722,
+  "en": "All time",
+  "zh": "全部时间"
+ },
+ {
+  "id": 1723,
+  "en": "API keys",
+  "zh": "API 密钥"
+ },
+ {
+  "id": 1724,
+  "en": "best of ",
+  "zh": "最佳 "
+ },
+ {
+  "id": 1725,
+  "en": "Cashouts",
+  "zh": "提现次数"
+ },
+ {
+  "id": 1726,
+  "en": "Copy key",
+  "zh": "复制密钥"
+ },
+ {
+  "id": 1727,
+  "en": "Everyone",
+  "zh": "所有人"
+ },
+ {
+  "id": 1728,
+  "en": "Heat map",
+  "zh": "热力图"
+ },
+ {
+  "id": 1729,
+  "en": "Joining…",
+  "zh": "加入中…"
+ },
+ {
+  "id": 1730,
+  "en": "Min uses",
+  "zh": "最少使用次数"
+ },
+ {
+  "id": 1731,
+  "en": "Next map",
+  "zh": "下一张地图"
+ },
+ {
+  "id": 1732,
+  "en": "No club.",
+  "zh": "无俱乐部。"
+ },
+ {
+  "id": 1733,
+  "en": "Overview",
+  "zh": "概览"
+ },
+ {
+  "id": 1734,
+  "en": "Partners",
+  "zh": "搭档"
+ },
+ {
+  "id": 1735,
+  "en": "Personal",
+  "zh": "个人"
+ },
+ {
+  "id": 1736,
+  "en": "reached ",
+  "zh": "达到 "
+ },
+ {
+  "id": 1737,
+  "en": "Standing",
+  "zh": "排名"
+ },
+ {
+  "id": 1738,
+  "en": "Transfer",
+  "zh": "转移"
+ },
+ {
+  "id": 1739,
+  "en": "Win Rate",
+  "zh": "胜率"
+ },
+ {
+  "id": 1740,
+  "en": "Working…",
+  "zh": "处理中…"
+ },
+ {
+  "id": 1741,
+  "en": " by day",
+  "zh": " 按天"
+ },
+ {
+  "id": 1742,
+  "en": " played",
+  "zh": " 已游玩"
+ },
+ {
+  "id": 1743,
+  "en": " rounds",
+  "zh": " 回合"
+ },
+ {
+  "id": 1744,
+  "en": "Approve",
+  "zh": "通过"
+ },
+ {
+  "id": 1745,
+  "en": "Boxplot",
+  "zh": "箱型图"
+ },
+ {
+  "id": 1746,
+  "en": "Delete ",
+  "zh": "删除 "
+ },
+ {
+  "id": 1747,
+  "en": "Esports",
+  "zh": "电竞"
+ },
+ {
+  "id": 1748,
+  "en": "Filters",
+  "zh": "筛选"
+ },
+ {
+  "id": 1749,
+  "en": "KPI row",
+  "zh": "KPI 指标行"
+ },
+ {
+  "id": 1750,
+  "en": "Leagues",
+  "zh": "联赛"
+ },
+ {
+  "id": 1751,
+  "en": "Members",
+  "zh": "成员"
+ },
+ {
+  "id": 1752,
+  "en": "Oceania",
+  "zh": "大洋洲"
+ },
+ {
+  "id": 1753,
+  "en": "Owner: ",
+  "zh": "所有者： "
+ },
+ {
+  "id": 1754,
+  "en": "Players",
+  "zh": "玩家"
+ },
+ {
+  "id": 1755,
+  "en": "Purpose",
+  "zh": "用途"
+ },
+ {
+  "id": 1756,
+  "en": "Saving…",
+  "zh": "保存中…"
+ },
+ {
+  "id": 1757,
+  "en": "Service",
+  "zh": "服务"
+ },
+ {
+  "id": 1758,
+  "en": "Standby",
+  "zh": "待命"
+ },
+ {
+  "id": 1759,
+  "en": "Treemap",
+  "zh": "矩形树图"
+ },
+ {
+  "id": 1760,
+  "en": " items",
+  "zh": " 项"
+ },
+ {
+  "id": 1761,
+  "en": " named",
+  "zh": " 个已命名"
+ },
+ {
+  "id": 1762,
+  "en": " today",
+  "zh": " 今天"
+ },
+ {
+  "id": 1763,
+  "en": " weeks",
+  "zh": " 周"
+ },
+ {
+  "id": 1764,
+  "en": "% loss",
+  "zh": "% 丢包"
+ },
+ {
+  "id": 1765,
+  "en": "Avg RS",
+  "zh": "平均 RS"
+ },
+ {
+  "id": 1766,
+  "en": "Brazil",
+  "zh": "巴西"
+ },
+ {
+  "id": 1767,
+  "en": "Chance",
+  "zh": "概率"
+ },
+ {
+  "id": 1768,
+  "en": "Gadget",
+  "zh": "道具"
+ },
+ {
+  "id": 1769,
+  "en": "League",
+  "zh": "联赛"
+ },
+ {
+  "id": 1770,
+  "en": "Metric",
+  "zh": "指标"
+ },
+ {
+  "id": 1772,
+  "en": "Module",
+  "zh": "模块"
+ },
+ {
+  "id": 1773,
+  "en": "Offset",
+  "zh": "偏移"
+ },
+ {
+  "id": 1774,
+  "en": "Output",
+  "zh": "输出"
+ },
+ {
+  "id": 1775,
+  "en": "Points",
+  "zh": "分数"
+ },
+ {
+  "id": 1776,
+  "en": "Queues",
+  "zh": "队列"
+ },
+ {
+  "id": 1777,
+  "en": "Record",
+  "zh": "记录"
+ },
+ {
+  "id": 1778,
+  "en": "Roster",
+  "zh": "名单"
+ },
+ {
+  "id": 1779,
+  "en": "Rotate",
+  "zh": "旋转"
+ },
+ {
+  "id": 1780,
+  "en": "scope ",
+  "zh": "范围 "
+ },
+ {
+  "id": 1781,
+  "en": "Scores",
+  "zh": "得分"
+ },
+ {
+  "id": 1782,
+  "en": "Season",
+  "zh": "赛季"
+ },
+ {
+  "id": 1783,
+  "en": "Series",
+  "zh": "系列"
+ },
+ {
+  "id": 1784,
+  "en": "State ",
+  "zh": "状态 "
+ },
+ {
+  "id": 1785,
+  "en": "Twists",
+  "zh": "变数"
+ },
+ {
+  "id": 1786,
+  "en": "Volume",
+  "zh": "总量"
+ },
+ {
+  "id": 1787,
+  "en": "Weapon",
+  "zh": "武器"
+ },
+ {
+  "id": 1788,
+  "en": "Worst:",
+  "zh": "最差："
+ },
+ {
+  "id": 1789,
+  "en": " uses",
+  "zh": " 次使用"
+ },
+ {
+  "id": 1790,
+  "en": "Angle",
+  "zh": "角度"
+ },
+ {
+  "id": 1791,
+  "en": "Apply",
+  "zh": "应用"
+ },
+ {
+  "id": 1792,
+  "en": "Best:",
+  "zh": "最佳："
+ },
+ {
+  "id": 1793,
+  "en": "Chart",
+  "zh": "图表"
+ },
+ {
+  "id": 1794,
+  "en": "Final",
+  "zh": "决赛"
+ },
+ {
+  "id": 1795,
+  "en": "Index",
+  "zh": "索引"
+ },
+ {
+  "id": 1796,
+  "en": "Links",
+  "zh": "链接"
+ },
+ {
+  "id": 1798,
+  "en": "Never",
+  "zh": "从未"
+ },
+ {
+  "id": 1799,
+  "en": "Rates",
+  "zh": "比率"
+ },
+ {
+  "id": 1800,
+  "en": "Score",
+  "zh": "分数"
+ },
+ {
+  "id": 1801,
+  "en": "Stack",
+  "zh": "堆叠"
+ },
+ {
+  "id": 1802,
+  "en": "Trend",
+  "zh": "趋势"
+ },
+ {
+  "id": 1803,
+  "en": "Win %",
+  "zh": "胜率%"
+ },
+ {
+  "id": 1804,
+  "en": "Axis",
+  "zh": "坐标轴"
+ },
+ {
+  "id": 1805,
+  "en": "Deny",
+  "zh": "拒绝"
+ },
+ {
+  "id": 1806,
+  "en": "Eff.",
+  "zh": "效率"
+ },
+ {
+  "id": 1807,
+  "en": "Item",
+  "zh": "物品"
+ },
+ {
+  "id": 1808,
+  "en": "Kind",
+  "zh": "种类"
+ },
+ {
+  "id": 1809,
+  "en": "Less",
+  "zh": "少"
+ },
+ {
+  "id": 1810,
+  "en": "More",
+  "zh": "多"
+ },
+ {
+  "id": 1811,
+  "en": "Name",
+  "zh": "名称"
+ },
+ {
+  "id": 1812,
+  "en": "Pick",
+  "zh": "选择"
+ },
+ {
+  "id": 1813,
+  "en": "Roam",
+  "zh": "漫游"
+ },
+ {
+  "id": 1814,
+  "en": "RS Δ",
+  "zh": "RS Δ"
+ },
+ {
+  "id": 1815,
+  "en": "Size",
+  "zh": "大小"
+ },
+ {
+  "id": 1816,
+  "en": "Spec",
+  "zh": "专精"
+ },
+ {
+  "id": 1817,
+  "en": "Tile",
+  "zh": "平铺"
+ },
+ {
+  "id": 1818,
+  "en": "Tree",
+  "zh": "树图"
+ },
+ {
+  "id": 1819,
+  "en": "Type",
+  "zh": "类型"
+ },
+ {
+  "id": 1820,
+  "en": "Uses",
+  "zh": "使用次数"
+ },
+ {
+  "id": 1821,
+  "en": "When",
+  "zh": "时间"
+ },
+ {
+  "id": 1822,
+  "en": "Win%",
+  "zh": "胜率%"
+ },
+ {
+  "id": 1823,
+  "en": "Zoom",
+  "zh": "缩放"
+ },
+ {
+  "id": 1824,
+  "en": "Arc",
+  "zh": "弧形"
+ },
+ {
+  "id": 1825,
+  "en": "Day",
+  "zh": "日"
+ },
+ {
+  "id": 1826,
+  "en": "Dmg",
+  "zh": "伤害"
+ },
+ {
+  "id": 1827,
+  "en": "Fri",
+  "zh": "周五"
+ },
+ {
+  "id": 1828,
+  "en": "Inv",
+  "zh": "反选"
+ },
+ {
+  "id": 1829,
+  "en": "Key",
+  "zh": "键"
+ },
+ {
+  "id": 1830,
+  "en": "Kit",
+  "zh": "配装"
+ },
+ {
+  "id": 1831,
+  "en": "Mon",
+  "zh": "周一"
+ },
+ {
+  "id": 1832,
+  "en": "Sun",
+  "zh": "周日"
+ },
+ {
+  "id": 1833,
+  "en": "Thu",
+  "zh": "周四"
+ },
+ {
+  "id": 1834,
+  "en": "Tue",
+  "zh": "周二"
+ },
+ {
+  "id": 1835,
+  "en": "Wed",
+  "zh": "周三"
+ },
+ {
+  "id": 1836,
+  "en": "Won",
+  "zh": "胜利"
+ },
+ {
+  "id": 1837,
+  "en": "Id",
+  "zh": "ID"
+ },
+ {
+  "id": 1838,
+  "en": "Now until",
+  "zh": "现在至"
+ },
+ {
+  "id": 1839,
+  "en": "Form",
+  "zh": "状态"
+ },
+ {
+  "id": 1840,
+  "en": "flat",
+  "zh": "持平"
+ },
+ {
+  "id": 1841,
+  "en": "All",
+  "zh": "全部"
+ },
+ {
+  "id": 1842,
+  "en": "YOU",
+  "zh": "你"
+ },
+ {
+  "id": 1843,
+  "en": "CURRENT",
+  "zh": "当前"
+ },
+ {
+  "id": 1844,
+  "en": "1st",
+  "zh": "第 1"
+ },
+ {
+  "id": 1845,
+  "en": "2nd",
+  "zh": "第 2"
+ },
+ {
+  "id": 1846,
+  "en": "5th-8th",
+  "zh": "第 5-8"
+ },
+ {
+  "id": 1847,
+  "en": "Match chat",
+  "zh": "对局聊天"
+ },
+ {
+  "id": 1848,
+  "en": "Last match",
+  "zh": "最近一场"
+ },
+ {
+  "id": 1849,
+  "en": "Select section",
+  "zh": "选择板块"
+ },
+ {
+  "id": 1850,
+  "en": "Save as Image",
+  "zh": "保存为图片"
+ },
+ {
+  "id": 1851,
+  "en": "Restore",
+  "zh": "还原"
+ },
+ {
+  "id": 1852,
+  "en": "Text",
+  "zh": "文本"
+ },
+ {
+  "id": 1853,
+  "en": "Default",
+  "zh": "默认"
+ },
+ {
+  "id": 1854,
+  "en": "Last 10",
+  "zh": "近 10 场"
+ },
+ {
+  "id": 1855,
+  "en": "7d",
+  "zh": "7 天"
+ },
+ {
+  "id": 1856,
+  "en": "30d",
+  "zh": "30 天"
+ },
+ {
+  "id": 1857,
+  "en": "Authentication failed",
+  "zh": "认证失败"
+ },
+ {
+  "id": 1858,
+  "en": "Couldn't complete authentication. Please try again in a moment.",
+  "zh": "无法完成认证，请稍后重试。"
+ },
+ {
+  "id": 1859,
+  "en": "App, API & Website by ",
+  "zh": "应用、API 与网站由 "
+ },
+ {
+  "id": 1860,
+  "en": "Agree & continue",
+  "zh": "同意并继续"
+ },
+ {
+  "id": 1861,
+  "en": "Decline & quit",
+  "zh": "拒绝并退出"
+ },
+ {
+  "id": 1862,
+  "en": "Club tag ",
+  "zh": "俱乐部标签 "
+ },
+ {
+  "id": 1863,
+  "en": "Current Ranked Map.",
+  "zh": "当前排位地图。"
+ },
+ {
+  "id": 1864,
+  "en": "Ranked queue.",
+  "zh": "排位队列。"
+ },
+ {
+  "id": 1865,
+  "en": "Current Cashout Map.",
+  "zh": "当前提现地图。"
+ },
+ {
+  "id": 1866,
+  "en": "Casual cashout queue.",
+  "zh": "休闲提现队列。"
+ },
+ {
+  "id": 1867,
+  "en": "Possible maps: ",
+  "zh": "可能地图："
+ },
+ {
+  "id": 1868,
+  "en": "Lvl ",
+  "zh": "等级 "
+ },
+ {
+  "id": 1869,
+  "en": "Last ",
+  "zh": "上次 "
+ },
+ {
+  "id": 1870,
+  "en": "Hand this ",
+  "zh": "把这个 "
+ },
+ {
+  "id": 1871,
+  "en": ", leader",
+  "zh": "，队长"
+ },
+ {
+  "id": 1872,
+  "en": ", from your in-game party",
+  "zh": "，来自你的游戏内小队"
+ },
+ {
+  "id": 1873,
+  "en": ". Your vote",
+  "zh": "。你的投票"
+ },
+ {
+  "id": 1874,
+  "en": ", time added",
+  "zh": "，已加时"
+ },
+ {
+  "id": 1875,
+  "en": ", and have fun!",
+  "zh": "，玩得开心！"
+ }
+]
