@@ -2,45 +2,55 @@
 cd /d "%~dp0"
 set "EXE_ARG="
 if not "%~1"=="" set "EXE_ARG=--exe "%~1""
-where python >nul 2>nul
+set "PY=python"
+%PY% -c "import sys" >nul 2>nul
 if errorlevel 1 (
-  echo Python 3 not found. Install Python 3 from python.org and tick "Add python.exe to PATH".
-  echo.
-  pause
-  exit /b 1
+  py -3 -c "import sys" >nul 2>nul
+  if not errorlevel 1 set "PY=py -3"
 )
-python -c "import brotli" >nul 2>nul
-if errorlevel 1 (
-  echo Installing Python dependency: brotli ...
-  python -m pip install --user --disable-pip-version-check brotli -i https://pypi.tuna.tsinghua.edu.cn/simple
-  python -c "import brotli" >nul 2>nul
-  if errorlevel 1 (
-    echo Retrying with Aliyun mirror ...
-    python -m pip install --user --disable-pip-version-check brotli -i https://mirrors.aliyun.com/pypi/simple/
-  )
-  python -c "import brotli" >nul 2>nul
-  if errorlevel 1 (
-    echo Retrying with default PyPI ...
-    python -m pip install --user brotli
-  )
-  python -c "import brotli" >nul 2>nul
-  if errorlevel 1 (
-    echo.
-    echo [!] brotli install failed. Python version:
-    python --version
-    echo.
-    echo Try manually in cmd:
-    echo   python -m pip install --user brotli -i https://pypi.tuna.tsinghua.edu.cn/simple
-    echo If it still fails, install Python 3.12 instead of a newer version.
-    echo.
-    pause
-    exit /b 1
-  )
-)
+%PY% -c "import sys" >nul 2>nul
+if errorlevel 1 goto :nopy
+%PY% -c "import brotli" >nul 2>nul
+if not errorlevel 1 goto :ready
+echo Installing Python dependency: brotli ...
+%PY% -m pip install --user --disable-pip-version-check brotli -i https://pypi.tuna.tsinghua.edu.cn/simple
+%PY% -c "import brotli" >nul 2>nul
+if not errorlevel 1 goto :ready
+echo Retrying with Aliyun mirror ...
+%PY% -m pip install --user --disable-pip-version-check brotli -i https://mirrors.aliyun.com/pypi/simple/
+%PY% -c "import brotli" >nul 2>nul
+if not errorlevel 1 goto :ready
+echo Retrying with default PyPI ...
+%PY% -m pip install --user brotli
+%PY% -c "import brotli" >nul 2>nul
+if not errorlevel 1 goto :ready
+echo.
+echo [!] brotli install failed. Python version:
+%PY% --version
+echo.
+echo Manual command:
+echo   %PY% -m pip install --user brotli -i https://pypi.tuna.tsinghua.edu.cn/simple
+echo.
+pause
+exit /b 1
+
+:nopy
+echo.
+echo [!] Python 3 is not installed, or it is only the Microsoft Store alias.
+echo Download Python 3.12 / 3.13 from https://www.python.org/downloads/
+echo and tick "Add python.exe to PATH" during setup.
+echo.
+echo where python:
+where python
+echo.
+pause
+exit /b 1
+
+:ready
 
 echo Applying translations.csv and rebuilding...
 echo Close finals-companion.zh.exe first if it is running.
-python apply_csv.py
-python tools\patch.py build %EXE_ARG%
+%PY% apply_csv.py
+%PY% tools\patch.py build %EXE_ARG%
 echo.
 pause
