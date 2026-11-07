@@ -26,13 +26,211 @@ from fzpe import PE
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
-DEFAULT_EXE = r"E:\Finals.id Companion App\finals-companion.exe"
 DEFAULT_DICT = os.path.join(ROOT, "translations.json")
 RUNTIME_JS = os.path.join(HERE, "runtime.js")
 MARKER = "__FINALS_ZH_RT__"
 TOKEN = "__FINALS_ZH_DICT__"
 JS_KEY = "/assets/index-D-vp0nj_.js"
 SECTION_NAME = b".zhtr"
+CACHE_FILE = os.path.join(ROOT, "安装路径.txt")
+EXE_NAME = "finals-companion.exe"
+
+
+def _read_cache():
+    try:
+        with open(CACHE_FILE, "r", encoding="utf-8") as f:
+            return f.read().strip().strip('"')
+    except OSError:
+        return ""
+
+
+def _write_cache(path):
+    try:
+        with open(CACHE_FILE, "w", encoding="utf-8") as f:
+            f.write(path)
+    except OSError:
+        pass
+
+
+def _registry_paths():
+    out = []
+    try:
+        import winreg
+    except ImportError:
+        return out
+    roots = [
+        (winreg.HKEY_CURRENT_USER, r"Software\Microsoft\Windows\CurrentVersion\Uninstall"),
+        (winreg.HKEY_LOCAL_MACHINE, r"Software\Microsoft\Windows\CurrentVersion\Uninstall"),
+        (winreg.HKEY_LOCAL_MACHINE, r"Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall"),
+    ]
+    for hive, sub in roots:
+        try:
+            key = winreg.OpenKey(hive, sub)
+        except OSError:
+            continue
+        i = 0
+        while True:
+            try:
+                name = winreg.EnumKey(key, i)
+            except OSError:
+                break
+            i += 1
+            try:
+                sk = winreg.OpenKey(key, name)
+            except OSError:
+                continue
+            try:
+                def get(v):
+                    try:
+                        return str(winreg.QueryValueEx(sk, v)[0])
+                    except OSError:
+                        return ""
+                dn = get("DisplayName").lower()
+                if "finals" in dn and "companion" in dn:
+                    loc = get("InstallLocation").strip('"')
+                    ico = get("DisplayIcon").strip('"')
+                    if loc:
+                        out.append(os.path.join(loc, EXE_NAME))
+                    if ico.lower().endswith(".exe"):
+                        out.append(ico)
+            finally:
+                try:
+                    sk.Close()
+                except Exception:
+                    pass
+        try:
+            key.Close()
+        except Exception:
+            pass
+    return out
+
+
+def _common_paths():
+    out = []
+    for d in "CDEFGHIJKLMNOPQRSTUVWXYZ":
+        root = d + ":\\"
+        if os.path.isdir(root):
+            out.append(os.path.join(root, "Finals.id Companion App", EXE_NAME))
+    for env in ("LOCALAPPDATA", "PROGRAMFILES", "PROGRAMFILES(X86)"):
+        base = os.environ.get(env)
+        if base:
+            out.append(os.path.join(base, "Finals.id Companion App", EXE_NAME))
+            out.append(os.path.join(base, "Programs", "Finals.id Companion App", EXE_NAME))
+    return out
+
+
+def _shortcut_paths():
+    out = []
+    dirs = []
+    up = os.environ.get("USERPROFILE")
+    pub = os.environ.get("PUBLIC")
+    appdata = os.environ.get("APPDATA")
+    if up:
+        dirs.append(os.path.join(up, "Desktop"))
+    if pub:
+        dirs.append(os.path.join(pub, "Desktop"))
+    if appdata:
+        dirs.append(os.path.join(appdata, r"Microsoft\Windows\Start Menu\Programs"))
+    lnks = []
+    for d in dirs:
+        if not os.path.isdir(d):
+            continue
+        for dp, dn, fn in os.walk(d):
+            for f in fn:
+                low = f.lower()
+                if low.endswith(".lnk") and ("finals" in low or "companion" in low):
+                    lnks.append(os.path.join(dp, f))
+            if len(lnks) > 10:
+                break
+    import subprocess
+    for lnk in lnks[:10]:
+        try:
+            cmd = ['powershell', '-NoProfile', '-Command',
+                   '$w=New-Object -ComObject WScript.Shell; $w.CreateShortcut($args[0]).TargetPath', lnk]
+            r = subprocess.run(cmd, capture_output=True, timeout=15)
+            t = r.stdout.decode('utf-8', 'ignore').strip() or r.stdout.decode('gbk', 'ignore').strip()
+            if t.lower().endswith(".exe"):
+                out.append(t)
+        except Exception:
+            pass
+    return out
+
+
+def _scan_drives(max_depth=2):
+    out = []
+    skip = {"windows", "programdata", "$recycle.bin", "system volume information",
+            "appdata", "application data", "node_modules", ".git", "recovery"}
+    for d in "CDEFGHIJKLMNOPQRSTUVWXYZ":
+        root = d + ":\\"
+        if not os.path.isdir(root):
+            continue
+        try:
+            lvl1 = [e for e in os.scandir(root) if e.is_dir() and e.name.lower() not in skip]
+        except OSError:
+            continue
+        for e1 in lvl1:
+            if "finals" in e1.name.lower() and os.path.isfile(os.path.join(e1.path, EXE_NAME)):
+                out.append(os.path.join(e1.path, EXE_NAME))
+            if max_depth < 2:
+                continue
+            try:
+                lvl2 = [e for e in os.scandir(e1.path) if e.is_dir() and e.name.lower() not in skip]
+            except OSError:
+                continue
+            for e2 in lvl2:
+                low = e2.name.lower()
+                if ("finals" in low or "companion" in low) and os.path.isfile(os.path.join(e2.path, EXE_NAME)):
+                    out.append(os.path.join(e2.path, EXE_NAME))
+    return out
+
+
+def _looks_like_app(path):
+    try:
+        if not os.path.isfile(path) or os.path.getsize(path) < 10 * 1024 * 1024:
+            return False
+        if os.path.basename(path).lower() != EXE_NAME:
+            return False
+        pe = PE(path)
+        return len(pe.find_asset_table() or []) >= 50
+    except Exception:
+        return False
+
+
+def _iter_candidates():
+    cached = _read_cache()
+    if cached:
+        yield cached
+    for c in _registry_paths():
+        yield c
+    for c in _common_paths():
+        yield c
+    for c in _shortcut_paths():
+        yield c
+    for c in _scan_drives():
+        yield c
+
+
+def detect_exe(explicit=None):
+    if explicit:
+        p = os.path.abspath(explicit)
+        if _looks_like_app(p):
+            _write_cache(p)
+            return p
+        return None
+    seen = set()
+    for c in _iter_candidates():
+        try:
+            c = os.path.abspath(c)
+        except Exception:
+            continue
+        low = c.lower()
+        if low.endswith(".zh.exe") or low.endswith(".bak") or c in seen:
+            continue
+        seen.add(c)
+        if _looks_like_app(c):
+            _write_cache(c)
+            return c
+    return None
 
 
 def align(v, a):
@@ -217,18 +415,41 @@ def verify(exe):
     print("校验通过")
 
 
+def prompt_for_exe():
+    print("没有自动找到 Finals.id Companion App 的 finals-companion.exe。")
+    print("可以把这个 exe 直接拖进本窗口，然后按回车（或粘贴完整路径）：")
+    while True:
+        try:
+            raw = input().strip().strip('"').strip("'")
+        except EOFError:
+            return None
+        if not raw:
+            return None
+        p = os.path.abspath(raw)
+        if _looks_like_app(p):
+            _write_cache(p)
+            print("使用:", p)
+            return p
+        print("这个路径不像 finals-companion.exe，请重新拖入/输入：")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("cmd", choices=["build", "install", "restore", "verify"])
-    ap.add_argument("--exe", default=DEFAULT_EXE)
+    ap.add_argument("--exe", default=None)
     ap.add_argument("--out", default=None)
     ap.add_argument("--dict", default=DEFAULT_DICT)
     ap.add_argument("--quality", type=int, default=11)
     a = ap.parse_args()
 
-    exe = os.path.abspath(a.exe)
-    if not os.path.exists(exe):
-        raise SystemExit("exe 不存在: " + exe)
+    exe = detect_exe(a.exe)
+    if not exe:
+        if a.cmd == "restore":
+            raise SystemExit("没有找到原程序位置，无法还原。请确认程序还在原目录。")
+        exe = prompt_for_exe()
+    if not exe:
+        raise SystemExit("没有找到程序，已退出。")
+    print("程序位置:", exe)
 
     if a.cmd == "build":
         out = a.out or os.path.join(os.path.dirname(exe), "finals-companion.zh.exe")

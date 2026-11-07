@@ -1,6 +1,8 @@
 @echo off
 cd /d "%~dp0"
-echo Generating finals-companion.zh.exe from the official build...
-python tools\patch.py build
+set "EXE_ARG="
+if not "%~1"=="" set "EXE_ARG=--exe "%~1""
+echo Looking for Finals.id Companion App ...
+python tools\patch.py build %EXE_ARG%
 echo.
 pause
