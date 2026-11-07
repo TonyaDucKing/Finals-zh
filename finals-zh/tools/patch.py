@@ -31,15 +31,26 @@ except ImportError:
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from fzpe import PE
 
+FROZEN = bool(getattr(sys, "frozen", False))
 HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.dirname(HERE)
-DEFAULT_DICT = os.path.join(ROOT, "translations.json")
-RUNTIME_JS = os.path.join(HERE, "runtime.js")
+APP_DIR = os.path.dirname(os.path.abspath(sys.executable)) if FROZEN else os.path.dirname(HERE)
+RES_DIR = getattr(sys, "_MEIPASS", HERE)
+
+
+def _res(name):
+    for p in (os.path.join(APP_DIR, name), os.path.join(APP_DIR, "tools", name), os.path.join(RES_DIR, name)):
+        if os.path.exists(p):
+            return p
+    return os.path.join(RES_DIR, name)
+
+
+DEFAULT_DICT = _res("translations.json")
+RUNTIME_JS = _res("runtime.js")
 MARKER = "__FINALS_ZH_RT__"
 TOKEN = "__FINALS_ZH_DICT__"
 JS_KEY = "/assets/index-D-vp0nj_.js"
 SECTION_NAME = b".zhtr"
-CACHE_FILE = os.path.join(ROOT, "安装路径.txt")
+CACHE_FILE = os.path.join(APP_DIR, "安装路径.txt")
 EXE_NAME = "finals-companion.exe"
 
 
@@ -398,8 +409,16 @@ def build(orig_exe, out_exe, dict_path, quality=11):
     struct.pack_into("<I", data, pe.checksum_off,
                      pe_checksum(data, pe.checksum_off))
 
-    with open(out_exe, "wb") as f:
-        f.write(data)
+    try:
+        with open(out_exe, "wb") as f:
+            f.write(data)
+    except PermissionError:
+        raise SystemExit(
+            "无法写入：%s\n"
+            "可能原因：1) finals-companion.zh.exe 正在运行，先关掉；\n"
+            "2) 安全软件拦截了本工具写文件，请把 finals-zh 文件夹加入白名单；\n"
+            "3) 试试右键本工具「以管理员身份运行」。" % out_exe
+        )
     print("已写入: %s (%d 字节, 新段 .zhtr VA=%#x, 总耗时 %.1fs)"
           % (out_exe, len(data), new_va, time.time() - t_start))
     return out_exe
@@ -440,48 +459,210 @@ def prompt_for_exe():
         print("这个路径不像 finals-companion.exe，请重新拖入/输入：")
 
 
+def _write_html(rows, header):
+    idx_id = header.index("序号")
+    idx_en = header.index("English")
+    idx_zh = header.index("中文翻译")
+    idx_ctx = header.index("上下文（代码片段）") if "上下文（代码片段）" in header else -1
+    idx_note = header.index("备注") if "备注" in header else -1
+    esc = lambda s: s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    trs = []
+    for r in rows:
+        ctx = r[idx_ctx] if idx_ctx >= 0 else ""
+        note = r[idx_note] if idx_note >= 0 else ""
+        trs.append(
+            "<tr><td class=id>%s</td><td class=en>%s</td><td class=zh>%s</td><td class=ctx>%s</td><td class=note>%s</td></tr>"
+            % (esc(r[idx_id]), esc(r[idx_en]), esc(r[idx_zh]), esc(ctx[:70]), esc(note))
+        )
+    html = """<!doctype html><meta charset=utf-8><title>Finals.id 中文词表</title>
+<style>
+body{background:#0e1311;color:#dfe7e3;font:14px/1.5 "Segoe UI",system-ui,sans-serif;margin:0}
+header{position:sticky;top:0;background:#101715;padding:14px 20px;border-bottom:1px solid #23302b;z-index:9}
+h1{font-size:17px;margin:0 0 8px}
+input{width:min(520px,90vw);padding:7px 10px;border-radius:6px;border:1px solid #2c3b35;background:#0b100e;color:inherit}
+#count{color:#7f938b;margin-left:10px}
+table{border-collapse:collapse;width:100%}
+td{border-bottom:1px solid #1b2522;padding:6px 10px;vertical-align:top}
+th{position:sticky;top:62px;background:#101715;text-align:left;padding:6px 10px;color:#8aa198}
+.id{color:#5d7069;width:52px;text-align:right}
+.en{color:#9fb3ab;width:34%}
+.zh{width:30%}
+.ctx{color:#5f736b;font-family:Consolas,monospace;font-size:12px}
+.note{color:#4e8f74;width:80px}
+tr.hide{display:none}
+</style>
+<header><h1>Finals.id 伙伴应用 · 中文词表</h1>
+<input id=q placeholder="搜索英文或中文…"><span id=count></span></header>
+<table id=t><thead><tr><th>#</th><th>English</th><th>中文</th><th>上下文</th><th>备注</th></tr></thead><tbody>
+""" + "\n".join(trs) + """
+</tbody></table>
+<script>
+var q=document.getElementById('q'),rows=[].slice.call(document.querySelectorAll('#t tbody tr')),c=document.getElementById('count');
+function f(){var v=q.value.toLowerCase();var n=0;rows.forEach(function(r){var hit=!v||r.textContent.toLowerCase().indexOf(v)>=0;r.className=hit?'':'hide';if(hit)n++});c.textContent=n+' / '+rows.length}
+q.addEventListener('input',f);f();
+</script>"""
+    with open(os.path.join(APP_DIR, "translations.html"), "w", encoding="utf-8") as f:
+        f.write(html)
+
+
+def apply_csv():
+    import csv as _csv
+    csv_path = os.path.join(APP_DIR, "translations.csv")
+    json_path = os.path.join(APP_DIR, "translations.json")
+    if not os.path.exists(csv_path):
+        raise SystemExit("找不到 translations.csv（应和本程序在同一文件夹）")
+    with open(csv_path, encoding="utf-8-sig", newline="") as fh:
+        rd = list(_csv.reader(fh))
+    header, data = rd[0], rd[1:]
+    i_id = header.index("序号")
+    i_zh = header.index("中文翻译")
+    trs = json.load(open(json_path, encoding="utf-8"))
+    by_id = {r["id"]: r for r in trs}
+    changed = 0
+    for row in data:
+        if not row or not row[i_id].strip():
+            continue
+        try:
+            rid = int(row[i_id])
+        except ValueError:
+            continue
+        zh = row[i_zh]
+        r = by_id.get(rid)
+        if r is not None and zh and r["zh"] != zh:
+            r["zh"] = zh
+            changed += 1
+    with open(json_path, "w", encoding="utf-8") as fh:
+        json.dump(trs, fh, ensure_ascii=False, indent=1)
+    _write_html(data, header)
+    print("已写回译文:", changed, "处；词库共", len(trs), "条")
+
+
+def _resolve(exe_arg):
+    exe = detect_exe(exe_arg)
+    if not exe:
+        exe = prompt_for_exe()
+    if not exe:
+        raise SystemExit("没有找到程序，已退出。")
+    print("程序位置:", exe)
+    return exe
+
+
+def do_build(exe_arg=None, out=None, dict_path=None, quality=11):
+    exe = _resolve(exe_arg)
+    out = out or os.path.join(os.path.dirname(exe), "finals-companion.zh.exe")
+    build(exe, out, dict_path or DEFAULT_DICT, quality)
+    verify(out)
+    return out
+
+
+def do_install(exe_arg=None, dict_path=None, quality=11):
+    exe = _resolve(exe_arg)
+    tmp = exe + ".zh.tmp"
+    build(exe, tmp, dict_path or DEFAULT_DICT, quality)
+    verify(tmp)
+    bak = exe + ".bak"
+    if not os.path.exists(bak):
+        os.replace(exe, bak)
+        print("原文件已备份:", bak)
+    else:
+        print("备份已存在，保留:", bak)
+    os.replace(tmp, exe)
+    print("安装完成:", exe)
+
+
+def do_restore(exe_arg=None):
+    exe = _resolve(exe_arg)
+    bak = exe + ".bak"
+    if not os.path.exists(bak):
+        raise SystemExit("没有备份文件: " + bak)
+    os.replace(bak, exe)
+    print("已从备份恢复:", exe)
+
+
+def do_apply(exe_arg=None, quality=11):
+    apply_csv()
+    do_build(exe_arg, quality=quality)
+
+
+def _finish():
+    try:
+        if sys.stdin and sys.stdin.isatty():
+            input("\n按回车退出...")
+    except Exception:
+        pass
+
+
+def interactive():
+    print("=" * 46)
+    print(" Finals.id 伙伴应用 · 汉化工具")
+    print("=" * 46)
+    print(" 1. 生成汉化版 finals-companion.zh.exe")
+    print(" 2. 用汉化版替换原程序（自动备份）")
+    print(" 3. 从备份还原原程序")
+    print(" 4. 应用 translations.csv 的修改并重新打包")
+    print(" 0. 退出")
+    print("=" * 46)
+    while True:
+        try:
+            c = input("请选择 [1-4, 0=退出]: ").strip()
+        except EOFError:
+            return
+        if c == "0" or c == "":
+            return
+        try:
+            if c == "1":
+                do_build()
+            elif c == "2":
+                do_install()
+            elif c == "3":
+                do_restore()
+            elif c == "4":
+                do_apply()
+            else:
+                print("请输入 1-4 或 0")
+                continue
+        except SystemExit as e:
+            print(e)
+        except Exception as e:
+            print("出错:", e)
+        print()
+
+
 def main():
+    argv = sys.argv[1:]
+    if not argv:
+        try:
+            interactive()
+        finally:
+            _finish()
+        return
+    if len(argv) == 1 and argv[0].lower().endswith(".exe") and os.path.isfile(argv[0]):
+        try:
+            do_build(argv[0])
+        finally:
+            _finish()
+        return
+
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["build", "install", "restore", "verify"])
+    ap.add_argument("cmd", choices=["build", "install", "restore", "verify", "apply"])
     ap.add_argument("--exe", default=None)
     ap.add_argument("--out", default=None)
     ap.add_argument("--dict", default=DEFAULT_DICT)
     ap.add_argument("--quality", type=int, default=11)
     a = ap.parse_args()
-
-    exe = detect_exe(a.exe)
-    if not exe:
-        if a.cmd == "restore":
-            raise SystemExit("没有找到原程序位置，无法还原。请确认程序还在原目录。")
-        exe = prompt_for_exe()
-    if not exe:
-        raise SystemExit("没有找到程序，已退出。")
-    print("程序位置:", exe)
-
-    if a.cmd == "build":
-        out = a.out or os.path.join(os.path.dirname(exe), "finals-companion.zh.exe")
-        build(exe, out, a.dict, a.quality)
-        verify(out)
-    elif a.cmd == "install":
-        tmp = exe + ".zh.tmp"
-        build(exe, tmp, a.dict, a.quality)
-        verify(tmp)
-        bak = exe + ".bak"
-        if not os.path.exists(bak):
-            os.replace(exe, bak)
-            print("原文件已备份:", bak)
-        else:
-            print("备份已存在，保留:", bak)
-        os.replace(tmp, exe)
-        print("安装完成:", exe)
-    elif a.cmd == "restore":
-        bak = exe + ".bak"
-        if not os.path.exists(bak):
-            raise SystemExit("没有备份文件: " + bak)
-        os.replace(bak, exe)
-        print("已从备份恢复:", exe)
-    elif a.cmd == "verify":
-        verify(exe)
+    try:
+        if a.cmd == "build":
+            do_build(a.exe, a.out, a.dict, a.quality)
+        elif a.cmd == "install":
+            do_install(a.exe, a.dict, a.quality)
+        elif a.cmd == "restore":
+            do_restore(a.exe)
+        elif a.cmd == "apply":
+            do_apply(a.exe, a.quality)
+        elif a.cmd == "verify":
+            verify(_resolve(a.exe))
+    finally:
+        _finish()
 
 
 if __name__ == "__main__":
