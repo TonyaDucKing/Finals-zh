@@ -23,8 +23,9 @@ try:
     import brotli
 except ImportError:
     raise SystemExit(
-        "缺少 Python 依赖 brotli。请先运行：python -m pip install brotli\n"
-        "（也可以直接双击 1 号 bat，它会自动尝试安装）"
+        "缺少 Python 依赖 brotli。请先运行：\n"
+        "  python -m pip install --user brotli -i https://pypi.tuna.tsinghua.edu.cn/simple\n"
+        "（也可以直接双击 1 号 bat，它会自动尝试镜像安装）"
     )
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
