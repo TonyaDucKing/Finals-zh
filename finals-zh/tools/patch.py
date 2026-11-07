@@ -19,7 +19,13 @@ import struct
 import sys
 import time
 
-import brotli
+try:
+    import brotli
+except ImportError:
+    raise SystemExit(
+        "缺少 Python 依赖 brotli。请先运行：python -m pip install brotli\n"
+        "（也可以直接双击 1 号 bat，它会自动尝试安装）"
+    )
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from fzpe import PE
